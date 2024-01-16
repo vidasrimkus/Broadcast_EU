@@ -1,1 +1,57 @@
-{"sections":{"featured":{"type":"featured-posts","blocks":{"feat":{"type":"featured_post","settings":{}}},"block_order":["feat"],"settings":{}},"main":{"type":"blog","settings":{}}},"order":["featured","main"]}
+{
+  "sections": {
+    "featured": {
+      "type": "featured-posts",
+      "blocks": {
+        "feat": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "journal\/light-weight-linen-clothing",
+            "subheading": "Featured post"
+          }
+        }
+      },
+      "block_order": [
+        "feat"
+      ],
+      "custom_css": [
+        "h2 {font-size: 24px;}",
+        "p {font-size: 16px;}"
+      ],
+      "settings": {
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "bg_color": "#f0f0f0",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "blog",
+      "settings": {
+        "show_title": true,
+        "show_rss": false,
+        "show_tag_nav": false,
+        "grid": 4,
+        "rows": 4,
+        "aspect_ratio": 1,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": false,
+        "show_comments": false,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "featured",
+    "main"
+  ]
+}

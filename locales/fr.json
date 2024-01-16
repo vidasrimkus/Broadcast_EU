@@ -92,9 +92,7 @@
       "star_reviews_info": "{{ rating_value }} sur {{ rating_max }} étoiles",
       "scroll_to_top": "Faire défiler vers le haut",
       "scroll_to_product": "Faites défiler jusqu'au produit",
-      "scroll_to_logo": "Faites défiler jusqu'au logo",
-      "footer_logo": "Logo de pied de page",
-      "slide_image": "Image de diapositive"
+      "scroll_to_logo": "Faites défiler jusqu'au logo"
     },
     "cookies": {
       "title": "Pouvons-nous stocker des cookies?",

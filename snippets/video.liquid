@@ -7,8 +7,8 @@
   assign mobile_height = mobile_height | default: section.settings.mobile_height
   assign video = section.settings.video
   assign video_popup = section.settings.video_popup | default: section.settings.video_popup_social
-  assign image_desktop = section.settings.image | default: video.preview_image
-  assign image_mobile = section.settings.mobile_image
+  assign desktop_image = section.settings.image | default: video.preview_image
+  assign mobile_image = section.settings.mobile_image
   assign bg_color = section.settings.bg_color
   assign text_color = section.settings.color
   assign overlay_color = section.settings.overlay_color
@@ -61,7 +61,17 @@
 
   {%- liquid
     capture video_poster
-      render 'image-hero', image_desktop: image_desktop, image_mobile: image_mobile, desktop_height: desktop_height, mobile_height: mobile_height
+      assign modifier = ''
+
+      if mobile_image
+        assign modifier = 'desktop'
+      endif
+
+      render 'image-hero', image: desktop_image, desktop_height: desktop_height, mobile_height: mobile_height, modifier: modifier
+
+      if mobile_image
+        render 'image-hero', image: mobile_image, mobile_height: mobile_height, modifier: 'mobile'
+      endif
     endcapture
   -%}
 
@@ -72,7 +82,7 @@
       </div>
       <video-background class="video__player is-loading" data-video-player data-video-id="{{ section.id }}-video-background">
         <template data-video-template>
-          {{ video | video_tag: autoplay: true, image_size: '1085x', loop: true, muted: true, controls: false }}
+          {{ video | video_tag: autoplay: true, loop: true, muted: true, controls: false }}
         </template>
       </video-background>
     </div>
@@ -80,7 +90,7 @@
     {{ video_poster }}
   {%- endif -%}
 
-  {%- unless show_overlay_text or overlay_opacity == 0.0 -%}
+  {%- unless show_overlay_text -%}
     <div class="image-overlay" style="--overlay-bg: {{ overlay_color }}; --overlay-opacity: {{ overlay_opacity }};"></div>
   {%- endunless -%}
 

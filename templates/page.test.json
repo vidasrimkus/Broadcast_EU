@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": false,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "cc3b2d08-2762-4e27-9b1d-7693896d96a0": {
+      "type": "section-custom-code",
+      "settings": {
+        "code": "<style>\n.yotpo-reviews-carousel .yotpo-icon-star, .yotpo-reviews-carousel .yotpo-icon-empty-star, .yotpo-reviews-carousel .yotpo-icon-full-star, .yotpo-reviews-carousel .yotpo-icon-half-star {\nfont-size: 16px !important;\n}\n.yotpo-reviews-carousel .carousel-display-wrapper .yotpo-carousel .carousel-review-title {\nfont-size: 1.0rem !important;\n}\n.yotpo div, .yotpo span, .yotpo p, .yotpo a, .yotpo img, .yotpo i, .yotpo strong, .yotpo sup, .yotpo ul, .yotpo li, .yotpo form, .yotpo label {\nfont-size: 0.865rem;\n}\n.yotpo-reviews-carousel .carousel-display-wrapper #carousel-top-panel .yotpo-icon-star, .yotpo-reviews-carousel .carousel-display-wrapper #carousel-top-panel .yotpo-icon-half-star, .yotpo-reviews-carousel .carousel-display-wrapper #carousel-top-panel .yotpo-icon-empty-star {\nfont-size: 16px !important;\n}\n.yotpo-reviews-carousel .carousel-display-wrapper .stars-container {\npadding-left: 3px;\n}\n.yotpo-reviews-carousel .carousel-display-wrapper .yotpo-carousel .carousel-review-body {\nfont-style: normal !important;\n}\n.yotpo-reviews-carousel .carousel-display-wrapper .yotpo-carousel .single-carousel {\n    display: contents!important;\n}\n<\/style>\n<div class=\"yotpo yotpo-reviews-carousel\" data-header-customisation-enabled=\"1\" data-header-customisation-color=\"#56575f\" data-header-customisation-font-size=\"5\" data-header-customisation-text=\"\" data-header-customisation-alignment=\"left\" data-background-color=\"transparent\" data-mode=\"top_rated\" data-type=\"both\" data-count=\"4\" data-show-bottomline=\"1\" data-autoplay-enabled=\"1\" \ndata-autoplay-speed=\"3000\"  data-show-navigation=\"1\"> <\/div>",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cc3b2d08-2762-4e27-9b1d-7693896d96a0"
+  ]
+}

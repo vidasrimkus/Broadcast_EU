@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": false,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "8547722d-e4d0-4983-a96c-d0137a233f4d": {
+      "type": "section-custom-code",
+      "settings": {
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n<style>\n  \/* Styles for the modal container *\/\n  .modal {\n    display: none;\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-color: rgba(0, 0, 0, 0.7);\n  }\n\n  \/* Styles for the modal content *\/\n  .modal-content {\n    background-color: white;\n    margin: 15% auto;\n    padding: 20px;\n    border: 1px solid #888;\n    width: 60%;\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n    text-align: center;\n  }\n\n  \/* Style for the close button (the \"×\" symbol) *\/\n  .close {\n    float: right;\n    font-size: 28px;\n    font-weight: bold;\n    cursor: pointer;\n  }\n<\/style>\n\n<\/head>\n<body>\n  <button id=\"openModalBtn\">Open Modal<\/button>\n\n  <!-- The modal container -->\n  <div id=\"myModal\" class=\"modal\">\n    <div class=\"modal-content\">\n      <span class=\"close\" id=\"closeModalBtn\">&times;<\/span>\n      <h2>Modal Title<\/h2>\n      <p>This is the modal content.<\/p>\n    <\/div>\n  <\/div>\n\n  <script>\n    \/\/ JavaScript to control the modal\n    var modal = document.getElementById(\"myModal\");\n    var openModalBtn = document.getElementById(\"openModalBtn\");\n    var closeModalBtn = document.getElementById(\"closeModalBtn\");\n\n    openModalBtn.onclick = function() {\n      modal.style.display = \"block\";\n    }\n\n    closeModalBtn.onclick = function() {\n      modal.style.display = \"none\";\n    }\n\n    window.onclick = function(event) {\n      if (event.target == modal) {\n        modal.style.display = \"none\";\n      }\n    }\n  <\/script>\n<\/body>\n<\/html>",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8547722d-e4d0-4983-a96c-d0137a233f4d"
+  ]
+}

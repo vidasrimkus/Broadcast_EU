@@ -42,7 +42,7 @@
   assign secondary_menu_linklist = section.settings.secondary_menu_linklist
   assign tertiary_menu_linklist = section.settings.tertiary_menu_linklist
   assign has_mobile_menu = false
-  if mobile_menu_linklist != blank and linklists[mobile_menu_linklist].links.size > 0 and mobile_menu_linklist != main_menu_linklist
+  if mobile_menu_linklist != blank and linklists[mobile_menu_linklist].links.size > 0
     assign has_mobile_menu = true
   endif
 
@@ -175,7 +175,7 @@
     --PB: {{ padding_bottom }}px;
 
     {% if show_separator_line %}
-      --border-opacity: {{ section.settings.separator_opacity | times: 0.01 }};
+      --header-border-opacity: {{ section.settings.separator_opacity | times: 0.01 }};
     {% endif %}
   }
 
@@ -217,7 +217,6 @@
     assign bg_color = block.settings.bg_color
     assign text_color = block.settings.color
     assign show_border = block.settings.show_border
-    assign border_opacity = block.settings.border_opacity | times: 0.01
     assign root_url = routes.root_url
     if root_url != '/'
       assign root_url = root_url | append: '/'
@@ -249,10 +248,6 @@
 
       if text_color != 'rgba(0,0,0,0)' and text_color != blank
         echo '--text: ' | append: text_color | append: ';'
-      endif
-
-      if show_border
-        echo '--border-opacity: ' | append: border_opacity  | append: ';'
       endif
     endcapture
   endif
@@ -294,7 +289,7 @@
 
 {%- if show_toolbar -%}
   {%- if show_utilities or text != blank -%}
-    <div class="toolbar{% if show_border %} has-border{% endif %}"
+    <div class="toolbar{% if show_border %} toolbar--border{% endif %}"
       {% if style != blank %}
         style="{{ style }}"
       {% endif %}
@@ -343,7 +338,7 @@
       {%- if logo != blank -%}
         {%- liquid
           assign alt = logo.alt | default: shop.name | strip_html | escape
-          render 'image' image: logo, width: logo_width_2x, sizes: logo_sizes, widths: logo_widths, aspect_ratio: logo_denom, alt: alt, modifier: 'logo__img logo__img--color', fetchpriority: 'high', preload: true, show_backfill: false
+          render 'image' image: logo, width: logo_width_2x, sizes: logo_sizes, widths: logo_widths, aspect_ratio: logo_denom, alt: alt, modifier: 'logo__img logo__img--color', preload: 'true', show_backfill: false
         -%}
       {%- else -%}
         {%- liquid
@@ -368,7 +363,7 @@
       {%- liquid
         if has_transparent_logo
           assign alt = transparent_logo.alt | default: shop.name | strip_html | escape
-          render 'image' image: transparent_logo, width: logo_width_2x, sizes: logo_sizes, widths: logo_widths, aspect_ratio: transparent_logo.aspect_ratio, alt: alt, modifier: 'logo__img logo__img--transparent', fetchpriority: 'high', preload: true, show_backfill: false
+          render 'image' image: transparent_logo, width: logo_width_2x, sizes: logo_sizes, widths: logo_widths, aspect_ratio: transparent_logo.aspect_ratio, alt: alt, modifier: 'logo__img logo__img--transparent', preload: true, show_backfill: false
         endif
       -%}
     </a>
@@ -597,7 +592,7 @@
             <div class="drawer__main-menu{% if has_mobile_menu %} drawer__main-menu--desktop{% endif %}">
               {%- for link in linklists[main_menu_linklist].links -%}
                 {%- assign item_animation_delay = animation_delay_increment | times: forloop.index | plus: animation_delay -%}
-                {%- render 'nav-item-mobile', link: link, section: section, index: forloop.index, highlight_item: highlight_item, animation_delay: item_animation_delay -%}
+                {%- render 'nav-item-mobile', link: link, section: section, index: forloop.index, forloop_index: forloop.index, highlight_item: highlight_item, animation_delay: item_animation_delay -%}
               {%- endfor -%}
             </div>
 
@@ -605,7 +600,7 @@
               <div class="drawer__main-menu drawer__main-menu--mobile">
                 {%- for link in linklists[mobile_menu_linklist].links -%}
                   {%- assign item_animation_delay = animation_delay_increment | times: forloop.index | plus: animation_delay -%}
-                  {%- render 'nav-item-mobile', link: link, section: section, index: forloop.index, highlight_item: highlight_item, animation_delay: item_animation_delay -%}
+                  {%- render 'nav-item-mobile', link: link, section: section, index: forloop.index, forloop_index: forloop.index, highlight_item: highlight_item, animation_delay: item_animation_delay -%}
                 {%- endfor -%}
               </div>
             {%- endif -%}
@@ -613,7 +608,7 @@
             {%- unless secondary_menu_linklist == blank -%}
               {%- for link in linklists[secondary_menu_linklist].links -%}
                 {%- assign item_animation_delay = animation_delay_increment | times: forloop.index | plus: animation_delay -%}
-                {%- render 'nav-item-mobile', link: link, section: section, index: forloop.index, secondary_menu: true, highlight_item: highlight_item, animation_delay: item_animation_delay -%}
+                {%- render 'nav-item-mobile', link: link, section: section, index: forloop.index, forloop_index: forloop.index, secondary_menu: true, highlight_item: highlight_item, animation_delay: item_animation_delay -%}
               {%- endfor -%}
             {%- endunless -%}
           </div>
@@ -687,7 +682,7 @@
   data-section-type="header"
   {{ highlight_style }}>
 
-  <header class="theme__header{% if show_separator_line %} has-border{% endif %}" role="banner" data-header-height data-aos="fade">
+  <header class="theme__header{% if show_separator_line %} has-border{% endif %}" role="banner" data-header-height>
 
     {%- if toolbar != blank -%}
       {{ toolbar }}
@@ -815,13 +810,13 @@
     {
       "type": "checkbox",
       "id": "show_separator_line",
-      "label": "Show border",
+      "label": "Show separator line",
       "default": false
     },
     {
       "type": "range",
       "id": "separator_opacity",
-      "label": "Border opacity",
+      "label": "Separator opacity",
       "unit": "%",
       "min": 0,
       "max": 100,
@@ -1159,16 +1154,6 @@
           "id": "show_border",
           "label": "Show border",
           "default": false
-        },
-        {
-          "type": "range",
-          "id": "border_opacity",
-          "label": "Border opacity",
-          "unit": "%",
-          "min": 0,
-          "max": 100,
-          "step": 5,
-          "default": 50
         },
         {
           "type": "header",

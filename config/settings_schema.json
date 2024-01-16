@@ -2,7 +2,7 @@
   {
     "name": "theme_info",
     "theme_name": "Broadcast",
-    "theme_version": "5.4.1",
+    "theme_version": "5.4.0",
     "theme_author": "Invisible",
     "theme_support_url": "https://invisiblethemes.com/link/broadcast/contact",
     "theme_documentation_url": "https://invisiblethemes.com/link/broadcast/docs"
@@ -559,7 +559,7 @@
       {
         "type": "text",
         "id": "twitter_link",
-        "label": "X (Twitter)",
+        "label": "Twitter",
         "info": "https://twitter.com/shopify"
       },
       {
@@ -754,7 +754,7 @@
       {
         "type": "header",
         "content": "Reviews",
-        "info": "Requires a product review app to create [standard metafields](https://shopify.dev/apps/metafields/definitions/standard-definitions) for star ratings."
+        "info": "Requires a product review app like [Shopify Product Reviews](https://apps.shopify.com/product-reviews) to create [standard metafields](https://shopify.dev/apps/metafields/definitions/standard-definitions) for star ratings."
       },
       {
         "type": "checkbox",
@@ -828,16 +828,6 @@
         "id": "variant_on_sale",
         "label": "Show sale indicator below color swatches",
         "default": true
-      },
-      {
-        "type": "select",
-        "id": "swatch_size",
-        "label": "Swatch size",
-        "options": [
-          { "value": "regular", "label": "Regular" },
-          { "value": "large", "label": "Large" }
-        ],
-        "default": "regular"
       },
       {
         "type": "select",

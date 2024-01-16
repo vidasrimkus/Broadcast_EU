@@ -1,10 +1,8 @@
 {%- comment -%}
   * Common srcset values
 
-  *  image {object} - The image object (not a url)
+  *  image {object} - the image object (not a url)
   *  widths {аrray} - An array of the image widths for srcset
-  *  mobile {Boolean} - Set mobile sizes only
-  *  desktop {Boolean} - Set desktop sizes only
 
   {% render 'image-srcset', image: image, widths: image_widths %}
 {%- endcomment -%}
@@ -21,10 +19,6 @@
       assign width = string_width | times: 1
 
       if image_width >= width
-        if mobile and width >= 1500
-          continue;
-        endif
-
         capture src
           echo image | image_url: width: width
           echo ' ' | append: width | append: 'w'

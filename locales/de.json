@@ -87,9 +87,7 @@
       "star_reviews_info": "{{ rating_value }} von {{ rating_max }} Sternen",
       "scroll_to_top": "Zum Anfang",
       "scroll_to_product": "Zum Produkt blättern",
-      "scroll_to_logo": "Scrollen Sie zu Logo",
-      "footer_logo": "Fußzeilenlogo",
-      "slide_image": "Diabild"
+      "scroll_to_logo": "Scrollen Sie zu Logo"
     },
     "cookies": {
       "title": "Können wir Cookies speichern?",

@@ -30,6 +30,9 @@
     --PT: {{ section.settings.padding_top }}px;
     --PB: {{ section.settings.padding_bottom }}px;
 
+    --TEXT-ALIGN-DESKTOP: {{ section.settings.desktop_text_align }};
+    --TEXT-ALIGN-MOBILE: {{ section.settings.mobile_text_align }};
+
     {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank -%}
       --bg: {{ bg_color }};
     {%- endunless -%}
@@ -152,7 +155,7 @@
 <section id="TextProducts--{{ section.id }}"
   class="index-text-products section-padding"
   data-section-id="{{ section.id }}">
-  <div class="{{ section.settings.width }} {{ section.settings.text_align_desktop }} {{ section.settings.text_align_mobile }}">
+  <div class="{{ section.settings.width }} text-align">
     {%- if subheading != blank -%}
       <div class="subheading {{ subheading_font_size_class }}"
       data-aos="hero"
@@ -260,22 +263,22 @@
     },
     {
       "type": "select",
-      "id": "text_align_desktop",
+      "id": "desktop_text_align",
       "label": "Desktop text alignment",
-      "default": "text-left",
+      "default": "left",
       "options": [
-        {"value": "text-left","label": "Left"},
-        {"value": "text-center","label": "Centered"}
+        {"value": "left","label": "Left"},
+        {"value": "center","label": "Centered"}
       ]
     },
     {
       "type": "select",
-      "id": "text_align_mobile",
+      "id": "mobile_text_align",
       "label": "Mobile text alignment",
-      "default": "text-left--mobile",
+      "default": "left",
       "options": [
-        {"value": "text-left--mobile","label": "Left"},
-        {"value": "text-center--mobile","label": "Centered"}
+        {"value": "left","label": "Left"},
+        {"value": "center","label": "Centered"}
       ]
     },
     {

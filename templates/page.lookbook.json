@@ -1,1 +1,129 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"subheading":"","subheading_size":3,"show_title":true,"heading_size":8,"show_content":true,"text_size":4,"align_text":"text-left","width":"wrapper","bg_color":"","color":"","padding_top":50,"padding_bottom":50}},"double-first":{"type":"section-double","blocks":{"double-heading":{"type":"heading","settings":{"title":"Image with text","text_size":8}},"double-text":{"type":"text","settings":{"text":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","text_size":4,"text_style":"font-body"}},"double-buttons":{"type":"buttons","settings":{"button_text":"Learn more","button_url":"","button_type":"btn--black","button_style":"btn--text"}}},"block_order":["double-heading","double-text","double-buttons"],"settings":{"layout":"","height":"screen-height-three-quarters","mobile_height":"screen-height-one-half--mobile","text_alignment":"text-left","bg_color":"","color":"","padding_top":0,"padding_bottom":60}},"double-second":{"type":"section-double","blocks":{"double-heading":{"type":"heading","settings":{"title":"Image with text","text_size":8}},"double-text":{"type":"text","settings":{"text":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","text_size":4,"text_style":"font-body"}},"double-buttons":{"type":"buttons","settings":{"button_text":"Learn more","button_url":"","button_type":"btn--black","button_style":"btn--text"}}},"block_order":["double-heading","double-text","double-buttons"],"settings":{"layout":"is-reversed","height":"screen-height-three-quarters","mobile_height":"screen-height-one-half--mobile","text_alignment":"text-left","bg_color":"","color":"","padding_top":60,"padding_bottom":60}},"collection-first":{"type":"section-collection","settings":{"heading":"","description":"","link_text":"","link_url":"","button_type":"btn--black","button_style":"btn--outline","featured_collection":"","layout_desktop":"grid","grid":4,"rows":1,"layout_mobile":"slider","bg_color":"","color":"","padding_top":60,"padding_bottom":0}},"look":{"type":"section-look","blocks":{"product-1":{"type":"product","settings":{"product":"","position_x":14,"position_y":37}},"product-2":{"type":"product","settings":{"product":"","position_x":45,"position_y":60}}},"block_order":["product-1","product-2"],"settings":{"title":"Shop the look","enable_aspect_ratio":true,"image_aspect_ratio":1,"bg_color":"","color":"","dot_color":"","dot_background":"","padding_top":40,"padding_bottom":60}},"double-third":{"type":"section-double","blocks":{"double-heading":{"type":"heading","settings":{"title":"Image with text","text_size":8}},"double-text":{"type":"text","settings":{"text":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","text_size":4,"text_style":"font-body"}},"double-buttons":{"type":"buttons","settings":{"button_text":"Learn more","button_url":"","button_type":"btn--black","button_style":"btn--text"}}},"block_order":["double-heading","double-text","double-buttons"],"settings":{"layout":"is-reversed","height":"screen-height-three-quarters","mobile_height":"screen-height-one-half--mobile","text_alignment":"text-left","bg_color":"","color":"","padding_top":60,"padding_bottom":60}},"collection-second":{"type":"section-collection","settings":{"heading":"","description":"","link_text":"","link_url":"","button_type":"btn--black","button_style":"btn--outline","featured_collection":"","layout_desktop":"grid","grid":4,"rows":1,"layout_mobile":"slider","bg_color":"","color":"","padding_top":60,"padding_bottom":0}},"double-fourth":{"type":"section-double","blocks":{"double-heading":{"type":"heading","settings":{"title":"Image with text","text_size":8}},"double-text":{"type":"text","settings":{"text":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","text_size":4,"text_style":"font-body"}},"double-buttons":{"type":"buttons","settings":{"button_text":"Learn more","button_url":"","button_type":"btn--black","button_style":"btn--text"}}},"block_order":["double-heading","double-text","double-buttons"],"settings":{"layout":"","height":"screen-height-three-quarters","mobile_height":"screen-height-one-half--mobile","text_alignment":"text-left","bg_color":"","color":"","padding_top":60,"padding_bottom":60}},"double-fifth":{"type":"section-double","blocks":{"double-heading":{"type":"heading","settings":{"title":"Image with text","text_size":8}},"double-text":{"type":"text","settings":{"text":"<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>","text_size":4,"text_style":"font-body"}},"double-buttons":{"type":"buttons","settings":{"button_text":"Learn more","button_url":"","button_type":"btn--black","button_style":"btn--text"}}},"block_order":["double-heading","double-text","double-buttons"],"settings":{"layout":"is-reversed","height":"screen-height-three-quarters","mobile_height":"screen-height-one-half--mobile","text_alignment":"text-left","bg_color":"","color":"","padding_top":60,"padding_bottom":60}},"collection-third":{"type":"section-collection","settings":{"heading":"","description":"","link_text":"","link_url":"","button_type":"btn--black","button_style":"btn--outline","featured_collection":"","layout_desktop":"grid","grid":4,"rows":1,"layout_mobile":"slider","bg_color":"","color":"","padding_top":60,"padding_bottom":0}},"custom-content":{"type":"section-custom-content","blocks":{"image-1":{"type":"image","settings":{"overlay_opacity":0,"overlay_color":"#000","show_overlay_text":false,"title":"Bestsellers","heading_size":7,"description":"","text_size":3,"flex_align":"align--middle-center","bg_color":"","color":"#FFFFFF","link_text":"Shop now","link":"#","button_type":"btn--white","button_style":"btn--text"}},"image-2":{"type":"image","settings":{"overlay_opacity":0,"overlay_color":"#000","show_overlay_text":false,"title":"Clearance","heading_size":7,"description":"","text_size":3,"flex_align":"align--middle-center","bg_color":"","color":"#FFFFFF","link_text":"Shop now","link":"#","button_type":"btn--white","button_style":"btn--text"}}},"block_order":["image-1","image-2"],"settings":{"height":"sixty-fifty-height-hero","mobile_height":"four-fifty-height-hero--mobile","width":"wrapper--full","borders":false,"padding_top":0,"padding_bottom":0}}},"order":["main","double-first","double-second","collection-first","look","double-third","collection-second","double-fourth","double-fifth","collection-third","custom-content"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": false,
+        "heading_size": 8,
+        "show_content": false,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "9899fa62-232d-47c5-ba5c-24013eea588e": {
+      "type": "section-text-with-products",
+      "custom_css": [
+        "h2 {font-family: New Century Schoolbook, sans-serif;}"
+      ],
+      "settings": {
+        "heading_size": 6,
+        "width": "wrapper",
+        "bg_color": "#f0f0f0",
+        "color": "",
+        "padding_top": 5,
+        "padding_bottom": 5
+      }
+    },
+    "51a19bd1-d559-4d2d-98d0-27025cb351f3": {
+      "type": "section-columns",
+      "blocks": {
+        "template--19071508152665__51a19bd1-d559-4d2d-98d0-27025cb351f3-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2022_02_20_Not_Perfect_Linen_shot_02_4404_31a49a17-67c6-4bbd-b5b2-00db87558d92.jpg",
+            "title": "Embrace The Color",
+            "heading_size": 4,
+            "text": "<p>Explore our main most colourful \"Medium-Weight Linen Clothing Collection\"<\/p>",
+            "text_size": 2,
+            "button_text": "Get Inspired",
+            "button_url": "shopify:\/\/pages\/embrace-the-color",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "template--19071508152665__51a19bd1-d559-4d2d-98d0-27025cb351f3-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_2305_d91c712a-2e30-4e02-900a-ec344f3c9dad.jpg",
+            "title": "Heat Wave Saver",
+            "heading_size": 4,
+            "text": "<p>Explore our airy and most breathable \"Light-Weight Linen Clothing Collection\"<\/p>",
+            "text_size": 2,
+            "button_text": "Get Inspired",
+            "button_url": "shopify:\/\/pages\/heat-wave-saver",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "template--19071508152665__51a19bd1-d559-4d2d-98d0-27025cb351f3-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Linen_Towel_in_Ashes_of_Rose_4_38e24037-ccaf-4c67-8062-0fe4edbd2037.jpg",
+            "title": "A Day At The Beach",
+            "heading_size": 4,
+            "text": "<p>Explore our \"Waffle Linen Towel Collection\" to get ready for your next Getaway<\/p>",
+            "text_size": 2,
+            "button_text": "Get Inspired",
+            "button_url": "shopify:\/\/pages\/waffle-towels",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "a34f003a-36ac-4713-a312-ccbcfaaf9f61": {
+          "type": "image",
+          "settings": {
+            "title": "Add a title or tagline",
+            "heading_size": 4,
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "text_size": 3,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19071508152665__51a19bd1-d559-4d2d-98d0-27025cb351f3-image-1",
+        "template--19071508152665__51a19bd1-d559-4d2d-98d0-27025cb351f3-image-2",
+        "template--19071508152665__51a19bd1-d559-4d2d-98d0-27025cb351f3-image-3",
+        "a34f003a-36ac-4713-a312-ccbcfaaf9f61"
+      ],
+      "custom_css": [
+        "h2 {font-family: New Century Schoolbook, sans-serif;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "align_text": "text-center",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "carousel"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9899fa62-232d-47c5-ba5c-24013eea588e",
+    "51a19bd1-d559-4d2d-98d0-27025cb351f3"
+  ]
+}

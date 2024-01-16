@@ -12,6 +12,15 @@
 
 {%- liquid
   assign product_description_content = product.description | strip
+  assign truncate_string = 'products.general.read_more' | t
+  assign show_more_button = block.settings.show_read_more
+
+  assign truncated_holder = ''
+  if show_more_button
+    assign truncated_holder = 'data-truncated-holder'
+  endif
+
+  assign truncate_html = '<button type="button" class="caps--link" data-truncated-button>' | append: truncate_string | append: '</button>'
 
   if product == nil
     assign product_description_content = 'home_page.onboarding.no_description' | t
@@ -32,24 +41,19 @@
 
     {%- capture tab_contents_html -%}
       <div class="tab-content tab-content-0 current rte">
-        {% comment %} Inline product description {% endcomment %}
-{%- assign product_description_content = product.description | strip -%}
+        <div class="tab-content__holder tab-content__holder--truncate" {{ truncated_holder }}>
+          <div class="tab-content__inner">
+            <div class="tab-content__entry" data-truncated-content="tab-content__entry--truncate">
+              {{ product_description_content }}
+            </div>
+          </div>
 
-{%- if block.settings.show_read_more -%}
-  <toggle-ellipsis data-height="175">
-    <div class="toggle-ellipsis__content" data-content>
-      {{ product_description_content }}
-    </div>
-
-    <div class="toggle-ellipsis__actions" data-actions>
-      <button type="button" class="caps--link" data-button>
-        <span>{{ 'products.general.read_more' | t }}</span>
-      </button>
-    </div>
-  </toggle-ellipsis>
-{%- else -%}
-  {{ product_description_content }}
-{%- endif -%}
+          {%- if show_more_button -%}
+            <div class="tab-content__actions">
+              {{ truncate_html }}
+            </div>
+          {%- endif -%}
+        </div>
       </div>
     {%- endcapture -%}
 
@@ -157,25 +161,17 @@
           </summary>
 
           <div class="accordion__body rte" data-collapsible-body style="height: auto;">
-            <div class="accordion__content" data-collapsible-content>
-              {% comment %} Inline product description {% endcomment %}
-{%- assign product_description_content = product.description | strip -%}
-
-{%- if block.settings.show_read_more -%}
-  <toggle-ellipsis data-height="175">
-    <div class="toggle-ellipsis__content" data-content>
-      {{ product_description_content }}
-    </div>
-
-    <div class="toggle-ellipsis__actions" data-actions>
-      <button type="button" class="caps--link" data-button>
-        <span>{{ 'products.general.read_more' | t }}</span>
-      </button>
-    </div>
-  </toggle-ellipsis>
-{%- else -%}
-  {{ product_description_content }}
-{%- endif -%}
+            <div class="accordion__content accordion-content__holder accordion-content__holder--truncate" {{ truncated_holder }} data-collapsible-content>
+              <div class="accordion-content__inner">
+                <div class="accordion-content__entry" data-truncated-content="accordion-content__entry--truncate">
+                  {{ product_description_content }}
+                </div>
+              </div>
+              {%- if show_more_button -%}
+                <div class="accordion-content__actions">
+                  {{ truncate_html }}
+                </div>
+              {%- endif -%}
             </div>
           </div>
         </details>

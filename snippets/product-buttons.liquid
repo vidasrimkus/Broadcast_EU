@@ -5,7 +5,7 @@
   assign is_quickview = quickview | default: false
 
   assign button_text = 'products.product.add_to_cart' | t
-  if preorder
+  if is_preorder
     assign button_text =  'products.product.pre_order' | t
   endif
 

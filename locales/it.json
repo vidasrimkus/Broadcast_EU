@@ -92,9 +92,7 @@
       "star_reviews_info": "{{ rating_value }} su {{ rating_max }} stelle",
       "scroll_to_top": "Scorri in alto",
       "scroll_to_product": "Scorri fino al prodotto",
-      "scroll_to_logo": "Scorri fino al logo",
-      "footer_logo": "Logo a piè di pagina",
-      "slide_image": "Immagine diapositiva"
+      "scroll_to_logo": "Scorri fino al logo"
     },
     "cookies": {
       "title": "Possiamo salvare i cookie?",

@@ -16,7 +16,7 @@
 
 {%- liquid
   assign animation_delay = animation_delay | default: 0
-  assign aos_delay_default = animation_delay | times: 100
+  assign aos_delay_default = animation_delay | times: 150
   assign aos_delay = aos_delay | default: aos_delay_default
   assign aos_duration = 800
   assign layout_desktop = section.settings.layout_desktop
@@ -122,15 +122,9 @@
       {%- assign sanitized_label = label | lstrip | rstrip -%}
       {%- if product.options_by_name[sanitized_label].values.size > 0 -%}
         {%- assign has_colors = true -%}
-        {%- capture swatch_values -%}
-          {%- for value in product.options_by_name[sanitized_label].values -%}
-            {{- value -}}: {{- value | handle -}}
-            {%- unless forloop.last -%}, {%- endunless -%}
-          {%- endfor -%}
-        {%- endcapture -%}
 
         <form class="radio__fieldset radio__fieldset--swatches radio__fieldset--pgi" data-grid-swatch-form data-fieldset>
-          <grid-swatch class="selector-wrapper__scrollbar" data-scrollbar data-swatch-handle="{{ product.handle }}" data-swatch-label="{{ label }}" data-swatch-values="{{ swatch_values | strip_html | escape }}"></grid-swatch>
+          <grid-swatch class="selector-wrapper__scrollbar" data-scrollbar data-swatch-handle="{{ product.handle }}" data-swatch-label="{{ label }}"></grid-swatch>
 
           <div class="selector-wrapper__actions">
             <button type="button" class="radio__fieldset__arrow radio__fieldset__arrow--prev is-hidden" data-scrollbar-arrow-prev>
@@ -211,23 +205,9 @@
                 data-sibling-image="{{ sib_product.featured_media.preview_image.src | image_url }}">
                 <div class="sibling__link{{ current_class }}">
                   {%- if settings.sibling_style == 'image' -%}
-                    {%- liquid
-                      case settings.swatch_size
-                        when 'regular'
-                          assign sibling_width = 1.15 | times: settings.type_body_size | divided_by: 100.0 | times: 16 | round
-                        when 'large'
-                          assign sibling_width = 2.3 | times: settings.type_body_size | divided_by: 100.0 | times: 16 | round
-                      endcase
-
-                      assign sibling_sizes = sibling_width | append: 'px'
-                      assign sibling_width_15x = sibling_width | times: 1.5
-                      assign sibling_width_2x = sibling_width | times: 2
-                      assign sibling_widths = sibling_width | append: ', ' | append: sibling_width_15x | append: ', ' | append: sibling_width_2x
-                    -%}
-
                     <deferred-image>
                       <template>
-                        {%- render 'image', image: sib_product.featured_media.preview_image, width: sibling_width_2x, height: sibling_width_2x, widths: sibling_widths, sizes: sibling_sizes, aspect_ratio: 1 -%}
+                        {%- render 'image', image: sib_product.featured_media.preview_image, width: 52, height: 52, widths: '26, 52, 78', sizes: '26px', aspect_ratio: 1 -%}
                       </template>
                     </deferred-image>
                   {%- endif -%}
@@ -368,7 +348,6 @@
             <button class="quick-add__button caps"
               type="submit"
               name="add"
-              aria-label="{{ 'products.general.quick_add' | t }}"
               data-add-to-cart
             >
               <span class="btn__text">{{ 'products.general.quick_add' | t }}</span>
@@ -386,7 +365,6 @@
         {%- else -%}
           <button class="quick-add__button caps"
             type="button"
-            aria-label="{{ 'products.general.quick_add' | t }}"
             data-quick-add-btn
             data-quick-add-modal-handle="{{ product.handle }}"
           >
@@ -433,7 +411,6 @@
 
 <div class="grid-item product-item {{ alignment_class }} {{ overlay_text_class }} {{ quickview_class }}"
   id="{{ item_unique }}"
-  style="--swatch-size: var(--swatch-size-filters);"
   data-grid-item
 >
   <div class="product-item__image{% if double_img %} double__image{% endif %}" data-product-image>
@@ -526,7 +503,7 @@
 
   <div class="product-information" data-product-information>
     <div class="product-item__info">
-      <a class="product-link" href="{{ product_url }}" data-product-link="{{ product_url }}">
+      <a class="product-link" href="{{ product_url }}" aria-label="{{ product.title | strip_html | escape }}" data-product-link="{{ product_url }}">
         {%- if settings.product_grid_show_rating and product.metafields.reviews.rating.value != blank -%}
           <div class="product-item__stars">
             {% render 'product-rating', product: product %}

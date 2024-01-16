@@ -1,0 +1,277 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": false,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "b0e9a89b-1cbd-4334-af1c-1b772f3c4e9d": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--19080894447961__b0e9a89b-1cbd-4334-af1c-1b772f3c4e9d-1686398650c99f6ea7-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "",
+            "heading_size": 7,
+            "text": "<p>#ourpeople<br\/><br\/>Our people are the most talented ones, and we value them more than ever. Even though technology takes the leading role in today’s corporate world – we consider the human element the most crucial resource of our company. We not only value them for their creativity, problem–solving prowess, and out-of-the-box thinking but also for just being humans. We cherish our close, respectful and supportive relationship with every team member, and we are always doing our best to ensure them fair pays and the best working conditions.<\/p><p>#ourquality<br\/><br\/>We have managed to create a quality-focused culture in which every team member “lives” the quality in every step while doing their job, either customer service or production. We spend hours going above and beyond while creating complicated custom designs and pay as much time and attention to every seam while sewing the most basic items. So it is when passion about the quality is a personal value and has nothing to do with the tasks above. We all unanimously believe in the “quality first” message promoted from the first day of our company and has never become less important.<\/p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        },
+        "template--19080894447961__b0e9a89b-1cbd-4334-af1c-1b772f3c4e9d-1686398650c99f6ea7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/visions-1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19080894447961__b0e9a89b-1cbd-4334-af1c-1b772f3c4e9d-1686398650c99f6ea7-1",
+        "template--19080894447961__b0e9a89b-1cbd-4334-af1c-1b772f3c4e9d-1686398650c99f6ea7-0"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "reverse_blocks": false,
+        "padding_top": 26,
+        "padding_bottom": 0
+      }
+    },
+    "461ace83-ac97-4609-b28f-3d6100d190f6": {
+      "type": "section-custom-content",
+      "blocks": {
+        "27356ab7-a2a0-4501-af3e-a867b697629b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/visions-2.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "e251a661-a296-4862-af1e-0225ad853dbb": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "",
+            "heading_size": 7,
+            "text": "<p>#yoursustainablechoice<br\/><br\/>Customers are the ones who own the relationship with brands and decide who they want to engage with. So, if you are here, you probably have decided to adopt a quality-oriented slow fashion approach and voice your sustainable decision. Together we can make an outsized positive impact on the sustainability agenda and shape our world. By choosing the recyclable and biodegradable garment, you choose a garment made especially for you while using fewer resources and energy. Your pre-order also means that we will produce only what is needed, and it helps to avoid overproduction and eliminate textile waste.<br\/><br\/>#ourinhouseproduction<br\/><br\/>Though outsourcing manufacturing to a third party is widely accepted nowadays, we keep our supply chain local in order to minimize our environmental footprint. The entire operation of designing, cutting, sewing, labelling, packing and shipping is done in exclusively in our studio. It cuts out middlemen, significantly reduces transportation air miles and help us to monitor the entirely process closely.<br\/><br\/>We source the best European linen available. The material we use is OEKO – TEX® Standard 100 certified, and it is produced entirely in Europe from the fields to the fabric. It also means that the linen fabric has been tested for harmful substances and guarantees that only the low–impact dyes were used and that the dyed linen fabric meets human–ecological requirements. In addition, we use as much recyclable package as the transition let us do, and we leave no fabric waste by donating fabric swatches to the crafters.<\/p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "27356ab7-a2a0-4501-af3e-a867b697629b",
+        "e251a661-a296-4862-af1e-0225ad853dbb"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e17ae39e-4075-4bdd-9b1a-8088b3448cde": {
+      "type": "section-custom-content",
+      "blocks": {
+        "471c6f18-8dc8-4bde-a98f-f442515ccdc3": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "",
+            "heading_size": 7,
+            "text": "<p>#ourethics<br\/><br\/>We are aware of the environmental, social, cruelty to animals issues worldwide, and we assure that we manufacture with a conscience. We are focused on ensuring quality, promoting transparency, using sustainable practices and doing all this as ethical as possible. We act with fairness and integrity while observing high standards of personal and business ethics, and we expect all our suppliers to conduct their business in the same manner. To consider this, we select only such sourcing suppliers who meet our social and environmental criteria or have adopted sustainable practices.<\/p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        },
+        "cc442215-05ff-4305-8859-5d42f51fe51b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/visions-3.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "471c6f18-8dc8-4bde-a98f-f442515ccdc3",
+        "cc442215-05ff-4305-8859-5d42f51fe51b"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "57c0eb15-0867-4e6f-9688-295846ae90f7": {
+      "type": "section-custom-content",
+      "blocks": {
+        "c7a15f9c-4eaa-4530-a963-be901947f663": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/visions-4.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "ca2e257c-6a98-49b8-8741-55fb8f76825d": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "",
+            "heading_size": 7,
+            "text": "<p>#nplcares<br\/><br\/>We stand for equality and inclusiveness for all and always look for new ways to help others. We have created @nplcares account, hoping to serve less privileged people by enabling them to have an ability to engage with sustainable fashion and our brand. We feel that this could be another way to give back and provide equal opportunities to those who are not in a position today to purchase our clothes at full price. <br\/> <br\/>Our company also constantly makes donations for kids and their families from developing countries by helping them pay rent and school bus fees, by ensuring the school meal and educational courses. We are also actively participating in local donation projects related to kids' healthcare and patient wellbeing.<\/p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "c7a15f9c-4eaa-4530-a963-be901947f663",
+        "ca2e257c-6a98-49b8-8741-55fb8f76825d"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b0e9a89b-1cbd-4334-af1c-1b772f3c4e9d",
+    "461ace83-ac97-4609-b28f-3d6100d190f6",
+    "e17ae39e-4075-4bdd-9b1a-8088b3448cde",
+    "57c0eb15-0867-4e6f-9688-295846ae90f7"
+  ]
+}

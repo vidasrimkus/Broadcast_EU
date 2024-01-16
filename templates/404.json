@@ -1,1 +1,35 @@
-{"sections":{"main":{"type":"section-404","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "section-404",
+      "settings": {
+      }
+    },
+    "ea3462d0-3444-4859-89f7-23513b072e9a": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "Bestsellers",
+        "description": "",
+        "layout": "center",
+        "link_text": "View all",
+        "link_url": "shopify:\/\/collections\/bestsellers",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "bestsellers",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ea3462d0-3444-4859-89f7-23513b072e9a"
+  ]
+}

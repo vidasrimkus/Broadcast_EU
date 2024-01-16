@@ -16,26 +16,35 @@
   {%- if block.settings.style == 'inline' -%}
     <div class="product__block product__description rte" {{ block.shopify_attributes }}>
       {%- if product.description != blank -%}
-        <div class="product__description__content rte">
-          {% comment %} Inline product description {% endcomment %}
-{%- assign product_description_content = product.description | strip -%}
+        {% comment %} Inline product description {% endcomment %}
 
-{%- if block.settings.show_read_more -%}
-  <toggle-ellipsis data-height="175">
-    <div class="toggle-ellipsis__content" data-content>
-      {{ product_description_content }}
+{%- liquid
+  assign product_description_content = product.description | strip
+  assign truncate_string = 'products.general.read_more' | t
+  assign show_more_button = block.settings.show_read_more
+  assign truncate_html = '<button type="button" class="caps--link" data-truncated-button>' | append: truncate_string | append: '</button>'
+
+  assign truncated_holder = ''
+  if show_more_button
+    assign truncated_holder = 'data-truncated-holder'
+  endif
+  -%}
+
+<div class="product__description__content rte">
+  <div class="product__description__content__holder" {{ truncated_holder }}>
+    <div class="product__description__content__inner">
+      <div class="product__description__content__entry" data-truncated-content="product__description__content__entry--truncate">
+        {{ product_description_content }}
+      </div>
     </div>
 
-    <div class="toggle-ellipsis__actions" data-actions>
-      <button type="button" class="caps--link" data-button>
-        <span>{{ 'products.general.read_more' | t }}</span>
-      </button>
+    <div class="product__description__content__actions">
+      {%- if show_more_button -%}
+        {{ truncate_html }}
+      {%- endif -%}
     </div>
-  </toggle-ellipsis>
-{%- else -%}
-  {{ product_description_content }}
-{%- endif -%}
-        </div>
+  </div>
+</div>
       {%- endif -%}
     </div>
   {%- else -%}

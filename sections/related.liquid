@@ -5,8 +5,7 @@
   assign text_color = section.settings.color
   assign border_color = section.settings.border_color
   assign enable_tabs = section.settings.enable_tabs
-  assign heading_alignment = section.settings.heading_alignment
-  assign heading_size_class = section.settings.heading_size | prepend: 'heading-size-'
+
   assign has_related_products = false
   assign has_recently_products = false
 -%}
@@ -75,7 +74,7 @@
           data-aos-order="1">
           <div class="grid__heading-holder">
             <div class="grid__heading-actions">
-              <ul class="tabs {{ heading_alignment }}" data-scrollbar data-scrollbar-slider>
+              <ul class="tabs tabs--center" data-scrollbar data-scrollbar-slider>
                 {%- if related -%}
                   <li class="tab-link tab-link-0 current" data-tab="0" tabindex="0">
                     {%- if related_title -%}
@@ -110,7 +109,7 @@
       {%- if related -%}
         <div class="tab-content tab-content-0 current tabs__recommendation" data-tab-index="0">
           {%- if related_title != blank and enable_tabs != true -%}
-            <h6 class="tab__title {{ heading_alignment }} {{ heading_size_class }}"
+            <h6 class="tab__title"
               data-aos="hero"
               data-aos-anchor="{{ animation_anchor }}"
               data-aos-order="1">{{ related_title }}</h6>
@@ -123,7 +122,7 @@
       {%- if recent -%}
         <div class="tab-content tab-content-1 tabs__recently-viewed{% if enable_tabs == false or related == nil %} current{% endif %}" data-tab-index="1" style="--column-count: {{ product_recently_limit }}">
           {%- if recent_title != blank and enable_tabs == false -%}
-            <h6 class="tab__title {{ heading_alignment }} {{ heading_size_class }}"
+            <h6 class="tab__title"
               data-aos="hero"
               data-aos-anchor="{{ animation_anchor }}"
               data-aos-order="1">{{ recent_title }}</h6>
@@ -149,26 +148,6 @@
         "id": "enable_tabs",
         "label": "Enable tabs",
         "default": true
-      },
-      {
-        "type": "select",
-        "id": "heading_alignment",
-        "label": "Alignment",
-        "default": "text-center",
-        "options": [
-          {"value": "text-left","label": "Left"},
-          {"value": "text-center","label": "Centered"}
-        ]
-      },
-      {
-        "type": "range",
-        "id": "heading_size",
-        "label": "Heading size",
-        "min": 1,
-        "max": 15,
-        "step": 1,
-        "default": 4,
-        "info": "Applies only when tabs are disabled"
       },
       {
         "type": "header",

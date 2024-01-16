@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal with iPhone-like Toggle Buttons</title>
+  <style>
+
+
+    /* Modal Styles for Desktop */
+    @media screen and (min-width: 768px) {
+      .modal {
+        overflow: auto;
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 1px solid #888;
+        z-index: 6001;
+      }
+
+      .modal-content {
+        max-width: 800px;
+        width: 90%;
+        height: 80%;
+        max-height: 600px;
+        background-color: #fff;
+        margin: 180px auto;
+        padding: 10px;
+        border: 1px solid red;
+        position: relative;
+        z-index: 6002;
+      }
+
+      .tab {
+        border: 1px solid blue;
+        position: relative;
+      }
+
+      .tabcontent {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        border: 1px solid green;
+        position: absolute;
+      }
+
+      .tabcontent-toggle {
+        border: 1px solid #888;
+        padding: 10px;
+        position: relative;
+      }
+
+      .tabcontent-tables {
+        overflow: auto;
+        width: 100%;
+        height: 100px;
+        background-color: #fff;
+        position: relative;
+        border: 1px solid #888;
+      }
+
+    }
+
+    /* Modal Styles for Mobile */
+    @media screen and (max-width: 767px) {
+
+      .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 6001;
+      }
+
+      .modal-content {
+        
+        width: 90%; /* Adjust the width as needed for mobile */
+        height: 90%;
+        background-color: #fff;
+        margin: 15% auto;
+        padding: 10px;
+        border: 1px solid #888;
+        position: relative;
+      }
+
+      .tabcontent {
+        
+        width: 100%; /* Adjust the width as needed for mobile */
+        height: 100%;
+        background-color: #fff;
+        
+        border: 1px solid #888;
+      }
+
+      .tabcontent-toggle {
+        border: 1px solid #888;
+
+      }
+
+      .tabcontent-tables {
+        overflow: auto;
+        width: 100%; /* Adjust the width as needed for mobile */
+        height: 100%;
+        background-color: #fff;
+        position: relative;
+        border: 1px solid #888;
+      }
+
+    }
+
+    /* Modal Styles */
+
+
+    .body-modal-open {
+       overflow: hidden;
+    }
+
+
+    .close {
+      color: #000;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    /* Clear button for modal close */
+    .close:after {
+      content: "";
+    }
+
+    /* Style every second table row in Tab1Text1 */
+#Tab1Text1 table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey background color */
+}
+
+/* Style every second table row in Tab1Text2 */
+#Tab1Text2 table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey background color */
+}
+
+    /* Updated tab styles */
+    .tablabel {
+      display: inline-block;
+      margin-right: 0px;
+      background-color: #f2f2f2;
+      padding: 10px 10px;
+      border: none;
+      cursor: pointer;
+      border-radius: 30px;
+    }
+
+    .tablabel:hover {
+      background-color: green;
+    }
+
+    .tabradio {
+      display: none;
+    }
+
+    /* Tab Text Styles */
+    .tabbtn {
+      color: #000;
+    }
+
+    .tabradio:checked + .tabbtn {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+
+    /* Tab Styles */
+    
+    .tab button {
+      background-color: #f2f2f2;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 10px 10px;
+      margin-right: 0px;
+    }
+
+    .tab button:active {
+      background-color: red;
+    }
+
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    .iphone-toggle-switch {
+      position: relative;
+      display: inline-block;
+      width: 50px;
+      height: 26px;
+    }
+
+    .iphone-toggle-switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: .4s;
+      border-radius: 34px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 18px;
+      width: 18px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: .4s;
+      border-radius: 50%;
+    }
+
+    input:checked + .slider {
+      background-color: #007bff; /* Change to the desired background color when the toggle is on */
+    }
+
+    input:checked + .slider:before {
+      transform: translateX(20px);
+    }
+
+    /* Tab content */
+    .tabcontent {
+      display: none;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Button to toggle the modal -->
+  <button id="openModalBtn">Open Modal</button>
+
+  <!-- The modal -->
+  <div id="myModal" class="modal">
+
+    <div class="modal-content">
+      <span class="close" id="closeModalBtn">&times;</span>
+      <!-- Tab buttons -->
+      <div class="tab">
+        <label class="tablabel">
+          <input type="radio" name="tab" class="tabradio" onclick="openTab(event, 'Tab1')" checked />
+          <span class="tabbtn">Body</span>
+        </label>
+        <label class="tablabel">
+          <input type="radio" name="tab" class="tabradio" onclick="openTab(event, 'Tab2')" />
+          <span class="tabbtn">Garment</span>
+        </label>
+        <label class="tablabel">
+          <input type="radio" name="tab" class="tabradio" onclick="openTab(event, 'Tab3')" />
+          <span class="tabbtn">How To Measure</span>
+        </label>
+      </div>
+
+      <!-- Tab content -->
+      <div id="Tab1" class="tabcontent">
+
+        <div class="tabcontent-toggle">
+          <span>cm</span>
+          <label class="iphone-toggle-switch">
+            <input type="checkbox" id="toggleTab1" onchange="toggleText('Tab1')" checked />
+            <div class="slider round"></div>
+          </label>
+          <span>inch</span>
+        </div>
+        
+        <div class="tabcontent-tables">
+          <div id="Tab1Text1">
+            <h6>Body Measurements (inch)</h6>
+            <div class="size-chart-table" style="overflow: auto;">
+              {{ product.metafields.product.size_guide.value.content }}
+            </div>
+          
+            <h6>Region Sizing (inch)</h6>
+            <div class="size-chart-table" style="overflow: auto;">
+              {{ product.metafields.product.size_guide.value.content }}
+            </div>
+          </div>
+
+          <div id="Tab1Text2" style="display: none;">
+            <h6>Body Measurements (cm)</h6>
+            {{ product.metafields.product.size_guide.value.content }}
+            <h6>Region Sizing (cm)</h6>
+            {{ product.metafields.product.size_guide.value.content }}
+          </div>
+        </div>
+
+      </div>
+
+      <div id="Tab2" class="tabcontent">
+        <span>cm</span>
+        <label class="iphone-toggle-switch">
+          <input type="checkbox" id="toggleTab2" onchange="toggleText('Tab2')" checked />
+          <div class="slider round"></div>
+        </label>
+        <span>inch</span>
+
+        <div id="Tab2Text1">
+          <h6>{{product.title}} - Size Chart (inch)</h6>          
+        </div>
+        <div id="Tab2Text2" style="display: none;">
+          <h6>{{product.title}} - Size Chart (cm)</h6>
+        </div>
+      </div>
+
+      <div id="Tab3" class="tabcontent">
+        <h2>Tab 3 Content</h2>
+        <label class="iphone-toggle-switch">
+          <input type="checkbox" id="toggleTab3" onchange="toggleText('Tab3')" checked />
+          <div class="slider round"></div>
+        </label>
+        <div id="Tab3Text1">
+          <p>TEXT1: This is the initial content of Tab 3.</p>
+        </div>
+        <div id="Tab3Text2" style="display: none;">
+          <p>TEXT2: This is the alternate content of Tab 3.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript to handle tab switching and text toggling -->
+  <script>
+    var modal = document.getElementById("myModal");
+    var openModalBtn = document.getElementById("openModalBtn");
+    var closeModalBtn = document.getElementById("closeModalBtn");
+
+    openModalBtn.onclick = function() {
+      modal.style.display = "block";
+      document.body.classList.add("body-modal-open");      
+    }
+
+    closeModalBtn.onclick = function() {
+      modal.style.display = "none";
+      document.body.classList.remove("body-modal-open");
+    }
+
+    function openTab(evt, tabName) {
+      var i, tabcontent, tablinks;
+
+      // Hide all tab content
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+      // Remove the "active" class from all tab buttons
+      tablinks = document.getElementsByClassName("tablabel");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].classList.remove("active");
+      }
+
+      // Show the selected tab content and mark the button as active
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.classList.add("active");
+    }
+
+    // Open the default tab when the modal is opened
+    document.getElementById("openModalBtn").addEventListener("click", function() {
+      openTab(event, 'Tab1'); // You can set the default tab here
+    });
+
+    // Function to toggle text content
+    function toggleText(tabName) {
+      var checkbox = document.getElementById("toggle" + tabName);
+      var text1 = document.getElementById(tabName + "Text1");
+      var text2 = document.getElementById(tabName + "Text2");
+
+      if (checkbox.checked) {
+        text1.style.display = "block";
+        text2.style.display = "none";
+      } else {
+        text1.style.display = "none";
+        text2.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>

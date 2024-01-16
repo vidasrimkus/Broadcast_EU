@@ -74,15 +74,6 @@
   endif
 
   assign btn_font = settings.btn_font
-
-  case settings.swatch_size
-    when 'regular'
-      assign swatch_size_filters = '1.15'
-      assign swatch_size_product = '2.2'
-    when 'large'
-      assign swatch_size_filters = '1.5'
-      assign swatch_size_product = '3.0'
-  endcase
 -%}
 
 {% style %}
@@ -462,12 +453,8 @@
   --FREE-SHIPPING-GRADIENT: linear-gradient(to right, var(--COLOR-PRIMARY-LIGHT) 0%, var(--COLOR-PRIMARY) 100%);
 {% endif %}
 
-/* === Swatch Size ===*/
---swatch-size-filters: calc({{ swatch_size_filters }}rem * var(--FONT-ADJUST-BODY));
---swatch-size-product: calc({{ swatch_size_product }}rem * var(--FONT-ADJUST-BODY));
 }
 
-/* === Backdrop ===*/
 ::backdrop {
   --underlay-opacity: {{ backdrop_opacity }};
   --underlay-bg: {{ backdrop_bg }};

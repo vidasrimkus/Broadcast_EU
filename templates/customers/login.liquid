@@ -32,6 +32,7 @@
             <label for="customer_password">{{ 'customer.login.password' | t }}</label>
 
             <input type="password" value="" name="customer[password]" id="customer_password"
+              class="password"
               class="{% if form.errors contains 'password' %}input-error{% endif %}"
               placeholder="{{ 'customer.login.password' | t }}">
 

@@ -54,6 +54,11 @@
     if section.location == 'header' or section.location == 'aside' or section.location == 'template' and section.index < 3
       unless loading == 'lazy'
         assign loading = 'eager'
+        assign fetchpriority = 'high'
+
+        if section.index == 1
+          assign preload = true
+        endif
       endunless
     else
       assign loading = 'lazy'

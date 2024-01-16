@@ -1,0 +1,229 @@
+{%- liquid
+  assign uniq_id = section_id | append: 'product-' | append: product.id | append: '-'
+  assign hide_labels_class = ''
+  assign current_variant = product.selected_or_first_available_variant
+  assign enable_size_chart = enable_size_chart | default: false
+-%}
+{% for image in product.images %}
+  {% if image.alt contains 'Color guide' %}
+    {% assign color_guide = image %}
+  {% endif %}
+  {% if image.alt contains 'Size guide' %}
+    {% assign size_guide = image %}
+  {% endif %}
+{% endfor %}
+
+{%- capture product_variant_options -%}
+  {%- comment -%}
+    Size chart
+  {%- endcomment -%}
+  {%- if enable_size_chart -%}
+    {%- liquid
+      assign size_guide_page_content = product.metafields.product.size_guide.value.content
+      assign show_size_chart = false
+      assign tags_string = product.tags | join: ','
+      assign size_separator = '_size_'
+      assign specific_pages = ''
+      assign show_size_link_inline = false
+      if block.settings.info_page != blank
+        assign size_translation = 'general.size_chart.size' | t
+        assign info_page = pages[block.settings.info_page]
+      endif
+      if tags_string contains size_separator
+        for tag in product.tags
+          if tag contains size_separator
+            assign page_handle = tag | split: size_separator | last | split: ',' | first
+            assign specific_pages = specific_pages | append: page_handle | append: ','
+          endif
+        endfor
+      endif
+    -%}
+
+    
+      <div style="display: flex; flex-wrap: wrap; gap: 15px;">
+    
+        <!-- NEW SIZE GUIDE -->
+        {% if size_guide != blank %}
+
+          {%- render 'size-chart-modal1' -%}
+        
+        {% endif %}
+
+        
+        <!-- NEW COLOR GUIDE -->
+        {% if color_guide != blank %}
+          
+          <a href="/pages/color-guide" data-popup-open data-product-popup="color-guide-alt" style="display: flex; align-items: center" class="radio__legend__link{% if product.has_only_default_variant %} size-popup-link{% endif %}">
+            <img src="{{'color-guide.svg' | asset_url}}" width="24">
+            <span class="radio__legend__link__label">
+                Color Guide
+            </span>
+          </a>
+
+        {% endif %}
+
+        </div>
+
+      
+    {%- if block.settings.info_page != blank or specific_pages != '' -%}
+      {%- assign show_size_chart = true -%}
+      {%- assign specific_pages_arr = specific_pages | split: ',' -%}
+      {%- capture size_chart_link -%}
+        <product-modal>
+          <a href="{{ info_page.url }}" data-modal-open style="display: flex; align-items: center" class="size-popup-link"">
+            <span class="radio__legend__link__label">{{ 'general.size_chart.title' | t }}</span>
+            <span class="btn-question-mark">?</span>
+          </a>
+
+          <dialog class="product-modal" aria-hidden="true" inert>
+            <div class="product-modal__inner">
+              <div class="product-modal__content">
+                <button type="button" class="product-modal__close" data-modal-close autofocus aria-label="{{ 'general.accessibility.close' | t }}">
+                  {%- render 'icon-cancel' -%}
+                </button>
+
+                <div class="rte product-tabs" data-tabs-holder data-scroll-lock-scrollable>
+                  {%- liquid
+                    assign tabs_navigation = ''
+                    assign tabs = ''
+                    assign has_current = false
+                    assign number_tabs = 0
+                  -%}
+
+                  {%- for page_handle in specific_pages_arr -%}
+                    {%- assign page_size_chart = pages[page_handle] -%}
+
+                    {%- if page_size_chart.title != blank -%}
+                      {%- capture tabs_navigation -%}
+                        {{ tabs_navigation }}
+
+                        <li class="tab-link tab-link-{{ forloop.index0 }}" data-tab="{{ forloop.index0 }}" tabindex="0">
+                          <span>{{ page_size_chart.title }}</span>
+                        </li>
+                      {%- endcapture -%}
+
+                      {%- capture tabs -%}
+                        {{ tabs }}
+
+                        <div class="tab-content tab-content-{{ forloop.index0 }}{% unless has_current %} current{% endunless %}">
+                          {{ page_size_chart.content }}
+                        </div>
+                      {%- endcapture -%}
+
+                      {%- assign has_current = true -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+
+                  {%- if info_page -%}
+                    {%- assign number_tabs = specific_pages_arr.size -%}
+
+                    {%- capture tabs_navigation -%}
+                      {{ tabs_navigation }}
+
+                      <li class="tab-link tab-link-{{ number_tabs }}" data-tab="{{ number_tabs }}" data-lock-scroll tabindex="0">
+                        <span>{{ info_page.title }}</span>
+                      </li>
+                    {%- endcapture -%}
+
+                    {%- capture tabs -%}
+                      {{ tabs }}
+
+                      <div class="tab-content tab-content-{{ number_tabs }}{% unless has_current %} current{% endunless %}">
+                        {{ info_page.content }}
+                      </div>
+                    {%- endcapture -%}
+
+                    {%- assign has_current = true -%}
+                  {%- endif -%}
+
+                  {%- if specific_pages_arr.size > 1 -%}
+                    <div class="tabs__head product-tabs__head">
+                      <ul class="tabs product-tabs-title" data-scrollbar data-scrollbar-slider>
+                        {{ tabs_navigation }}
+                      </ul>
+
+                      <button type="button" class="tabs__arrow tabs__arrow--prev tabs-collections__arrow tabs-collections__arrow--prev is-hidden" data-scrollbar-arrow-prev>
+                        {%- render 'icon-nav-arrow-left' -%}
+                        <span class="visually-hidden">{{ 'products.general.see_all' | t }}</span>
+                      </button>
+
+                      <button type="button" class="tabs__arrow tabs__arrow--next tabs-collections__arrow tabs-collections__arrow--next is-hidden" data-scrollbar-arrow-next>
+                        {%- render 'icon-nav-arrow-right' -%}
+                        <span class="visually-hidden">{{ 'products.general.see_all' | t }}</span>
+                      </button>
+                    </div>
+                  {%- endif -%}
+
+                  {%- if tabs != '' -%}
+                    {{ tabs }}
+                  {%- endif -%}
+                </div>
+              </div>
+            </div>
+          </dialog>
+        </product-modal>
+      {%- endcapture -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- if settings.show_labels == false -%}
+    {%- assign hide_labels_class = ' variant__labels--hide' -%}
+  {%- endif -%}
+
+  {%- liquid
+    comment
+      Add a line item property called 'Preorder' to preorder products
+    endcomment
+    assign is_preorder_meta = false
+    assign is_preorder_tag = false
+
+    if current_variant.available and product.metafields.theme.preorder.type == 'boolean' and product.metafields.theme.preorder.value == true
+      assign is_preorder_meta = true
+    endif
+
+    if current_variant.available and product.tags contains '_preorder'
+      assign is_preorder_tag = true
+    endif
+  -%}
+
+  {%- if is_preorder_meta or is_preorder_tag -%}
+    <input form="{{ product_form_id }}" type="hidden" data-product-preorder name="properties[{{ 'products.product.sale_type' | t }}]" value="{{ 'products.product.pre_order' | t }}">
+  {%- endif -%}
+
+
+
+  {%- if show_size_link_inline == false and size_chart_link != blank -%}
+    <div class="radio__fieldset radio__fieldset--single">
+      {{- size_chart_link -}}
+    </div>
+  {%- endif -%}
+
+
+
+  {%- if product.selling_plan_groups.size > 0 -%}
+    {%- if block.settings.subscriptions_enable_selectors -%}
+      {%- render 'subscription-form', product: product -%}
+    {%- endif -%}
+    {% comment %} Delete the following line to block the theme from updating subscription prices {% endcomment %}
+    <span data-subscription-watch-price></span>
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- unless product_variant_options == blank -%}
+  <div class="product__block{% if settings.show_lines %} {% endif %}{% if settings.form_style == 'classic' %} product__block--classic{% endif %} product__form__holder"
+    {{ block_style }}
+    {{ block.shopify_attributes }}
+    {% if animation_name %}
+      data-animation="{{ animation_name }}"
+      data-animation-duration="{{ animation_duration }}"
+      data-animation-delay="{{ animation_delay }}"
+    {% endif %}>
+    <div class="product__form__outer{{ hide_labels_class }}">
+      {{ product_variant_options }}
+    </div>
+  </div>
+{%- endunless -%}
+
+{%- if product_variant_options == blank and request.design_mode -%}
+  <div {{ block.shopify_attributes }}></div>
+{%- endif -%}

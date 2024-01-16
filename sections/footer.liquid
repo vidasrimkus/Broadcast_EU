@@ -41,14 +41,13 @@
       {%- liquid
         assign logo_width = section.settings.logo_image_width
         assign logo_width_px = logo_width | append: 'px'
-        assign logo_width_2x = logo_width | times: 2
-        assign logo_width_3x = logo_width | times: 3
-        assign logo_widths = logo_width | append: ',' | append: logo_width_2x | append: ',' | append: logo_width_3x
-        assign logo_alt = logo.alt | default: shop.name | strip_html | escape
+        assign logo_width_x2 = logo_width | times: 2
+        assign logo_width_x3 = logo_width | times: 3
+        assign logo_widths = logo_width | append: ',' | append: logo_width_x2 | append: ',' | append: logo_width_x3
       -%}
       <div class="footer__logo__wrapper">
-        <a href="{{ routes.root_url }}" class="footer__logo" style="width: {{ logo_width_px }};" aria-label="{{ 'general.accessibility.footer_logo' | t }}">
-          {%- render 'image' image: logo, width: logo_width_2x, widths: logo_widths, sizes: logo_width_px, alt: logo_alt -%}
+        <a href="{{ routes.root_url }}" class="footer__logo" style="width: {{ logo_width_px }};">
+          {%- render 'image' image: logo, width: logo_width_x2, widths: logo_widths, sizes: logo_width_px -%}
         </a>
       </div>
     {%- endif -%}

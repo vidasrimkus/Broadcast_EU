@@ -1,0 +1,317 @@
+<style>
+  
+  /* TAB HEADER */
+
+    .product-modal {
+
+    }
+
+    .product-modal__outer {
+      border: 0px solid green;
+    }
+
+    .product-modal__content {
+      border: 0px solid red;
+      padding-top: 10px;
+      overflow: auto !important;
+    }
+
+    .product-modal__close {
+      
+    }
+
+
+    .tab {
+      position: relative;
+      width: 80%;
+      top: 0px;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .tablabel {
+      display: inline-block;
+      background-color: #c8c8c8;
+      padding: 10px 10px;
+      cursor: pointer;
+      border-radius: 30px;
+    }
+
+    .tablabel:hover {
+      background-color: rgb(112, 112, 112);
+    }
+
+    .tabradio {
+      display: none;
+    }
+
+    .tabradio:checked + .tablabel {
+      background-color: black;
+      color: white;
+      font-weight: 500;
+    }
+
+  /* END OF TAB HEADER */
+
+  /* TAB CONTENT */
+
+    .tabcontent {
+      position: relative;
+      background-color: #fff;
+    }
+
+    /* TAB CONTENT - TOGGLE */
+      .tabcontent-toggle {
+      margin: 10px;
+      }
+
+      .iphone-toggle-switch {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 26px;
+      }
+
+      .iphone-toggle-switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        transition: .4s;
+        border-radius: 34px;
+      }
+
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 18px;
+        width: 18px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        transition: .4s;
+        border-radius: 50%;
+      }
+
+      input:checked + .slider {
+        background-color: #007bff; /* Change to the desired background color when the toggle is on */
+      }
+
+      input:checked + .slider:before {
+        transform: translateX(20px);
+      }
+
+
+    .tabcontent-tables {
+
+    }
+
+    table tr td:first-child {
+      font-weight: 500;
+    }
+
+    table tr:first-child td {
+      font-weight: 500;
+      text-align: center;
+    }
+
+    /* Style every second table row in Tab1Text1 */
+      #Tab1Text1 table tr:nth-child(even) {
+        background-color: #f2f2f2; /* Light grey background color */
+      }
+
+
+    /* Style every second table row in Tab1Text2 */
+      #Tab1Text2 table tr:nth-child(even) {
+        background-color: #f2f2f2; /* Light grey background color */
+      }
+
+    /* Style every second table row in Tab2Text1 */
+      #Tab2Text1 table tr:nth-child(even) {
+        background-color: #f2f2f2; /* Light grey background color */
+      }
+
+
+    /* Style every second table row in Tab2Text2 */
+      #Tab2Text2 table tr:nth-child(even) {
+        background-color: #f2f2f2; /* Light grey background color */
+      }
+
+</style>
+
+<product-modal>
+  <a href="" data-popup-open data-product-popup="size-guide-alt" style="display: flex; align-items: center; gap: 3px;" class="radio__legend__link{% if product.has_only_default_variant %} size-popup-link{% endif %}">
+    <img src="{{'size-guide.svg' | asset_url}}" width="24">
+      <span class="radio__legend__link__label">
+        Size Guide
+      </span>
+  </a>
+
+  <dialog class="product-modal" aria-hidden="true" inert data-scroll-lock-required>
+    <div class="product-modal__outer">
+      <div class="product-modal__content" style="width: 100%; height: 100%; overflow: auto;" data-scroll-lock-scrollable >
+        
+        <!-- Close button -->
+        <button type="button" class="product-modal__close" data-popup-close autofocus aria-label="{{ 'general.accessibility.close' | t }}">
+          {%- render 'icon-cancel' -%}
+        </button>
+
+        <!-- Tab buttons -->
+        <div class="tab">
+          
+          <input type="radio" name="tab" id="tab1" class="tabradio" onclick="openTab(event, 'Tab1')" checked />
+          <label for="tab1" class="tablabel">Body</label>
+
+          <input type="radio" name="tab" id="tab2" class="tabradio" onclick="openTab(event, 'Tab2')" />          
+          <label for="tab2" class="tablabel">Garment</label>
+
+          <input type="radio" name="tab" id="tab3" class="tabradio" onclick="openTab(event, 'Tab3')" />
+          <label for="tab3" class="tablabel">How To Measure</label>
+        </div>
+
+        <!-- Tab content -->
+        <div id="Tab1" class="tabcontent">
+
+          <div class="tabcontent-toggle">
+            <span>cm</span>
+            <label class="iphone-toggle-switch">
+              <input type="checkbox" id="toggleTab1" onchange="toggleText('Tab1')" checked />
+              <div class="slider round"></div>
+            </label>
+            <span>inch</span>
+          </div>
+        
+          <div class="tabcontent-tables">
+            <div id="Tab1Text1">
+
+              <h6 style="text-align: center;">Body Measurements (inch)</h6>
+              {{ product.metafields.product.size_chart_body.value.body_measurements_in }}
+
+            </div>
+
+            <div id="Tab1Text2" style="display: none;">
+
+              <h6 style="text-align: center;">Body Measurements (cm)</h6>
+              {{ product.metafields.product.size_chart_body.value.body_measurements_cm }}
+
+            </div>
+          </div>
+
+        </div>
+
+        <div id="Tab2" class="tabcontent" style="display: none;">
+          
+          <div class="tabcontent-toggle">
+            <span>cm</span>
+            <label class="iphone-toggle-switch">
+              <input type="checkbox" id="toggleTab2" onchange="toggleText('Tab2')" checked />
+              <div class="slider round"></div>
+            </label>
+            <span>inch</span>
+          </div>
+
+          <div class="tabcontent-tables">
+            <div id="Tab2Text1">
+              
+              <h6 style="text-align: center;">Garment Measurements (inch)</h6>
+              <h6 style="text-align: center;">{{product.title}}</h6>
+
+              {{ product.metafields.product.size_guide_in }}
+
+              <div style="padding: 10px; text-align: justify; font-size: 0.8rem;">
+              Garment measurements are approximate and may vary +/- half inch as linen is by nature the fabric that “lives”. Different weight, weave, pattern or even a new edition of the same fabric/color have different properties, so, as a result, may have slightly different variations in measurements and the way it fits and looks.
+              </div>
+              <div style="padding: 10px; text-align: justify; font-size: 0.8rem;">
+              The measurements of the new garment of the same design might also slightly vary than the one you might own not only because of the new edition of the fabric, but also because of the nature of handmade garments. We encourage our customers to appreciate the unique qualities of the handmade items while understanding that some variability such as stitching is expected.
+              </div>
+
+            </div>
+
+            <div id="Tab2Text2" style="display: none;">
+            
+            <h6 style="text-align: center;">Garment Measurements (cm)</h6>
+            <h6 style="text-align: center;">{{product.title}}</h6>
+
+              {{ product.metafields.product.size_guide_cm }}
+
+              <div style="padding: 10px; text-align: justify; font-size: 0.8rem;">
+                Garment measurements are approximate and may vary 1-2 cm as linen is by nature the fabric that “lives”. Different weight, weave, pattern or even a new edition of the same fabric/color have different properties, so, as a result, may have slightly different variations in measurements and the way it fits and looks.
+                </div>
+              <div style="padding: 10px; text-align: justify; font-size: 0.8rem;">
+                The measurements of the new garment of the same design might also slightly vary than the one you might own not only because of the new edition of the fabric, but also because of the nature of handmade garments. We encourage our customers to appreciate the unique qualities of the handmade items while understanding that some variability such as stitching is expected.
+              </div>
+
+              </div>
+          </div>
+        </div>
+
+        <div id="Tab3" class="tabcontent" style="display: none;">
+          <h6 style="text-align: center;">How To Measure</h6>
+          <!-- <label class="iphone-toggle-switch">
+            <input type="checkbox" id="toggleTab3" onchange="toggleText('Tab3')" checked />
+            <div class="slider round"></div>
+          </label>
+          -->
+          <div id="Tab3Text1">
+            <img style="max-width: 100%; height: auto;" src="https://cdn.shopify.com/s/files/1/0575/6387/3333/files/HowToMeasure.jpg?v=1705133940" alt="How to Measure">
+          </div>
+        
+          <div id="Tab3Text2" style="display: none;">
+            <p>TEXT2: This is the alternate content of Tab 3.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </dialog>
+</product-modal>
+
+  <!-- JavaScript to handle tab switching and text toggling -->
+  <script>
+
+
+
+    function openTab(evt, tabName) {
+      var i, tabcontent, tablinks;
+
+      // Hide all tab content
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+      // Remove the "active" class from all tab buttons
+      tablinks = document.getElementsByClassName("tablabel");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].classList.remove("active");
+      }
+
+      // Show the selected tab content and mark the button as active
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.classList.add("active");
+    }
+
+    // Function to toggle text content
+    function toggleText(tabName) {
+      var checkbox = document.getElementById("toggle" + tabName);
+      var text1 = document.getElementById(tabName + "Text1");
+      var text2 = document.getElementById(tabName + "Text2");
+
+      if (checkbox.checked) {
+        text1.style.display = "block";
+        text2.style.display = "none";
+      } else {
+        text1.style.display = "none";
+        text2.style.display = "block";
+      }
+    }
+  </script>

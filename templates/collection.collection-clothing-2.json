@@ -1,0 +1,206 @@
+{
+  "sections": {
+    "ce31d471-1b7e-417d-b50b-47cd0af447ef": {
+      "type": "section-text-with-products",
+      "custom_css": [
+        ".h2 {text-align: center;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "subheading_size": 8,
+        "heading": "Linen Clothing",
+        "heading_size": 5,
+        "mobile_heading_size": 5,
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
+        "width": "wrapper",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 5,
+        "padding_bottom": 5
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "",
+        "show_image": true,
+        "banner_layout": "inline",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 20,
+        "overlay_color": "#ffffff",
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "disabled": true,
+      "settings": {
+        "subcollection_layout": "slider",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "990080ed-8ead-4bd6-af19-1c0b873d20da": {
+      "type": "section-text-with-products",
+      "blocks": {
+        "template--19437252673881__990080ed-8ead-4bd6-af19-1c0b873d20da-collection-1": {
+          "type": "collection",
+          "settings": {
+            "image_position": 1,
+            "collection": "linen-dresses",
+            "aspect_ratio": 1,
+            "mobile_aspect_ratio": 1,
+            "width": 80,
+            "mobile_width": 60
+          }
+        },
+        "420a8b32-f524-4e3e-97c6-167637db99fd": {
+          "type": "collection",
+          "settings": {
+            "image_position": 6,
+            "collection": "linen-tops",
+            "aspect_ratio": 1,
+            "mobile_aspect_ratio": 1,
+            "width": 80,
+            "mobile_width": 60
+          }
+        }
+      },
+      "block_order": [
+        "template--19437252673881__990080ed-8ead-4bd6-af19-1c0b873d20da-collection-1",
+        "420a8b32-f524-4e3e-97c6-167637db99fd"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "heading": "Highlight products, a collection or images alongside a brand message",
+        "heading_size": 1,
+        "mobile_heading_size": 5,
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7f1c2271-263f-459c-9cb9-b8328ea15a54": {
+      "type": "section-collections-list",
+      "blocks": {
+        "4954f9ce-3fe8-4725-810d-08f6bac7712f": {
+          "type": "collection",
+          "settings": {
+            "collection": "linen-clothing-women",
+            "title": "kitoks pavadinimas"
+          }
+        },
+        "cfb96ea1-a0b6-4e85-b448-e45141b91862": {
+          "type": "collection",
+          "settings": {
+            "collection": "linen-clothing-men",
+            "title": ""
+          }
+        },
+        "0c383b90-ef0c-4bc2-8773-f355c6eae626": {
+          "type": "collection",
+          "settings": {
+            "collection": "clothing-accessories",
+            "title": "Clothing Accessories"
+          }
+        },
+        "3403cc6a-578d-4f36-8da2-dfa686b98f78": {
+          "type": "collection",
+          "settings": {
+            "collection": "gingham-linen-collection",
+            "title": ""
+          }
+        },
+        "1e19b0ac-d2b8-467c-8c46-f27cd60498aa": {
+          "type": "collection",
+          "settings": {
+            "collection": "heavy-weight-linen",
+            "title": "Heavy Weight Linen"
+          }
+        },
+        "56870435-efeb-4128-aa17-03df34a7cc4b": {
+          "type": "collection",
+          "settings": {
+            "collection": "light-weight-linen",
+            "title": "Light Weight Linen"
+          }
+        },
+        "collection_im8wN9": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "4954f9ce-3fe8-4725-810d-08f6bac7712f",
+        "cfb96ea1-a0b6-4e85-b448-e45141b91862",
+        "0c383b90-ef0c-4bc2-8773-f355c6eae626",
+        "3403cc6a-578d-4f36-8da2-dfa686b98f78",
+        "1e19b0ac-d2b8-467c-8c46-f27cd60498aa",
+        "56870435-efeb-4128-aa17-03df34a7cc4b",
+        "collection_im8wN9"
+      ],
+      "custom_css": [
+        ".collection-item__image {display: none;}",
+        ".grid-item{background-color: #fbfaf5; }",
+        "@media (max-width: 767px) {.grid-item {width: 30%; background-color: #fbfaf5; font-family: Cardo; font-weight: 500; }}"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "layout": "grid",
+        "aspect_ratio": 1,
+        "grid": 6,
+        "layout_mobile": "slider",
+        "bg_color": "#ffffff",
+        "color": "",
+        "padding_top": 4,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "collection",
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "inline-open",
+        "collection_linklist": "",
+        "grid": 3,
+        "grid_mobile": "2",
+        "product_limit": 27,
+        "border_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "ce31d471-1b7e-417d-b50b-47cd0af447ef",
+    "hero",
+    "subcollections",
+    "990080ed-8ead-4bd6-af19-1c0b873d20da",
+    "7f1c2271-263f-459c-9cb9-b8328ea15a54",
+    "main"
+  ]
+}

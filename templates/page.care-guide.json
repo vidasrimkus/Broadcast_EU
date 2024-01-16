@@ -1,0 +1,168 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": false,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "#f7f7f7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "faq-first": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "faq-heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Your linen garment is already prewashed, so it should not shrink if you will take proper care of it."
+          }
+        },
+        "faq-0": {
+          "type": "question",
+          "settings": {
+            "title": "WHAT ARE COMMON CARE RECOMMENDATIONS?",
+            "content": "<p>Your garment may be machine washed (up to 40° C \/ 100 F) on a gentle cycle, dry on low heat for a softer vibe, or hang to dry for best results. We also invite you to embrace linen’s natural wrinkles and the beauty of imperfection, so we don’t suggest that you iron your garment. But if you prefer to do this, we recommend ironing it inside–out on a medium-high setting, but please be accurate as the fabric may develop a shine when a too-hot iron is pressed on the surface. Your garment may also be steamed in a moderate setting.<\/p>"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "title": "HOW TO EXTEND THE LIFESPAN OF YOUR LINEN GARMENT?",
+            "content": "<p>If you want to retain the life of your linen garment, we recommend dry cleaning. As linen collects and uses water rapidly, the fibers break down and become soft. The more it is washed and dried in a traditional washing machine and dryer, the softer it will get, but the faster it will fall apart. So, if your preference is to retain the life of linen, dry cleaning is the way to go.<\/p>"
+          }
+        },
+        "faq-2": {
+          "type": "question",
+          "settings": {
+            "title": "WHY YOUR LINEN GARMENT MAY WORN OUT FASTER?",
+            "content": "<p>Though linen is a solid and durable fabric, however, because the fibers of linen have such low elasticity, they can break if they are folded and bent in the same rea repeatedly. Likewise, constant creasing and pressing linen in the same area in a sharp fold can cause the fibers to deteriorate. Therefore, linen wrinkles so quickly, and why the collars and hems of linen items can eventually begin to show wear and even break over time. Anyway, please remember that there is no way to make any of your garments last forever. <\/p>"
+          }
+        },
+        "e24a37c7-a2d3-4a88-89d1-582e3bc3f1e5": {
+          "type": "question",
+          "settings": {
+            "title": "WHY YOUR LINEN GARMENT MAY GET RUBBED IN A PARTICULAR SPOT?",
+            "content": "<p>Some areas of your garment may endure a significant amount of tension during day-to-day life, and it may lead to further damage to the fabric, causing tears and holes to appear. Usually, it is also very commonly related to the body shape, specific movements, and sizing of the garment. For example, thighs are the number one reason for earning out of the crotch. It happens when the legs are rubbing the fabric with each movement, thereby thinning it over time. We understand that this is not something you can change, so it is crucial to choose the right size and wear a garment that is not too tight. Cycling, jogging, or prolonged sitting also damages the flax.<\/p><p><br\/><\/p><p>All these factors are inevitable and are the result of expected wear. Considering that there is no way to make any garment last forever, we recommend trying mending your garment yourself or supporting your local tailor while taking your garment for repairs. <\/p>"
+          }
+        },
+        "5ae84b02-789a-4f6c-9da4-4b396cd3e6b2": {
+          "type": "question",
+          "settings": {
+            "title": "WHY MAY THE COLOR OF YOUR LINEN GARMENT CHANGE?",
+            "content": "<p>You probably will notice a slight change in the color of your linen garment within time, wash and wear. Because low-impact dyes are used while dyeing the linen fabric, the color of your linen garment may fade and bleed. It is considered a normal and inevitable process that should stop in the subsequent washes. Please separate your garments and sort your clothes before washing while washing only items with similar colors.  <\/p><p><br\/><\/p><p>Other factors like direct and prolonged exposure to sunlight, over-drying, and wrong ironing also cause fabric fading. Please consider that contact with alkaline\/acidic things like sweat, shampoo, toothpaste, etc. can influence the change of the fabric color too.  <\/p>"
+          }
+        },
+        "e187be69-a42e-4f68-aeb5-2c1b66950b0f": {
+          "type": "question",
+          "settings": {
+            "title": "DOES LINEN FABRIC PILL, AND IS IT NORMAL?",
+            "content": "<p>All fabrics pill at some point; the only difference is that some do not pill as much as others. For example, linen fabric does pill, but your linen garment will pill less than your linen waffle towels as they pill like crazy! It is a normal and inevitable process, and we recommend calmly facing reality and protecting the other garments that do not pill while separating them before washing.<\/p>"
+          }
+        },
+        "1383a673-63d1-4a19-ba22-091218167b4a": {
+          "type": "question",
+          "settings": {
+            "title": "HOW TO REMOVE STAINS FROM YOUR LINEN?",
+            "content": "<p>Stains are inevitable during day-to-day life. If you are using your stain removal product, please test it on an inside seam first. Do not use it if the color transfers. We recommend using white vinegar to remove stains most naturally. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-heading",
+        "faq-0",
+        "faq-1",
+        "faq-2",
+        "e24a37c7-a2d3-4a88-89d1-582e3bc3f1e5",
+        "5ae84b02-789a-4f6c-9da4-4b396cd3e6b2",
+        "e187be69-a42e-4f68-aeb5-2c1b66950b0f",
+        "1383a673-63d1-4a19-ba22-091218167b4a"
+      ],
+      "custom_css": [
+        "summary {font-size: 14px;}",
+        "h3 {font-size: 16px;}",
+        "p {font-size: 12px;}"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "icons": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon-0": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Secure transactions",
+            "heading_size": 4,
+            "text": "<p>Transactions are handled with bank-grade security.<\/p>",
+            "text_size": 2
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-recycle",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Simple checkout",
+            "heading_size": 4,
+            "text": "<p>Our secure checkout is quick and easy to use.<\/p>",
+            "text_size": 3
+          }
+        },
+        "icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Get in touch",
+            "heading_size": 4,
+            "text": "<p>Have questions? Get in touch with us at any time.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 4,
+        "align_text": "text-left",
+        "icon_alignment": "icon--top",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "#fafafa",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "carousel"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq-first",
+    "icons"
+  ]
+}

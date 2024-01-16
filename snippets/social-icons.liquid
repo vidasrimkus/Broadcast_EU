@@ -12,26 +12,12 @@
 
 {%- liquid
   assign social_accounts = 'Instagram, Facebook, Twitter, TikTok, Pinterest, Tumblr, YouTube, Vimeo, Linkedin, Snapchat, Feed' | split: ', '
-  assign socials_size = settings.icon_style
   assign modifier = modifier | default: ''
   assign enable_follow_on_shop = enable_follow_on_shop | default: false
 
   if modifier != ''
     assign modifier = modifier | prepend: ' '
   endif
-
-  capture socials_size_class
-    case socials_size
-      when '1'
-        echo 'socials--thin'
-      when '1.5'
-        echo 'socials--normal'
-      when '2'
-        echo 'socials--thick'
-    endcase
-  endcapture
-
-  assign modifier = modifier | append: ' ' | append: socials_size_class
 -%}
 
 <ul class="socials{{ modifier }}"

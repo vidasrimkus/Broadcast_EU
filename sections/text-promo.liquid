@@ -90,7 +90,7 @@
           render 'image' image: image, sizes: sizes, cover: true
         -%}
 
-        {%- unless show_overlay_text or overlay_opacity == 0.0 -%}
+        {%- unless show_overlay_text -%}
           <div class="image-overlay" style="--overlay-bg: {{ overlay_color }}; --overlay-opacity: {{ overlay_opacity }};"></div>
         {%- endunless -%}
       </div>

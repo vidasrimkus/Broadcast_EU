@@ -14,6 +14,7 @@
     {% render 'collection-grid-item', block: block, animation_delay: animation_delay, animation_anchor: animation_anchor, aspect_ratio: aspect_ratio, index: index %}
 {% endcomment %}
 
+
 {%- liquid
   assign layout = section.settings.layout
   assign collection = collections[block.settings.collection]
@@ -111,4 +112,5 @@
   {%- else -%}
     </a>
   {%- endif -%}
+
 </div>

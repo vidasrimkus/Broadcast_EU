@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": false,
+        "heading_size": 8,
+        "show_content": false,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "55e57b25-3f81-4600-abdb-66c5d931ce0b": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--19409814389081__55e57b25-3f81-4600-abdb-66c5d931ce0b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Gingham Linen Collection",
+            "text_size": 6
+          }
+        },
+        "template--19409814389081__55e57b25-3f81-4600-abdb-66c5d931ce0b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A collection of fifteen easily recognizable small or large gingham patterns woven in two colors, as long as herringbone, broken twill, and mélange weave. A diverse and eclectic fabric collection that has anything but plain weave. You are welcome to enable your artistic expression with gingham pattern mixing or pair it with our solid-colored linen to create an unforgettable look.<\/p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        },
+        "template--19409814389081__55e57b25-3f81-4600-abdb-66c5d931ce0b-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop The Collection",
+            "button_url": "shopify:\/\/collections\/gingham-linen-collection",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19409814389081__55e57b25-3f81-4600-abdb-66c5d931ce0b-heading-1",
+        "template--19409814389081__55e57b25-3f81-4600-abdb-66c5d931ce0b-text-1",
+        "template--19409814389081__55e57b25-3f81-4600-abdb-66c5d931ce0b-buttons-1"
+      ],
+      "custom_css": [
+        "h2 {font-family: New Century Schoolbook, sans-serif;}",
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "#fffcf5",
+        "color": "",
+        "padding_top": 42,
+        "padding_bottom": 28
+      }
+    },
+    "16913114151447129b": {
+      "type": "apps",
+      "blocks": {
+        "91d121f1-55f2-4f27-be1f-8560f7d06d35": {
+          "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery\/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+          "settings": {
+            "type": "gallery",
+            "id": 10,
+            "mid": ""
+          }
+        }
+      },
+      "block_order": [
+        "91d121f1-55f2-4f27-be1f-8560f7d06d35"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "55e57b25-3f81-4600-abdb-66c5d931ce0b",
+    "16913114151447129b"
+  ]
+}

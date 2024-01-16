@@ -7,7 +7,7 @@
   <meta name="theme-color" content="{{ settings.accent_bright }}">
   <link rel="canonical" href="{{ canonical_url }}">
   <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
-  <!-- ======================= Broadcast Theme V5.4.1 ========================= -->
+  <!-- ======================= Broadcast Theme V5.4.0 ========================= -->
 
   {%- unless settings.type_heading_font.system? and settings.type_base_font.system? -%}
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
@@ -183,7 +183,7 @@
       info: {
         name: 'broadcast'
       },
-      version: '5.4.1'
+      version: '5.4.0'
     };
 
     let windowInnerHeight = window.innerHeight;
@@ -269,6 +269,8 @@
     just cut this next line and paste it outside this comment:
     <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
   {%- endcomment -%}
+  <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
+  
   <!-- Paste marketing code or third party scripts below this comment line ============== -->
 
 

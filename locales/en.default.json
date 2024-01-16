@@ -87,9 +87,7 @@
       "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars",
       "scroll_to_top": "Scroll to top",
       "scroll_to_product": "Scroll to product",
-      "scroll_to_logo": "Scroll to logo",
-      "footer_logo": "Footer logo",
-      "slide_image": "Slide image"
+      "scroll_to_logo": "Scroll to logo"
     },
     "cookies": {
       "title": "Can we store cookies?",

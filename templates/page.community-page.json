@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 7,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "e71cb17f-b239-41b5-be6b-de8e2d5c12a6": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--19080875049305__e71cb17f-b239-41b5-be6b-de8e2d5c12a6-16863964163e55e74a-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "THE AFFILIATE PROGRAMMED IS CURRENTLY PAUSED.WE WILL ANNOUNCE WHEN IT WILL BE RENEWED.",
+            "text_size": 3
+          }
+        },
+        "template--19080875049305__e71cb17f-b239-41b5-be6b-de8e2d5c12a6-16863964163e55e74a-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Voice your Sustainable decision by joining our Affiliate Program",
+            "text_size": 5
+          }
+        },
+        "template--19080875049305__e71cb17f-b239-41b5-be6b-de8e2d5c12a6-16863964163e55e74a-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The fashion sector is one of the most polluting globally, ranking among the top three pressures on water and land usage and one of the top five in terms of raw material use and greenhouse gas emissions. The fashion industry annually requires over 79 billion cubic meters of water, generates 1.7 billion tons of CO2, and produces 92 million tons of textile waste. Suppose no action is taken to reduce fast fashion waste. In that case, the industry’s global emissions will increase by 50 % by 2030, and the numbers of fashion waste are expected to soar up to 134 million tons a year by the end of the decade. Nevertheless, more than half a million tons of microplastic will reach Ocean next year (that’s the equivalent of the plastic pollution for more than 50 billion bottles). Slow fashion has emerged as an effective way to improve sustainability in the fashion industry, but is it able to really slow down the fast fashion industry?<br\/><br\/>We always felt we came to this world to help others, articulate values, and create victories. Part of why we started this business is that we always demanded change. We clearly knew what kind of brand we wanted to create and what significant contributions we wanted to make to the world. The definition of “business success” always holds a different meaning for me. We always envisioned our brand as a sustainability changemaker, and we measure success through a sustainability–focused progress prism.<br\/><br\/>We are optimistic about sustainable growth, but more needs to be done to give consumers greater access to information and offer better availability to sustainable options. Most consumers have a positive but still relatively passive view of sustainable consumption. For most of them, adopting a more sustainable lifestyle starts at home while recycling and composting waste. However, choosing brands that have environmentally sustainable practices and make long-lasting products is still not a priority.<br\/><br\/>Not all people are aware that fast fashion generates overproduction and that large stores buy in bulk to reduce costs. Nevertheless, for some, it is still acceptable that fast fashion stores have constant sales, which encourages consumers not to value fashion and work put in and buy clothes for a one–time use before discarding them. Pre–order sales are normalized in many other industries (books, movies, shoes, video games, electronics), so why can’t this be the case in the fashion industry? What are the main barriers preventing adopting a more sustainable lifestyle?<br\/><br\/>Research shows that almost 52 % of consumers lack interest in sustainability or need more information. These barriers are closely followed by consumers believing that adopting a more sustainable lifestyle makes no difference and is too difficult or not available to them (42 %). Furthermore, 32 % still believe it requires too much effort and is time-consuming, and 19 %don't think they need to be aware of the sustainability issue. For so long, we tend to prefer immediate consumption, and some people cannot picture themselves patiently waiting to receive their new clothing item.<br\/><br\/>The question arises: What should we do with all of it? Are we able to influence the change?<br\/><br\/>We are sure that awareness–raising through various campaigns to promote sustainable consumption might be the game changer. And though we cannot do it alone, together, we can positively impact the sustainability agenda and shape our world. We are starting our Campaign, \"Voice Your Sustainable Decision,\" where each of you can play a huge role in sustainable development and influence others' behavior towards it. Every new customer adopting sustainable purchasing behavior is a huge win for us, you, and our planet.<br\/><br\/>We created an Affiliate Program for our Community members to invite their friends to join the slow fashion movement. Each Community member can register in Affiliate Program and get the code or the link to share with the one they would love to invite. The first–time customer will get 15 % off their first purchase (please note that this code applies only for new customers that haven’t purchased from us before), and a Community member will get 15 % commissions that will be transferred to Store Credit.<br\/><br\/>Voice your Sustainable decision by joining our <a href=\"https:\/\/af.uppromote.com\/notperfectlinen\/register\" target=\"_blank\" title=\"notPERFECTLINEN Affiliate Program\"><strong>Affiliate Program<\/strong><\/a> (<a href=\"https:\/\/af.uppromote.com\/notperfectlinen\/register\" target=\"_blank\" title=\"https:\/\/af.uppromote.com\/notperfectlinen\/register\">https:\/\/af.uppromote.com\/notperfectlinen\/register<\/a>). <br\/><br\/>Sustainability feels good, and we need first-time customers to feel it. We believe in the quality of our products and services, so we are sure that the first item received from us will be a strong stimulus for the first-time customer to stay in a sustainable market. We are starting this Campaign in winter, during our slowest season, when we can dedicate the maximum attention to first-time customers. We will be here to patiently answer all the questions, lead through the manufacturing process, and help take measurements or customize their first item. The little things aren’t so little if thousands of us do them.<\/p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19080875049305__e71cb17f-b239-41b5-be6b-de8e2d5c12a6-16863964163e55e74a-0",
+        "template--19080875049305__e71cb17f-b239-41b5-be6b-de8e2d5c12a6-16863964163e55e74a-1",
+        "template--19080875049305__e71cb17f-b239-41b5-be6b-de8e2d5c12a6-16863964163e55e74a-2"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 26
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e71cb17f-b239-41b5-be6b-de8e2d5c12a6"
+  ]
+}

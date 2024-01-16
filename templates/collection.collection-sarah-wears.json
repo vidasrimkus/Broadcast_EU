@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "0380daa8-fc60-4882-8856-9fdc2658fd12": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--19437252641113__0380daa8-fc60-4882-8856-9fdc2658fd12-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ collection.title }}",
+            "text_size": 6
+          }
+        },
+        "template--19437252641113__0380daa8-fc60-4882-8856-9fdc2658fd12-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.description | metafield_tag }}<\/p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19437252641113__0380daa8-fc60-4882-8856-9fdc2658fd12-heading-1",
+        "template--19437252641113__0380daa8-fc60-4882-8856-9fdc2658fd12-text-1"
+      ],
+      "custom_css": [
+        "h2 {font-family: New Century Schoolbook, sans-serif;}",
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "#f0f0f0",
+        "color": "",
+        "padding_top": 6,
+        "padding_bottom": 6
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {
+        "show_title": false,
+        "show_description": false,
+        "flex_align": "align--middle-left",
+        "bg_color": "",
+        "color": "#212121",
+        "show_image": false,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "disabled": true,
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "collection",
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "inline-closed",
+        "collection_linklist": "",
+        "grid": 3,
+        "grid_mobile": "2",
+        "product_limit": 21,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "0380daa8-fc60-4882-8856-9fdc2658fd12",
+    "hero",
+    "subcollections",
+    "main"
+  ]
+}

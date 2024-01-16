@@ -466,9 +466,7 @@
       "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrellas",
       "scroll_to_top": "Volver al inicio",
       "scroll_to_product": "Desplácese hasta el producto",
-      "scroll_to_logo": "Desplácese hasta el logotipo",
-      "footer_logo": "Logotipo de pie de página",
-      "slide_image": "Imagen de diapositiva"
+      "scroll_to_logo": "Desplácese hasta el logotipo"
     },
     "cookies": {
       "title": "¿Podemos almacenar cookies?",

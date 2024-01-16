@@ -9,7 +9,6 @@
   assign autoplay_speed = false
   assign show_arrows = section.settings.show_arrows
   assign slideshow_class = 'slideshow__slider'
-  assign default_slide_label = 'general.accessibility.slide_image' | t
 
   case section.settings.transition
     when 'slide'
@@ -49,9 +48,8 @@
         data-dots="{{ settings.dots_style }}">
         {%- for block in section.blocks -%}
           {%- liquid
-            assign image_desktop = block.settings.image
-            assign image_mobile = block.settings.mobile_image
-            assign alt = image_mobile.alt | default: image_desktop.alt | default: block.settings.title | default: default_slide_label
+            assign desktop_image = block.settings.image
+            assign mobile_image = block.settings.mobile_image
             assign overlay_color = block.settings.overlay_color
             assign overlay_opacity = block.settings.overlay_opacity | times: 0.01
             assign show_overlay_text = block.settings.show_overlay_text
@@ -110,27 +108,32 @@
             {{ block.shopify_attributes }}>
 
             {%- if first_button_text == blank and first_button_link != blank -%}
-              <a class="hero__image frame__item" href="{{ first_button_link }}" aria-label="{{ block.settings.title | default: default_slide_label | escape }}">
+              <a class="hero__image frame__item" href="{{ first_button_link }}">
             {%- else -%}
               <div class="hero__image frame__item">
             {%- endif -%}
 
-              {%- unless show_overlay_text or overlay_opacity == 0.0 -%}
+              {%- unless show_overlay_text -%}
                 <div class="image-overlay" style="--overlay-bg: {{ overlay_color }}; --overlay-opacity: {{ overlay_opacity }};"></div>
               {%- endunless -%}
 
               {%- liquid
-                if forloop.first and section.index < 3
-                  assign loading = 'eager'
-                  assign fetchpriority = 'high'
-                  assign preload = true
-                else
+                unless forloop.first and section.index < 3
                   assign loading = 'lazy'
-                  assign fetchpriority = 'auto'
-                  assign preload = false
+                endunless
+
+                if mobile_image
+                  assign desktop_modifier = 'desktop'
+                else
+                  assign desktop_modifier = ''
                 endif
 
-                render 'image-hero', image_desktop: image_desktop, image_mobile: image_mobile, desktop_height: desktop_height, mobile_height: mobile_height, alt: alt, loading: loading, fetchpriority: fetchpriority, preload: preload
+                render 'image-hero', image: desktop_image, desktop_height: desktop_height, mobile_height: mobile_height, modifier: desktop_modifier, loading: loading
+
+                if mobile_image
+                  assign mobile_modifier = 'mobile'
+                  render 'image-hero', image: mobile_image, desktop_height: mobile_height, modifier: mobile_modifier, loading: loading
+                endif
               -%}
 
             {%- if first_button_text == blank and first_button_link != blank -%}

@@ -1,17 +1,11 @@
 {%- liquid
   assign animation_anchor = '#ProductsImage--' | append: section.id
   assign wrapper_width = section.settings.width
-  assign bg_color = section.settings.bg_color
 -%}
 
 {%- capture style -%}
   --PT: {{ section.settings.padding_top }}px;
   --PB: {{ section.settings.padding_bottom }}px;
-
-  {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank -%}
-    --bg: {{ bg_color }};
-    background-color: var(--bg);
-  {%- endunless -%}
 {%- endcapture -%}
 
 <section id="ProductsImage--{{ section.id }}"
@@ -63,15 +57,6 @@
       "id": "reverse_blocks",
       "label": "Reverse block placement",
       "default": false
-    },
-    {
-      "type": "header",
-      "content": "Colors"
-    },
-    {
-      "type": "color",
-      "id": "bg_color",
-      "label": "Background"
     },
     {
       "type": "header",

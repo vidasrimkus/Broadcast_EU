@@ -144,7 +144,7 @@
         <span class="underlay{% unless filter_layout == 'slide-out' %} mobile{% endunless %}" data-collection-sidebar-close></span>
       {%- elsif enable_sort -%}
         <collection-filters-form>
-          <form data-collection-filters-form class="collection__filters hidden" id="{{ section.id }}-form-filter"></form>
+          <form data-collection-filters-form class="collection__filters" id="{{ section.id }}-form-filter"></form>
         </collection-filters-form>
       {%- endif -%}
 

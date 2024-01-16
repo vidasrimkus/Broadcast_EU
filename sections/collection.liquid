@@ -160,7 +160,7 @@
         <div class="underlay{% unless filter_layout == 'slide-out' %} mobile{% endunless %}" data-collection-sidebar-close></div>
       {%- elsif enable_sort -%}
         <collection-filters-form>
-          <form data-collection-filters-form class="collection__filters hidden" id="{{ section.id }}-form-filter"></form>
+          <form data-collection-filters-form class="collection__filters" id="{{ section.id }}-form-filter"></form>
         </collection-filters-form>
       {%- endif -%}
 
@@ -184,23 +184,23 @@
                 endif
               -%}
 
-              {%- capture style -%}
-                {%- unless featured_color_text == 'rgba(0,0,0,0)' or featured_color_text == blank -%}
-                  --text: {{ featured_color_text }};
-                {%- endunless -%}
-                --overlay-opacity: {{ featured_overlay_opacity }};
-                --overlay-bg: {{ featured_color_overlay }};
-              {%- endcapture -%}
+              {%- style -%}
+                #Product-item--{{ block.id }} .product-item__image-overlay {
+                  {%- unless featured_color_text == 'rgba(0,0,0,0)' or featured_color_text == blank -%}
+                    color: {{ featured_color_text }};
+                  {%- endunless -%}
+                }
+                #Product-item--{{ block.id }} .product-item__image-overlay::before { opacity: {{ featured_overlay_opacity }}; background-color: {{ featured_color_overlay }}; }
+              {%- endstyle -%}
 
               <div class="grid-item product-item product-item--featured-image"
                 id="Product-item--{{ block.id }}"
-                style="{{ style }}"
                 {{ block.shopify_attributes }}>
                 {%- capture featured_image_content -%}
                   <div class="product-item__image-overlay">
                     <div class="product-item__image-content">
                       {%- if featured_header != blank -%}
-                        <h3 class="heading-size-{{ block.settings.heading_size }}">{{ featured_header }}</h3>
+                        <h3>{{ featured_header }}</h3>
                       {%- endif -%}
 
                       {%- if featured_text != blank -%}
@@ -398,16 +398,7 @@
             "type": "text",
             "id": "featured_heading",
             "label": "Heading",
-            "default": "Featured link"
-          },
-          {
-            "type": "range",
-            "id": "heading_size",
-            "label": "Heading size",
-            "min": 1,
-            "max": 15,
-            "step": 1,
-            "default": 7
+            "default":"Featured link"
           },
           {
             "type": "richtext",

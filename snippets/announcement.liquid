@@ -12,9 +12,6 @@
   assign text_color = section.settings.color
   assign text_size = section.settings.text_size
   assign show_border = section.settings.show_border
-  if section.location == 'header' and section.blocks.size == 0
-    assign show_border = false
-  endif
   assign show_arrows = section.settings.show_arrows | default: false
   assign text_align = section.settings.text_alignment | default: 'center'
   assign justify_content = 'flex-start'
@@ -38,7 +35,7 @@
     if block.settings.text_style
       assign text_style = block.settings.text_style | prepend: " "
     endif
-    assign font_options = 'class="body-size-' | append: text_size | append: text_style | append: '"'
+    assign font_options = 'class="body-size-' | append: text_size | append: text_style  | append: '"'
     assign blocks_counter = blocks_counter | plus: 1
     assign block_style = ''
     assign color = block.settings.color

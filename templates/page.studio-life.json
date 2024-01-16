@@ -1,0 +1,212 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": false,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "8896f516-2f54-4083-9824-3e697e6cbe6a": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--19080906932569__8896f516-2f54-4083-9824-3e697e6cbe6a-16863994422c3267d8-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Studio \/ Process",
+            "text_size": 6
+          }
+        },
+        "template--19080906932569__8896f516-2f54-4083-9824-3e697e6cbe6a-16863994422c3267d8-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have always known that we want to keep the entire operation of designing, sewing, labeling, and shipping local because we could monitor the entire process closely and because we wanted to do business with the smallest environmental footprint. \tKeeping supply chain local and leading in-house manufacturing needs enough space for team members and all the inventory to be stored and managed. It also brings a lot of responsibility, but it gives freedom and the ability to ensure that the whole production process will meet our visions and values.<br\/><br\/>Our brand mostly grew through word of mouth. It overgrew so quickly that we had to expand our tiny 100 m2  studio to almost 1000 m2. Basically, we had to create the most comfortable home for the whole team as long as the most creative playground for our family kids. <br\/><br\/>All items you are receiving from us are genuinely handmade in our spacious family-owned studio by all people working there. We have a cutting, sewing, and shipping department full of creative people, and they are here every morning to do their best to ensure you the fit, quality, and in-time delivery. <br\/><br\/>We are dedicated to the thoughtful creating\/making process, so we try to avoid programmed machines or other non-human help. However, in contradiction, we try to use as much human input in the whole process as possible to provide you with genuinely handmade items and hire more local dressmakers who could fairly earn a living. Regarding this, our making process is slow, but we hope it also motivates our customers to find satisfaction in slow buying and living.<\/p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19080906932569__8896f516-2f54-4083-9824-3e697e6cbe6a-16863994422c3267d8-1",
+        "template--19080906932569__8896f516-2f54-4083-9824-3e697e6cbe6a-16863994422c3267d8-2"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "bc510000-11e7-4dc8-95b5-36ad8ccdd4dc": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--19080906932569__bc510000-11e7-4dc8-95b5-36ad8ccdd4dc-1686398650c99f6ea7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/process-1.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "2c976728-a239-4de3-986e-d989242e51b0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/zooomy-163542327921-1_1080x1080_3.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19080906932569__bc510000-11e7-4dc8-95b5-36ad8ccdd4dc-1686398650c99f6ea7-0",
+        "2c976728-a239-4de3-986e-d989242e51b0"
+      ],
+      "settings": {
+        "height": "seven-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2d3f06e1-0ba4-4150-8fba-40887ab57502": {
+      "type": "section-custom-content",
+      "blocks": {
+        "d68923a9-4cd1-42c2-a1ae-ef48a06ae88b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/visions-1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "bb7a7238-8314-4363-a591-3c825ad4aa6e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about_1_nauja.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "d68923a9-4cd1-42c2-a1ae-ef48a06ae88b",
+        "bb7a7238-8314-4363-a591-3c825ad4aa6e"
+      ],
+      "settings": {
+        "height": "seven-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "borders": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0f339d62-59e4-463b-86e2-afa247f0b3e4": {
+      "type": "section-video",
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/NotPerfectLinen_10sek_med-low.mp4",
+        "show_video_popup": true,
+        "video_popup_social": "",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "width": "wrapper--full",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "title": "",
+        "heading_size": 8,
+        "description": "",
+        "text_size": 3,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff",
+        "link_text": "",
+        "link": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8896f516-2f54-4083-9824-3e697e6cbe6a",
+    "bc510000-11e7-4dc8-95b5-36ad8ccdd4dc",
+    "2d3f06e1-0ba4-4150-8fba-40887ab57502",
+    "0f339d62-59e4-463b-86e2-afa247f0b3e4"
+  ]
+}

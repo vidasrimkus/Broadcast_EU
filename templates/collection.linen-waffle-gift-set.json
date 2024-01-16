@@ -1,0 +1,108 @@
+{
+  "sections": {
+    "4c2a397b-f839-4cde-b1f5-5d226848efb0": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--19437252739417__4c2a397b-f839-4cde-b1f5-5d226848efb0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Sustainable Gifting is nothing but a Choice",
+            "text_size": 6
+          }
+        },
+        "template--19437252739417__4c2a397b-f839-4cde-b1f5-5d226848efb0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you were to guess which items were widely appreciated as a gift, you would be surprised that diamond earrings are not among them. We are maximum believers that our waffle bath towels are the most universally appealing gift that would suit all; even people who are impossible to shop for will appreciate it. Indeed, we don't remember a single case when our bath towels have been returned.<\/p><p><\/p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19437252739417__4c2a397b-f839-4cde-b1f5-5d226848efb0-heading-1",
+        "template--19437252739417__4c2a397b-f839-4cde-b1f5-5d226848efb0-text-1"
+      ],
+      "custom_css": [
+        "h2 {font-family: New Century Schoolbook, sans-serif;}",
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "#e8e7d9",
+        "color": "#545454",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "5586d8b4-5766-4b77-add3-cb4fd98e2d12": {
+      "type": "section-text-with-products",
+      "custom_css": [
+        ".h2 {font-family: New Century Schoolbook, sans-serif;}"
+      ],
+      "settings": {
+        "heading_size": 6,
+        "width": "wrapper",
+        "bg_color": "#f0f0f0",
+        "color": "",
+        "padding_top": 5,
+        "padding_bottom": 5
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-left",
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "",
+        "show_image": true,
+        "banner_layout": "inline",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "overlay_opacity": 20,
+        "overlay_color": "#ffffff",
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "disabled": true,
+      "settings": {
+        "subcollection_layout": "carousel",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "collection",
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "slide-out",
+        "collection_linklist": "",
+        "grid": 3,
+        "grid_mobile": "2",
+        "product_limit": 27,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "4c2a397b-f839-4cde-b1f5-5d226848efb0",
+    "5586d8b4-5766-4b77-add3-cb4fd98e2d12",
+    "hero",
+    "subcollections",
+    "main"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": false,
+        "heading_size": 8,
+        "show_content": false,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "d2cf4838-7a1e-48e7-a489-1c769b2bd410": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--19409814487385__d2cf4838-7a1e-48e7-a489-1c769b2bd410-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "\"Heat Wave Saver\"",
+            "text_size": 6
+          }
+        },
+        "b7141b3e-88d5-4135-86d9-b45e4c50d8b7": {
+          "type": "heading",
+          "settings": {
+            "title": "Light-Weight Linen Clothing",
+            "text_size": 4
+          }
+        },
+        "template--19409814487385__d2cf4838-7a1e-48e7-a489-1c769b2bd410-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Light-Weight (±140 g\/m² | ±4.1 oz\/yd²) Linen Clothing Collection is a life saver in extremely hot and humid environments. Light weight linen fabric allows air to circulate even more freely compared to Medium - Weight linen fabric. As a result, the clothes have superior moisture absorption, ventilation, evaporation of sweat, and drying qualities, and they effectively prevent clothing from becoming stuck to the skin.<\/p><p><\/p>",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
+        },
+        "7ace9b6c-f989-4d4d-84ea-c88cb83f78ca": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop the collection",
+            "button_url": "shopify:\/\/collections\/light-weight-linen",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19409814487385__d2cf4838-7a1e-48e7-a489-1c769b2bd410-heading-1",
+        "b7141b3e-88d5-4135-86d9-b45e4c50d8b7",
+        "template--19409814487385__d2cf4838-7a1e-48e7-a489-1c769b2bd410-text-1",
+        "7ace9b6c-f989-4d4d-84ea-c88cb83f78ca"
+      ],
+      "custom_css": [
+        "h2 {font-family: New Century Schoolbook, sans-serif;}",
+        "p {text-align: justify;}"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "#f7f3eb",
+        "color": "",
+        "padding_top": 42,
+        "padding_bottom": 46
+      }
+    },
+    "1691311576daf54764": {
+      "type": "apps",
+      "blocks": {
+        "ce0f86b5-9e42-40e3-abf6-f18e414c616d": {
+          "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery\/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+          "settings": {
+            "type": "gallery",
+            "id": 4,
+            "mid": ""
+          }
+        }
+      },
+      "block_order": [
+        "ce0f86b5-9e42-40e3-abf6-f18e414c616d"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d2cf4838-7a1e-48e7-a489-1c769b2bd410",
+    "1691311576daf54764"
+  ]
+}

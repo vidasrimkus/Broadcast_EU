@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": false,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "#ab8c52",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "73159918-0103-4539-9426-f0c03d675b1e": {
+      "type": "section-custom-code",
+      "settings": {
+        "code": "To create a size guide modal similar to the one on the Everlane product page you provided, you'll need to use HTML, CSS, and JavaScript. Below is an example of how you can create a similar size guide modal:\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Clothing Size Guide<\/title>\n    <style>\n        \/* Styling for the modal *\/\n        .modal {\n            display: none;\n            position: fixed;\n            top: 0;\n            left: 0;\n            width: 100%;\n            height: 100%;\n            background-color: rgba(0, 0, 0, 0.8);\n            z-index: 1;\n            overflow: auto;\n        }\n\n        .modal-content {\n            background-color: #fff;\n            margin: 10% auto;\n            padding: 20px;\n            width: 60%;\n            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);\n            text-align: center;\n            position: relative;\n        }\n\n        \/* Styling for the close button *\/\n        .close-button {\n            position: absolute;\n            top: 10px;\n            right: 10px;\n            font-size: 20px;\n            cursor: pointer;\n        }\n\n        \/* Styling for the size guide table *\/\n        table {\n            width: 100%;\n            border-collapse: collapse;\n        }\n\n        th, td {\n            padding: 10px;\n            border-bottom: 1px solid #ddd;\n        }\n\n        \/* Styling for the toggle button *\/\n        .toggle-button {\n            padding: 10px 20px;\n            background-color: #007bff;\n            color: #fff;\n            border: none;\n            cursor: pointer;\n        }\n    <\/style>\n<\/head>\n<body>\n    <button class=\"toggle-button\" onclick=\"toggleModal()\">Size Guide<\/button>\n    <div id=\"sizeGuideModal\" class=\"modal\">\n        <div class=\"modal-content\">\n            <span class=\"close-button\" onclick=\"toggleModal()\">&times;<\/span>\n            <h2>Clothing Size Guide<\/h2>\n            <table>\n                <tr>\n                    <th>Size<\/th>\n                    <th>Bust<\/th>\n                    <th>Waist<\/th>\n                    <th>Hips<\/th>\n                <\/tr>\n                <tr>\n                    <td>XS<\/td>\n                    <td>32-33\"<\/td>\n                    <td>25-26\"<\/td>\n                    <td>35-36\"<\/td>\n                <\/tr>\n                <tr>\n                    <td>S<\/td>\n                    <td>34-35\"<\/td>\n                    <td>27-28\"<\/td>\n                    <td>37-38\"<\/td>\n                <\/tr>\n                <tr>\n                    <td>M<\/td>\n                    <td>36-37\"<\/td>\n                    <td>29-30\"<\/td>\n                    <td>39-40\"<\/td>\n                <\/tr>\n                <tr>\n                    <td>L<\/td>\n                    <td>38-40\"<\/td>\n                    <td>31-33\"<\/td>\n                    <td>41-43\"<\/td>\n                <\/tr>\n                <tr>\n                    <td>XL<\/td>\n                    <td>41-43\"<\/td>\n                    <td>34-36\"<\/td>\n                    <td>44-46\"<\/td>\n                <\/tr>\n            <\/table>\n        <\/div>\n    <\/div>\n\n    <script>\n        \/\/ Function to toggle the modal display\n        function toggleModal() {\n            var modal = document.getElementById(\"sizeGuideModal\");\n            if (modal.style.display === \"block\") {\n                modal.style.display = \"none\";\n            } else {\n                modal.style.display = \"block\";\n            }\n        }\n    <\/script>\n<\/body>\n<\/html>",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "73159918-0103-4539-9426-f0c03d675b1e"
+  ]
+}

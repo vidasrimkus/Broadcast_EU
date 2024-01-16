@@ -17,8 +17,7 @@
 {% endcomment %}
 
 {%- liquid
-  assign text_size_desktop = text_size_desktop | default: 10
-  assign text_size_mobile = text_size_mobile | default: 6
+  assign text_size = text_size | default: 10
   assign expiration_date = expiration_date | default: 'now' | date: '%s'
   assign end_message = end_message | default: ''
   assign hide_on_complete = hide_on_complete | default: false
@@ -64,9 +63,7 @@
 
 <countdown-timer
   data-expiration-behavior="{{ expiration_behaviour }}"
-  style="
-    --digit-font-size-desktop: var(--font-{{ text_size_desktop }});
-    --digit-font-size-mobile: var(--font-{{ text_size_mobile }});"
+  style="--digit-font-size: var(--font-{{ text_size }});"
 >
   <div class="countdown__timer">
     <time class="countdown__datetime" datetime="{{ expiration_date | date: '%Y-%m-%dT%H:%M:%S.%3N%z' }}">

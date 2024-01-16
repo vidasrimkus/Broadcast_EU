@@ -11,6 +11,28 @@
   assign form_blocks = section.blocks | where: "type", "buttons"
 -%}
 
+{%- capture preorder -%}
+  {%- liquid
+    comment
+      Add a line item property called 'Preorder' to preorder products
+    endcomment
+    assign is_preorder_meta = false
+    assign is_preorder_tag = false
+
+    if current_variant.available and product.metafields.theme.preorder.type == 'boolean' and product.metafields.theme.preorder.value == true
+      assign is_preorder_meta = true
+    endif
+
+    if current_variant.available and product.tags contains '_preorder'
+      assign is_preorder_tag = true
+    endif
+  -%}
+
+  {%- if is_preorder_meta or is_preorder_tag -%}
+    <input form="{{ product_form_id }}" type="hidden" data-product-preorder name="properties[{{ 'products.product.sale_type' | t }}]" value="{{ 'products.product.pre_order' | t }}">
+  {%- endif -%}
+{%- endcapture -%}
+
 {%- capture product_variant_options -%}
   {%- if settings.show_labels == false -%}
     {%- assign hide_labels_class = ' variant__labels--hide' -%}
@@ -24,21 +46,20 @@
           {%- assign option_name_handle_separator = option.name | handle | prepend: ',' | append: ',' -%}
 
           {% comment %} Determine if current option matches swatch handle translations {% endcomment %}
-{%- liquid
-  assign is_swatch_option = false
 
-  if settings.color_swatches and filter.presentation != 'swatch'
-    assign swatch_translation = 'general.swatches.color' | t
-    assign translation_string = swatch_translation | remove: '  ' | replace: ', ', ',' | replace: ' ,', ',' | replace: ',', '____' | handle | replace: '____', ',' | append: ',' | prepend: ','
+          {%- if settings.color_swatches -%}
+            {%- assign is_swatch_option = false -%}
+            {%- assign swatch_translation = 'general.swatches.color' | t -%}
+            {%- assign translation_string = swatch_translation | remove: '  ' | replace: ', ', ',' | replace: ' ,', ',' | replace: ',', '____' | handle | replace: '____', ',' | append: ',' | prepend: ',' -%}
 
-    if translation_string contains option_name_handle_separator
-      assign is_swatch_option = true
-    endif
-  endif
--%}
+            {%- if translation_string contains option_name_handle_separator -%}
+              {%- assign is_swatch_option = true -%}
+            {%- endif -%}
+          {%- endif -%}
 
+          {% render 'product-variant-options.css' %}
 
-                    {%- comment -%}
+          {%- comment -%}
             Determine if current option matches size handle translations
           {%- endcomment -%}
 
@@ -183,12 +204,12 @@
                                 {{ tabs_navigation }}
                               </ul>
 
-                              <button type="button" class="tabs__arrow tabs__arrow--prev is-hidden" data-scrollbar-arrow-prev>
+                              <button type="button" class="tabs__arrow tabs__arrow--prev tabs-collections__arrow tabs-collections__arrow--prev is-hidden" data-scrollbar-arrow-prev>
                                 {%- render 'icon-nav-arrow-left' -%}
                                 <span class="visually-hidden">{{ 'products.general.see_all' | t }}</span>
                               </button>
 
-                              <button type="button" class="tabs__arrow tabs__arrow--next is-hidden" data-scrollbar-arrow-next>
+                              <button type="button" class="tabs__arrow tabs__arrow--next tabs-collections__arrow tabs-collections__arrow--next is-hidden" data-scrollbar-arrow-next>
                                 {%- render 'icon-nav-arrow-right' -%}
                                 <span class="visually-hidden">{{ 'products.general.see_all' | t }}</span>
                               </button>
@@ -209,7 +230,10 @@
 
           <div class="selector-wrapper{% if settings.variant_lines and is_size_option %} selector-wrapper--size{% elsif settings.variant_lines or is_swatch_option %} selector-wrapper--fullwidth{% endif %}"
             data-option-position="{{ option.position }}">
+
             {%- if settings.variant_lines or is_swatch_option -%}
+              {%- comment -%} if variants as Boxes or Swatches {%- endcomment -%}
+
               {%- assign current_value = current_variant.options[forloop.index0] -%}
               <fieldset>
                 <div class="radio__fieldset{% if is_swatch_option %} radio__fieldset--swatches{% endif %}">
@@ -270,61 +294,135 @@
                   </div>
                 </div>
               </fieldset>
+
             {%- else -%}
-              {%- assign selects_counter = selects_counter | plus: 1 -%}
-              <fieldset>
-                <div class="select__fieldset">
-                  {%- capture input_id -%}{{ uniq_id }}-option-{{ option.position }}{%- endcapture -%}
-                  <legend class="radio__legend{% if is_size_option and size_chart_link and show_size_link_separated == false %} radio__legend--size{% endif %}">
-                    <span class="radio__legend__label{% if size_style == 'text' %} radio__legend__label--text{% endif %}" id="{{ uniq_id }}-select-{{ option.name | handle }}-label">
-                      <span class="radio__legend__option-name">{{ option.name }}</span>
+              {%- comment -%} if Variants as standard selectors {%- endcomment -%}
+              <div class="flex-gap">
+                {%- assign selects_counter = selects_counter | plus: 1 -%}
 
-                      {%- if is_size_option -%}
-                        {{- size_chart_link -}}
-                      {%- endif -%}
+                <fieldset class="flex-basis">
+                  <div class="select__fieldset">
+                    {%- capture input_id -%}{{ uniq_id }}-option-{{ option.position }}{%- endcapture -%}
+                    <legend class="radio__legend{% if is_size_option and size_chart_link and show_size_link_separated == false %} radio__legend--size{% endif %}">
+                      <span class="radio__legend__label{% if size_style == 'text' %} radio__legend__label--text{% endif %}" id="{{ uniq_id }}-select-{{ option.name | handle }}-label">
+                        <span class="radio__legend__option-name">{{ option.name }}</span>
 
-                      {%- if settings.show_labels -%}
-                        <small class="radio__legend__value" data-option-value>{{ current_value }}</small>
-                      {%- endif -%}
-                    </span>
-                  </legend>
+                        {%- if is_size_option -%}
+                          {{- size_chart_link -}}
+                        {%- endif -%}
 
-                  <popout-select class="select-popout">
-                    <button type="button"
-                      class="select-popout__toggle"
-                      aria-expanded="false"
-                      aria-controls="{{ uniq_id }}-select-{{ option.name | handle }}"
-                      aria-labelledby="{{ uniq_id }}-select-{{ option.name | handle }}-label"
-                      data-select-soldout=" - {{ 'products.product.sold_out' | t }}"
-                      data-select-unavailable=" - {{ 'products.product.unavailable' | t }}"
-                      data-popout-toggle>
-                      <span data-popout-toggle-text>{{ option.selected_value }}</span>
-                      {%- render 'icon-nav-arrow-down' -%}
-                    </button>
+                      </span>
+                    </legend>
 
-                    <ul id="{{ uniq_id }}-select-{{ option.name | handle }}" class="select-popout__list" data-popout-list data-scroll-lock-scrollable>
-                      {%- for value in option.values -%}
-                        <li class="select-popout__item{% if option.selected_value == value %} is-active{% endif %}">
-                          <a class="select-popout__option"
-                            href="#"
-                            {% if option.selected_value == value %}aria-current="true"{% endif %}
-                            data-value="{{ value | escape }}"
-                            data-popout-option
-                            data-select-soldout=" - {{ 'products.product.sold_out' | t }}"
-                            data-select-unavailable=" - {{ 'products.product.unavailable' | t }}">
-                            <span>
-                              {{ value }}
-                            </span>
-                          </a>
-                        </li>
-                      {%- endfor -%}
-                    </ul>
-                    <input form="{{ product_form_id }}" type="hidden" name="options[{{ option.name | escape }}]-{{ uniq_id }}" id="{{ input_id }}" value="{{ option.selected_value | escape }}" data-popout-input data-single-option-selector data-index="option{{ option.position }}">
-                  </popout-select>
-                </div>
-              </fieldset>
+                    <popout-select class="select-popout" data-popout data-popout-prevent="true">
+                      <button type="button"
+                        class="select-popout__toggle"
+                        aria-expanded="false"
+                        aria-controls="{{ uniq_id }}-select-{{ option.name | handle }}"
+                        aria-labelledby="{{ uniq_id }}-select-{{ option.name | handle }}-label"
+                        {%  comment %}data-select-soldout=" - {{ 'products.product.sold_out' | t }}"{%  endcomment %}
+                        {%  comment %}data-select-unavailable=" - {{ 'products.product.unavailable' | t }}"{%  endcomment %}
+                        data-popout-toggle>
+                        <span data-popout-toggle-text>{{ option.selected_value }}</span>
+                        {%- render 'icon-nav-arrow-down' -%}
+                      </button>
+
+                      <ul id="{{ uniq_id }}-select-{{ option.name | handle }}" class="select-popout__list" data-popout-list>
+                        {%- for value in option.values -%}
+                          <li class="select-popout__item{% if option.selected_value == value %} is-active{% endif %}">
+                            <a class="select-popout__option"
+                              href="#"
+                              {% if option.selected_value == value %}aria-current="true"{% endif %}
+                              data-value="{{ value | escape }}"
+                              data-popout-option
+                              {%  comment %}data-select-soldout=" - {{ 'products.product.sold_out' | t }}"{%  endcomment %}
+                              {%  comment %}data-select-unavailable=" - {{ 'products.product.unavailable' | t }}"> {%  endcomment %}
+                              <span>
+                                {{ value|  escape_once }}
+                              </span>
+                            </a>
+                          </li>
+                        {%- endfor -%}
+                      </ul>
+                      <input form="{{ product_form_id }}" type="hidden" name="options[{{ option.name | escape }}]-{{ uniq_id }}" id="{{ input_id }}" value="{{ option.selected_value | escape }}" data-popout-input data-single-option-selector data-index="option{{ option.position }}">
+                    </popout-select>
+                  </div>
+                </fieldset>
+              </div>
             {%- endif -%}
           </div>
+
+
+            {%- comment -%}
+              Metafields
+            {%- endcomment -%}
+  
+            {% if  product.metafields.products.size.value != blank  %}
+              <div class="selector-wrapper">
+                <fieldset class="flex-basis">
+                  <div class="select__fieldset">
+                    {% if template contains 'size-metafields' %}
+                      {%- assign option_name = 'Size' -%}
+                      {%- assign option_values = product.metafields.products.size.value -%}
+                    {% else %}
+                      {%- assign option_name = 'Length' -%}
+                      {%- assign option_values = product.metafields.products.length.value -%}
+                    {% endif %}
+  
+                    {%- capture input_id -%}{{ uniq_id }}-option-{{ selects_counter }}{%- endcapture -%}  
+
+                    <legend class="radio__legend">
+                        <span class="radio__legend__label" id="{{ uniq_id }}-select-{{ option_name | handle }}-label">
+                          <span class="radio__legend__option-name">{{ option_name | escape_once }}</span>
+
+                          {%- if settings.show_labels -%}
+                            <small class="radio__legend__value" data-option-value></small>
+                          {%- endif -%}
+
+                        </span>
+                    </legend>
+
+                    <popout-select class="select-popout">
+                      <button type="button"
+                        class="select-popout__toggle"
+                        aria-expanded="false"
+                        aria-controls="{{ uniq_id }}-select-{{ option_name | handle }}"
+                        aria-labelledby="{{ uniq_id }}-select-{{ option_name | handle }}-label"
+                        data-select-soldout=" - {{ 'products.product.sold_out' | t }}"
+                        data-select-unavailable=" - {{ 'products.product.unavailable' | t }}"
+                        data-popout-toggle>
+                        <span data-popout-toggle-text>{{ option_values[0] }}</span>
+                          {%- render 'icon-nav-arrow-down' -%}
+                      </button>
+    
+                          
+                      <ul id="{{ uniq_id }}-select-{{ option_name | handle }}" class="select-popout__list" data-popout-list>
+                            {%- for value in option_values -%}
+                              <li class="select-popout__item{% if value == option_values[0] %} is-active{% endif %}">
+                               <a class="select-popout__option"
+                                  href="#"
+                                  {% if value == option_values[0] %}aria-current="true"{% endif %}
+                                  data-value="{{ value | escape_once }}"
+                                  data-popout-option
+                                  {%  comment %} data-select-soldout=" - {{ 'products.product.sold_out' | t }}"{%  endcomment %}
+                                  {%  comment %}data-select-unavailable=" - {{ 'products.product.unavailable' | t }}"{%  endcomment %}> 
+                                  <span>
+                                {{ value | escape_once }}
+                                  </span>
+                                </a>
+                              </li>
+                            {%- endfor -%}
+                      </ul>
+    
+                      <input form="{{ product_form_id }}" type="hidden" name="properties[{{ option_name | escape_once }}]" id="{{ input_id }}" value="{{ option_values[0] | escape_once }}" data-popout-input data-single-option-selector data-index="option{{ selects_counter }}">
+                    </popout-select>
+
+                  </div>
+                </fieldset>
+              </div>
+            {%- endif -%}
+
+
         {%- endfor -%}
       </div>
 
@@ -372,14 +470,24 @@
       <product-form>
     {%- endunless -%}
       <div class="product__form__outer{{ hide_labels_class }}">
+        {%- if preorder != blank -%}
+          {{ preorder }}
+        {%- endif -%}
+
         {{ product_variant_options }}
       </div>
     {%- unless form_blocks.size > 0 -%}
       </product-form>
     {%- endunless -%}
   </div>
+{%- elsif preorder != blank -%}
+  <div class="product__block"
+    style="--block-padding-bottom: 0px;"
+    {{ block.shopify_attributes }}>
+    {{ preorder }}
+  </div>
 {%- endif -%}
 
-{%- if request.design_mode and product_variant_options == blank -%}
+{%- if product_variant_options == blank and preorder == blank and request.design_mode -%}
   <div {{ block.shopify_attributes }}></div>
 {%- endif -%}

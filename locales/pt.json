@@ -92,9 +92,7 @@
       "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrelas",
       "scroll_to_top": "Voltar ao início",
       "scroll_to_product": "Role até o produto",
-      "scroll_to_logo": "Role até o logotipo",
-      "footer_logo": "Logotipo do rodapé",
-      "slide_image": "Imagem do slide"
+      "scroll_to_logo": "Role até o logotipo"
     },
     "cookies": {
       "title": "Podemos armazenar cookies?",

@@ -17,7 +17,7 @@
 {%- assign collection_image = block.settings.image | default: collection.image -%}
 
 {%- assign mobile_slider = "grid--mobile-vertical" -%}
-{%- if section.settings.layout_mobile == 'slider' -%}
+{%- if section.settings.layout_mobile == 'carousel' -%}
   {%- assign mobile_slider = "grid--mobile-slider" -%}
 {%- endif -%}
 

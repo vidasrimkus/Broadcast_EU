@@ -1,4 +1,4 @@
-<!-- /snippets/product-siblings.liquid -->
+<!-- /snippets/product-siblings.liquid  -->
 
 {%- liquid
   assign metafields = metafields | default: false
@@ -64,24 +64,10 @@
 
                 capture swatch_image
                   if settings.sibling_style == 'image'
-
-                    case settings.swatch_size
-                      when 'regular'
-                        assign sibling_width = 2.2 | times: settings.type_body_size | divided_by: 100.0 | times: 16 | round
-                      when 'large'
-                        assign sibling_width = 3 | times: settings.type_body_size | divided_by: 100.0 | times: 16 | round
-                    endcase
-
-                    assign sibling_sizes = sibling_width | append: 'px'
-                    assign sibling_width_15x = sibling_width | times: 1.5
-                    assign sibling_width_2x = sibling_width | times: 2
-                    assign sibling_widths = sibling_width | append: ', ' | append: sibling_width_15x | append: ', ' | append: sibling_width_2x
-
-                    render 'image', image: sib_product.featured_media.preview_image, width: sibling_width_2x, height: sibling_width_2x, widths: sibling_widths, sizes: sibling_sizes, aspect_ratio: 1
+                    render 'image', image: sib_product.featured_media.preview_image, width: 64, height: 64, widths: '32, 64, 96', sizes: '32px', aspect_ratio: 1
                   endif
                 endcapture
               -%}
-
               <radio-swatch
                 class="swatches swatch__button swatch__button--{{ settings.swatch_style }} swatch-{{ swatch_color | handle }}"
                 style="--swatch: var(--{{ swatch_color }});"

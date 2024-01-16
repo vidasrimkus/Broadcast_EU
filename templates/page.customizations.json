@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "2512fffa-7190-4183-ac1f-6cd23067ae02": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--19071507792217__2512fffa-7190-4183-ac1f-6cd23067ae02-16863964163e55e74a-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Customizations \/ Don't see your size?",
+            "text_size": 6
+          }
+        },
+        "template--19071507792217__2512fffa-7190-4183-ac1f-6cd23067ae02-16863964163e55e74a-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you want your item to be customized, please leave a note at the \"Check out\".<\/p><p><\/p><p>We do the following <strong>3 customizations free of charge<\/strong>:<\/p><p>• Customize your item to your own measurements.<\/p><p>• Take off or add extra inches (up to 7.9 in\/ 20 cm) to the garment length (torso, waistline etc.).<\/p><p>• Take off or add extra inches to the sleeve length (except Sydney, Perth, Malta or Monaco dress).<\/p><p>• Take off, add or change buttons\/snaps.<\/p><p>• Make changes to the neckline\/collar.<\/p><p>• Add or remove pockets.<\/p><p>• Adjust armholes.<\/p><p>• Adjust hem allowance.<\/p><p>• Add belts or ties to the garment.<\/p><p>If you couldn’t find the exact adjustment, please contact us prior to ordering.<\/p><p> <\/p><p><strong>Please note once again that customized items cannot be returned, refunded or exchanged.<\/strong><\/p>",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19071507792217__2512fffa-7190-4183-ac1f-6cd23067ae02-16863964163e55e74a-1",
+        "template--19071507792217__2512fffa-7190-4183-ac1f-6cd23067ae02-16863964163e55e74a-2"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2512fffa-7190-4183-ac1f-6cd23067ae02"
+  ]
+}

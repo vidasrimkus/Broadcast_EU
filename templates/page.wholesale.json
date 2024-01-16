@@ -1,0 +1,88 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": false,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "a1b85fd5-e8ab-42d3-9f97-894ed60953a9": {
+      "type": "section-custom-content",
+      "blocks": {
+        "template--19080932589913__a1b85fd5-e8ab-42d3-9f97-894ed60953a9-1686398650c99f6ea7-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "",
+            "heading_size": 7,
+            "text": "<p>Do you have a question about wholesale? Send us an email to: <a href=\"mailto:wholesale@notperfectlinen.com\" target=\"_blank\">wholesale@notperfectlinen.com<\/a><\/p>",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        },
+        "template--19080932589913__a1b85fd5-e8ab-42d3-9f97-894ed60953a9-1686398650c99f6ea7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/zooomy-163542326218a-1_1080x1080_52fb8b6a-d8ee-408b-ac64-cc40a4dfbac6.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19080932589913__a1b85fd5-e8ab-42d3-9f97-894ed60953a9-1686398650c99f6ea7-1",
+        "template--19080932589913__a1b85fd5-e8ab-42d3-9f97-894ed60953a9-1686398650c99f6ea7-0"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a1b85fd5-e8ab-42d3-9f97-894ed60953a9"
+  ]
+}
