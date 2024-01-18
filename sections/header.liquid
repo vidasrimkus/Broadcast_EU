@@ -156,6 +156,8 @@
   {%- endif -%}
 {%- endif -%}
 
+{% render 'header-extra.css' %}
+
 {%- style -%}
   :root {
     --HEADER-HEIGHT: {{ header_height }}px;
@@ -466,7 +468,7 @@
   </div>
 
   {{ logos }}
-
+  
   <div class="header__mobile__right{% if settings.type_nav_caps %} caps{% endif %}">
     {%- if header_popouts -%}
       {%- assign unique = section.id | append: '-header-mobile-top' -%}
@@ -488,6 +490,9 @@
         {{ cart_status }}
       </a>
     </div>
+
+    <div class="doubly-wrapper"></div>
+
   </div>
 
   {%- if tertiary_menu_linklist != blank and linklists[tertiary_menu_linklist].links.size > 0 -%}
@@ -520,6 +525,10 @@
         {%- render 'localization' unique: unique, show_locale_selector: show_locale_selector, show_country_selector: show_country_selector, show_country_flag: show_country_flag, show_country_name: show_country_name, class: 'header', short_country_name: true -%}
       </div>
     {%- endif -%}
+
+    <div class="header__desktop__button">  
+      <div id="header-switch" class="doubly-wrapper navlink p-0"></div>
+    </div>
 
     {%- if shop.customer_accounts_enabled -%}
       <div class="header__desktop__button">
