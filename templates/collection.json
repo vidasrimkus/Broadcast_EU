@@ -3,7 +3,7 @@
     "5586d8b4-5766-4b77-add3-cb4fd98e2d12": {
       "type": "section-text-with-products",
       "custom_css": [
-        ".h2 {font-family: New Century Schoolbook, sans-serif;}"
+        ".subheading {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center;}"
       ],
       "settings": {
         "subheading": "{{ collection.title }}",

@@ -3,12 +3,12 @@
     "ce31d471-1b7e-417d-b50b-47cd0af447ef": {
       "type": "section-text-with-products",
       "custom_css": [
-        ".h2 {font-family: New Century Schoolbook, sans-serif;}"
+        ".subheading {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center;}"
       ],
       "settings": {
-        "subheading": "",
-        "subheading_size": 3,
-        "heading": "Highlight products, a collection or images alongside a brand message",
+        "subheading": "{{ collection.title }}",
+        "subheading_size": 7,
+        "heading": "",
         "heading_size": 6,
         "mobile_heading_size": 5,
         "desktop_text_align": "left",
@@ -40,138 +40,6 @@
         "padding_bottom": 0
       }
     },
-    "6768b7de-d3c9-4934-ae2b-1dd6231b989f": {
-      "type": "section-highlights",
-      "blocks": {
-        "template--20264673935705__6768b7de-d3c9-4934-ae2b-1dd6231b989f-highlight-1": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Tops",
-            "url": "shopify:\/\/collections\/linen-tops",
-            "image": "shopify:\/\/shop_images\/2023_06_20_Not_Perfect_Linen_shot_15_3265_90552686-17a1-4241-8d8c-ab69eb8d3e86.jpg",
-            "color": "",
-            "bg_color": "#F0F0F0",
-            "border_color": ""
-          }
-        },
-        "template--20264673935705__6768b7de-d3c9-4934-ae2b-1dd6231b989f-highlight-2": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Bottoms",
-            "url": "",
-            "color": "",
-            "bg_color": "#F0F0F0",
-            "border_color": ""
-          }
-        },
-        "template--20264673935705__6768b7de-d3c9-4934-ae2b-1dd6231b989f-highlight-3": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Dresses",
-            "url": "",
-            "color": "",
-            "bg_color": "#F0F0F0",
-            "border_color": ""
-          }
-        },
-        "template--20264673935705__6768b7de-d3c9-4934-ae2b-1dd6231b989f-highlight-4": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Socks",
-            "url": "",
-            "color": "",
-            "bg_color": "#F0F0F0",
-            "border_color": ""
-          }
-        },
-        "template--20264673935705__6768b7de-d3c9-4934-ae2b-1dd6231b989f-highlight-5": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Sales",
-            "url": "",
-            "color": "",
-            "bg_color": "#F0F0F0",
-            "border_color": ""
-          }
-        },
-        "template--20264673935705__6768b7de-d3c9-4934-ae2b-1dd6231b989f-highlight-6": {
-          "type": "highlight",
-          "settings": {
-            "heading": "New Arrivals",
-            "url": "",
-            "color": "",
-            "bg_color": "#F0F0F0",
-            "border_color": ""
-          }
-        },
-        "febc437e-edaf-4079-adbf-e36b063d4eb6": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Highlight",
-            "url": "",
-            "color": "",
-            "bg_color": "#F0F0F0",
-            "border_color": ""
-          }
-        },
-        "76bb33d9-7cdb-46cd-865c-da0cfbf21dbf": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Highlight",
-            "url": "",
-            "color": "",
-            "bg_color": "#F0F0F0",
-            "border_color": ""
-          }
-        },
-        "004c4fea-9471-49a1-9fba-0aa01e6be492": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Highlight",
-            "url": "",
-            "color": "",
-            "bg_color": "#F0F0F0",
-            "border_color": ""
-          }
-        },
-        "91796cfd-b087-47ae-8681-a6289fe64103": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Highlight",
-            "url": "",
-            "color": "",
-            "bg_color": "#F0F0F0",
-            "border_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20264673935705__6768b7de-d3c9-4934-ae2b-1dd6231b989f-highlight-1",
-        "template--20264673935705__6768b7de-d3c9-4934-ae2b-1dd6231b989f-highlight-2",
-        "template--20264673935705__6768b7de-d3c9-4934-ae2b-1dd6231b989f-highlight-3",
-        "template--20264673935705__6768b7de-d3c9-4934-ae2b-1dd6231b989f-highlight-4",
-        "template--20264673935705__6768b7de-d3c9-4934-ae2b-1dd6231b989f-highlight-5",
-        "template--20264673935705__6768b7de-d3c9-4934-ae2b-1dd6231b989f-highlight-6",
-        "febc437e-edaf-4079-adbf-e36b063d4eb6",
-        "76bb33d9-7cdb-46cd-865c-da0cfbf21dbf",
-        "004c4fea-9471-49a1-9fba-0aa01e6be492",
-        "91796cfd-b087-47ae-8681-a6289fe64103"
-      ],
-      "settings": {
-        "style": "rectangle",
-        "grid": 6,
-        "width": "wrapper--narrow",
-        "heading": "Highlights",
-        "heading_position": "text-center",
-        "heading_size": 8,
-        "text_size": 3,
-        "color": "",
-        "bg_color": "",
-        "layout_mobile": "slider",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "subcollections": {
       "type": "subcollections",
       "disabled": true,
@@ -183,52 +51,6 @@
         "bg_color": "",
         "padding_top": 20,
         "padding_bottom": 20
-      }
-    },
-    "990080ed-8ead-4bd6-af19-1c0b873d20da": {
-      "type": "section-text-with-products",
-      "blocks": {
-        "template--19437252673881__990080ed-8ead-4bd6-af19-1c0b873d20da-collection-1": {
-          "type": "collection",
-          "settings": {
-            "image_position": 1,
-            "collection": "linen-dresses",
-            "aspect_ratio": 1,
-            "mobile_aspect_ratio": 1,
-            "width": 80,
-            "mobile_width": 60
-          }
-        },
-        "420a8b32-f524-4e3e-97c6-167637db99fd": {
-          "type": "collection",
-          "settings": {
-            "image_position": 6,
-            "collection": "linen-tops",
-            "aspect_ratio": 1,
-            "mobile_aspect_ratio": 1,
-            "width": 80,
-            "mobile_width": 60
-          }
-        }
-      },
-      "block_order": [
-        "template--19437252673881__990080ed-8ead-4bd6-af19-1c0b873d20da-collection-1",
-        "420a8b32-f524-4e3e-97c6-167637db99fd"
-      ],
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "subheading_size": 3,
-        "heading": "Highlight products, a collection or images alongside a brand message",
-        "heading_size": 1,
-        "mobile_heading_size": 5,
-        "desktop_text_align": "left",
-        "mobile_text_align": "left",
-        "width": "wrapper",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "635c7e08-140e-4a64-9fa1-d40ba4143a4a": {
@@ -270,19 +92,16 @@
         "template--19815694762329__635c7e08-140e-4a64-9fa1-d40ba4143a4a-collection-4"
       ],
       "custom_css": [
-        ".grid-container {border-radius: 30px; width: 100%;}",
-        ".grid__items-holder {flex-basis: 0; border-radius: 30px; width: 100%;}",
-        ".collection-list {border-radius: 30px; width: 100%;}",
-        ".grid-item {border-radius: 30px; width: 100px;}",
-        ".collection-item__image {border-radius: 100px; width: 100px;}",
-        ".collection-item__info {width: 100px; border-style: solid;}"
+        ".collection-item__image {display: none;}",
+        ".grid-item {background-color: #fbfaf5;}",
+        "@media (max-width: 767px) {.grid-item {width: 30%; background-color: #fbfaf5; font-family: Cardo; font-weight: 500; }}"
       ],
       "settings": {
         "title": "",
         "description": "",
         "layout": "grid",
         "aspect_ratio": 1,
-        "grid": 4,
+        "grid": 6,
         "layout_mobile": "slider",
         "bg_color": "",
         "color": "",
@@ -309,9 +128,7 @@
   "order": [
     "ce31d471-1b7e-417d-b50b-47cd0af447ef",
     "hero",
-    "6768b7de-d3c9-4934-ae2b-1dd6231b989f",
     "subcollections",
-    "990080ed-8ead-4bd6-af19-1c0b873d20da",
     "635c7e08-140e-4a64-9fa1-d40ba4143a4a",
     "main"
   ]

@@ -7,13 +7,13 @@
           "type": "heading",
           "settings": {
             "title": "Discontinued Colors Sale",
-            "text_size": 6
+            "text_size": 7
           }
         },
         "template--19437252739417__4c2a397b-f839-4cde-b1f5-5d226848efb0-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Please note all discontinued stock can not be exchanged or returned as we will not carry them in the future. This is the reason we are able to offer them in discounted prices.<\/p><p>Current production time for items in this collection is: 6-7 weeks.<\/p>",
+            "text": "<p>Please note all discontinued stock can not be exchanged or returned as we will not carry them in the future. This is the reason we are able to offer them in discounted prices.<\/p>",
             "text_size": 2,
             "text_style": "font-body"
           }
@@ -24,7 +24,7 @@
         "template--19437252739417__4c2a397b-f839-4cde-b1f5-5d226848efb0-text-1"
       ],
       "custom_css": [
-        "h2 {font-family: New Century Schoolbook, sans-serif;}"
+        "h2 {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center; font-weight: 400; font-size: 2rem;}"
       ],
       "settings": {
         "width": "wrapper--narrow",
@@ -77,6 +77,7 @@
         "grid": 3,
         "grid_mobile": "2",
         "product_limit": 27,
+        "border_color": "",
         "padding_top": 0,
         "padding_bottom": 0
       }

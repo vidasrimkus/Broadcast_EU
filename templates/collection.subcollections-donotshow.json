@@ -3,10 +3,16 @@
     "7be8582c-5707-4446-9243-e883b8697af0": {
       "type": "section-text-with-products",
       "custom_css": [
-        ".h2 {font-family: New Century Schoolbook, sans-serif;}"
+        ".subheading {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center;}"
       ],
       "settings": {
+        "subheading": "{{ collection.title }}",
+        "subheading_size": 7,
+        "heading": "",
         "heading_size": 6,
+        "mobile_heading_size": 5,
+        "desktop_text_align": "left",
+        "mobile_text_align": "left",
         "width": "wrapper",
         "bg_color": "#f0f0f0",
         "color": "",
@@ -60,6 +66,7 @@
         "grid": 3,
         "grid_mobile": "2",
         "product_limit": 21,
+        "border_color": "",
         "padding_top": 0,
         "padding_bottom": 0
       }

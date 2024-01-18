@@ -24,7 +24,7 @@
         "template--19437252641113__0380daa8-fc60-4882-8856-9fdc2658fd12-text-1"
       ],
       "custom_css": [
-        "h2 {font-family: New Century Schoolbook, sans-serif;}",
+        "h2 {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center; font-weight: 400; font-size: 2rem;}",
         "p {text-align: justify;}"
       ],
       "settings": {
@@ -78,6 +78,7 @@
         "grid": 3,
         "grid_mobile": "2",
         "product_limit": 21,
+        "border_color": "",
         "padding_top": 0,
         "padding_bottom": 0
       }
