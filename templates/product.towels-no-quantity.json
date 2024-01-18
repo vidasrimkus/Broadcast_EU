@@ -71,7 +71,7 @@
             "show_read_more": true,
             "style": "accordions",
             "title_1": "Details & Fit",
-            "raw_content_1": "{{ product.metafields.product[\"tab-details\"] | metafield_tag }}",
+            "raw_content_1": "1",
             "title_2": "",
             "raw_content_2": "<p>{{ product.metafields.product.tab_materials.value }}<\/p>",
             "title_3": "Customizations",
