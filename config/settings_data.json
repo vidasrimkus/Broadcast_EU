@@ -124,7 +124,7 @@
         "disabled": false,
         "settings": {
           "test_mode": true,
-          "modal_closeButton": false,
+          "modal_closeButton": true,
           "option_flag_style": "circle",
           "option_currency_type": "none",
           "option_language": true,
