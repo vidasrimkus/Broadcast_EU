@@ -351,6 +351,9 @@
 --FONT-SIZE-BASE: {{ settings.type_body_size | divided_by: 100.0 | append: 'rem' }};
 --FONT-SIZE-BASE-PERCENT: {{ settings.type_body_size | divided_by: 100.0 }};
 
+---ico-select: url("{{ 'ico-select-white.svg' | asset_url }}");
+---ico-select-alt: url("{{ 'ico-select.svg' | asset_url }}");
+
 /* === Parallax ===*/
 --PARALLAX-STRENGTH-MIN: {{ settings.parallax_strength | plus: 100.0 | append: '%' }};
 --PARALLAX-STRENGTH-MAX: {{ settings.parallax_strength | plus: 110.0 | append: '%' }};
