@@ -28,7 +28,7 @@
         "footer-1"
       ],
       "custom_css": [
-        ".footer__block__title {font-size: 18px; font-weight: 600;}",
+        ".footer__block__title {font-size: 16px; font-weight: 600;}",
         "p {font-size: 13px; text-align: justify;}",
         ".footer__quicklinks {font-size: 13px;}"
       ],
