@@ -1,1 +1,58 @@
-{"type":"footer","name":"Footer","sections":{"footer":{"type":"footer","blocks":{"footer-0":{"type":"newsletter","settings":{"text":"<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>","show_name":true}},"footer-1":{"type":"linklist","settings":{"linklist":"main-menu","title":""}},"footer-2":{"type":"text","settings":{"title":"Contact","text":"<p>1234 Main Street <br>New York, NY 12345 <br> 123.456.7890<br>help@broadcast.com<\/p>"}}},"block_order":["footer-0","footer-1","footer-2"],"settings":{"logo":"{{ shop.brand.logo }}","logo_image_width":150,"overlay_opacity":75,"overlay_color":"#ffffff"}},"supporting-menu":{"type":"section-supporting-menu","settings":{"linklist":"","footer_payment_enable":false,"show_locale_selector":true,"show_country_selector":true}}},"order":["footer","supporting-menu"]}
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-2": {
+          "type": "text",
+          "settings": {
+            "image_width": 150,
+            "title": "About Us",
+            "text": "<p>Our family-run brand is everything about ensuring quality, promoting transparency, enforcing sustainable practices, and doing everything as ethically as possible. We empower our customers to lead the manufacturing process by working on a pre-order basis. While producing based on demand, we can reduce waste and offer reasonable prices by cutting waste-related loss. Creating ethical items brings a sense of community, and it is like a protest against mass-produced goods. We do not make things for money purposes only. The items are not just for profit. We make goods that involve years of learned skills, passion, commitment, and sincerity.<br\/><br\/>We are absolutely dedicated to thoughtful creating\/making processes, so we try to avoid programmed machines or other non-human help and use as much human input in the whole process as possible. By doing this, we can hire more artisans who can earn a living and provide you with genuinely handmade items. Our making process takes time, but we hope it motivates our customers to find satisfaction in slow buying and slow living.<br\/><br\/>Why not perfect? The beauty of linen is that it is not perfect. You will definitely miss its beauty if you keep trying to iron it. However, linen needs to be used and gets better with age. We are inspired by linen simplicity and imperfection and are glad to share something perfectly imperfect with you.<\/p>",
+            "column_width": 33
+          }
+        },
+        "footer-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "main-menu",
+            "title": "",
+            "column_width": 33
+          }
+        }
+      },
+      "block_order": [
+        "footer-2",
+        "footer-1"
+      ],
+      "settings": {
+        "logo": "{{ shop.brand.logo }}",
+        "logo_image_width": 150,
+        "overlay_opacity": 75,
+        "overlay_color": "#ffffff",
+        "border_color": "#212121",
+        "padding_top": 75,
+        "padding_bottom": 30
+      }
+    },
+    "supporting-menu": {
+      "type": "section-supporting-menu",
+      "settings": {
+        "linklist": "",
+        "footer_payment_enable": false,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "supporting-menu"
+  ]
+}
