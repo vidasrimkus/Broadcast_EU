@@ -447,7 +447,10 @@
           "type": "products",
           "settings": {
             "product_list": [
-
+              "bay-cropped-linen-top-naujas",
+              "oia-gathered-linen-skirt-naujas-2",
+              "reine-waisted-linen-dress-naujas",
+              "portofino-high-waisted-pleated-front-linen-shorts"
             ],
             "layout_mobile": "2"
           }
