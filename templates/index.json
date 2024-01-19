@@ -221,7 +221,7 @@
         "95544c33-227d-42ea-bdb0-ea798e8a3c3e": {
           "type": "collection",
           "settings": {
-            "title": "Linen Pants",
+            "title": "Pants",
             "featured_collection": "linen-pants-women",
             "show_image": true,
             "align_with_product_images": false,
@@ -259,7 +259,7 @@
         "9e8ed528-fcf2-46d1-aafa-1ea104cef490": {
           "type": "collection",
           "settings": {
-            "title": "Linen skirts",
+            "title": "Skirts",
             "featured_collection": "linen-skirts",
             "show_image": true,
             "align_with_product_images": false,
