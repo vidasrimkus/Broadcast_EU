@@ -1129,70 +1129,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "caed3ac4-de0b-4be7-b1f8-a32351197491": {
-      "type": "section-newsletter",
-      "blocks": {
-        "template--20264533983577__caed3ac4-de0b-4be7-b1f8-a32351197491-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ready_to_ship_1_d3af1ecb-f6bf-4d57-b539-9d7f28f2371a.jpg",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "show_overlay_text": false,
-            "title": "Join Our Newsletter",
-            "heading_size": 7,
-            "description": "",
-            "text_size": 3,
-            "flex_align": "align--middle-center",
-            "bg_color": "",
-            "color": "#ffffff",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        },
-        "newsletter_Ejxa8j": {
-          "type": "newsletter",
-          "settings": {
-            "subheading": "Newsletter",
-            "subheading_size": 3,
-            "heading": "Sign up",
-            "heading_size": 7,
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-            "text_size": 3,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "show_name": false,
-            "button_text": "Join",
-            "show_arrow": false,
-            "terms": true,
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_social_links": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20264533983577__caed3ac4-de0b-4be7-b1f8-a32351197491-image-1",
-        "newsletter_Ejxa8j"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "three-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
-        "width": "wrapper--full",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -1216,7 +1152,6 @@
     "9a1072b1-50ff-4986-81fd-8e5596ef27ca",
     "3fef8e51-bd38-4911-8d97-5f4236bb70aa",
     "16863067346fd3d834",
-    "7bf87be7-12cc-46f7-8f7b-9f843ac58d90",
-    "caed3ac4-de0b-4be7-b1f8-a32351197491"
+    "7bf87be7-12cc-46f7-8f7b-9f843ac58d90"
   ]
 }
