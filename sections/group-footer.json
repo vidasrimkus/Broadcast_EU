@@ -17,7 +17,7 @@
         "footer-1": {
           "type": "linklist",
           "settings": {
-            "linklist": "main-menu",
+            "linklist": "notperfectlinen",
             "title": "Company",
             "column_width": 15
           }
