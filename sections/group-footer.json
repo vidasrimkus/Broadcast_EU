@@ -55,11 +55,11 @@
       "type": "section-supporting-menu",
       "settings": {
         "linklist": "",
-        "footer_payment_enable": false,
-        "show_locale_selector": true,
-        "show_country_selector": true,
+        "footer_payment_enable": true,
+        "show_locale_selector": false,
+        "show_country_selector": false,
         "show_country_name": false,
-        "show_country_flag": true,
+        "show_country_flag": false,
         "padding_top": 30,
         "padding_bottom": 30
       }
