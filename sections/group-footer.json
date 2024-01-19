@@ -54,7 +54,7 @@
     "supporting-menu": {
       "type": "section-supporting-menu",
       "settings": {
-        "linklist": "",
+        "linklist": "policies",
         "footer_payment_enable": true,
         "show_locale_selector": false,
         "show_country_selector": false,
