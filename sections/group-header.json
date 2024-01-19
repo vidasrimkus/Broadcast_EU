@@ -70,7 +70,7 @@
         "logo": "shopify:\/\/shop_images\/notperfect_belogo_juodas.png",
         "logo_max_limit": 145,
         "logo_max_limit_mobile": 100,
-        "main_menu_linklist": "main-menu-v2",
+        "main_menu_linklist": "main-menu",
         "mobile_menu_linklist": "",
         "enable_search": true,
         "show_social_icons": true,
@@ -86,7 +86,7 @@
         "transparent_article": false,
         "transparent_page": false,
         "transparent_logo": "shopify:\/\/shop_images\/notperfect_belogo_baltas2_1.png",
-        "secondary_menu_linklist": "policies",
+        "secondary_menu_linklist": "",
         "tertiary_menu_linklist": "",
         "padding_top": 15,
         "padding_bottom": 15
