@@ -25,7 +25,7 @@
         "linklist_aiiHFC": {
           "type": "linklist",
           "settings": {
-            "linklist": "footer-shop-policies",
+            "linklist": "footer-help",
             "title": "Help",
             "column_width": 33
           }
