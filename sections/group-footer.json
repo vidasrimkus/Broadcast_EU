@@ -34,7 +34,7 @@
         "logo": "{{ shop.brand.logo }}",
         "logo_image_width": 150,
         "overlay_opacity": 75,
-        "overlay_color": "#ffffff",
+        "overlay_color": "#f7f9fa",
         "border_color": "#f7f9fa",
         "padding_top": 30,
         "padding_bottom": 30
