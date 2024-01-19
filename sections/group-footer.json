@@ -21,11 +21,20 @@
             "title": "Company",
             "column_width": 15
           }
+        },
+        "linklist_aiiHFC": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer-shop-policies",
+            "title": "Help",
+            "column_width": 33
+          }
         }
       },
       "block_order": [
         "footer-2",
-        "footer-1"
+        "footer-1",
+        "linklist_aiiHFC"
       ],
       "custom_css": [
         ".footer__block__title {font-size: 16px; font-weight: 600;}",
