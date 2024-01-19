@@ -28,7 +28,8 @@
         "footer-1"
       ],
       "custom_css": [
-        "p {font-size: 12px; text-align: justify;}"
+        "p {font-size: 12px; text-align: justify;}",
+        ".footer__quicklinks{font-size: 12px;}"
       ],
       "settings": {
         "logo": "{{ shop.brand.logo }}",
