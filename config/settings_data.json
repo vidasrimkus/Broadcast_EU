@@ -113,11 +113,23 @@
           "greeting_message": ""
         }
       },
+      "14684659138027382045": {
+        "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery-scripts\/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "18423266570658624584": {
+        "type": "shopify:\/\/apps\/best-currency-converter\/blocks\/doubly\/267afa86-a419-4d5b-a61b-556038e7294d",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "15912215999290715800": {
         "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-modal\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
         "disabled": false,
         "settings": {
-          "test_mode": false,
+          "test_mode": true,
           "modal_closeButton": true,
           "option_flag_style": "circle",
           "option_currency_type": "none",
@@ -139,18 +151,6 @@
           "style_colors_cta_text": "#ffffff",
           "style_colors_cta_button": "#000000",
           "style_colors_text": "#000000"
-        }
-      },
-      "14684659138027382045": {
-        "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery-scripts\/e61dfbaa-1a75-4e4e-bffc-324f17325251",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "18423266570658624584": {
-        "type": "shopify:\/\/apps\/best-currency-converter\/blocks\/doubly\/267afa86-a419-4d5b-a61b-556038e7294d",
-        "disabled": false,
-        "settings": {
         }
       }
     }
