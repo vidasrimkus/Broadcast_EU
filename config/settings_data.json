@@ -156,7 +156,7 @@
           "modal_closeButton": false,
           "option_flag_style": "circle",
           "option_currency_type": "symbol_flag",
-          "option_language": false,
+          "option_language": true,
           "title": "Are you in the right place?",
           "text": "Still want to visit European site (eu.notperfectlinen.com)",
           "helper_text": "<p>Please select your shipping country.<\/p>",
