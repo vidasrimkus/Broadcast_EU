@@ -30,14 +30,6 @@
             "column_width": 33
           }
         },
-        "linklist_EXz3gH": {
-          "type": "linklist",
-          "settings": {
-            "linklist": "linen-dresses",
-            "title": "",
-            "column_width": 15
-          }
-        },
         "page_GfLLLt": {
           "type": "page",
           "settings": {
@@ -50,7 +42,6 @@
         "footer-2",
         "footer-1",
         "linklist_aiiHFC",
-        "linklist_EXz3gH",
         "page_GfLLLt"
       ],
       "custom_css": [
