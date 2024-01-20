@@ -163,7 +163,7 @@
           "cta_text": "Shop now",
           "fallback_text": "This is NPL Europe store. <br>For shipping to other regions please visit <a href=\"notperfectlinen.com\">www.notperfectlinen.com<\/a>",
           "alignment_image": "right",
-          "style_corners": "square",
+          "style_corners": "rounded",
           "style_dropdown": "outlined",
           "modal_button_align": "right",
           "title_font_size": 20,
