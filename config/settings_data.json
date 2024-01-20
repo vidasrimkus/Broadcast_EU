@@ -138,7 +138,7 @@
           "text": "Please select your shipping country.",
           "helper_text": "<p>Buy from the country of your choice. Remember that we can only ship your order to addresses located in the chosen country.<\/p>",
           "cta_text": "Shop now",
-          "fallback_text": "This is NPL Europe only store. For shipping to other regions please visit <a href=\"notperfectlinen.com\">www.notperfectlinen.com<\/a> Shop We don’t ship to {country}",
+          "fallback_text": "This is NPL Europe store. <br>For shipping to other regions please visit <a href=\"notperfectlinen.com\">www.notperfectlinen.com<\/a> Shop We don’t ship to {country}",
           "alignment_image": "right",
           "style_corners": "square",
           "style_dropdown": "outlined",
