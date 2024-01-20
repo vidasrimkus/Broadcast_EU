@@ -170,7 +170,7 @@
           "style_colors_text": "#000",
           "option_flag_style": "square",
           "option_currency_type": "iso",
-          "option_modal_language": true,
+          "option_modal_language": false,
           "title": "Select Your Region",
           "language_title": "Preferred Language",
           "block_alignement": "center"
