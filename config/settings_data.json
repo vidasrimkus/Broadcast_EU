@@ -159,9 +159,9 @@
         "settings": {
           "footer_ui_type": "selector",
           "option_language": false,
-          "style_corners": "square",
+          "style_corners": "rounded",
           "style_dropdown": "outlined",
-          "option_classic_flag_style": "square",
+          "option_classic_flag_style": "circle",
           "option_classic_currency_type": "none",
           "search_country": true,
           "block_background": "#ffffff",
