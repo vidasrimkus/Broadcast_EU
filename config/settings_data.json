@@ -154,7 +154,7 @@
         "settings": {
           "test_mode": true,
           "modal_closeButton": false,
-          "option_flag_style": "square",
+          "option_flag_style": "round",
           "option_currency_type": "none",
           "option_language": false,
           "title": "Are you in the right place?",
