@@ -57,7 +57,7 @@
         ".footer__block__title {font-size: 16px; font-weight: 600;}",
         "p {font-size: 13px; text-align: justify;}",
         ".footer__quicklinks {font-size: 13px;}",
-        ".footer__block .footer__block__title{font-size: 10px;}"
+        ".footer__block .footer__block__title {display: none;}"
       ],
       "settings": {
         "logo": "{{ shop.brand.logo }}",
