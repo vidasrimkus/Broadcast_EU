@@ -158,7 +158,7 @@
           "option_currency_type": "symbol_flag",
           "option_language": false,
           "title": "Are you in the right place?",
-          "text": "This is notPERFECTLINEN  EUROPE",
+          "text": "You are visiting eu.notperfectlinen.com (EU page).",
           "helper_text": "<p>Buy from the country of your choice. Remember that we can only ship your order to addresses located in the chosen country.<\/p>",
           "cta_text": "Shop now",
           "fallback_text": "<span style=\"text-align: center;\">Shopping from {country}?<\/span> <span><br>Please visit our international site:<br><strong><u><a href=\"https:\/\/www.notperfectlinen.com\">www.notperfectlinen.com<\/a><\/u><\/strong><\/span>",
