@@ -172,7 +172,7 @@
           "style_colors_background": "#ffffff",
           "style_colors_closeButton": "#5c5f62",
           "style_colors_cta_text": "#ffffff",
-          "style_colors_cta_button": "#4bc8f6",
+          "style_colors_cta_button": "#000000",
           "style_colors_text": "#000000"
         }
       }
