@@ -33,7 +33,7 @@
         "page_GfLLLt": {
           "type": "page",
           "settings": {
-            "page": "footer",
+            "page": "navigation",
             "column_width": 33
           }
         }
