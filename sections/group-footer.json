@@ -33,15 +33,7 @@
         "page_GfLLLt": {
           "type": "page",
           "settings": {
-            "page": "navigation",
-            "column_width": 33
-          }
-        },
-        "linklist_dC3GJT": {
-          "type": "linklist",
-          "settings": {
-            "linklist": "linen-tops",
-            "title": "",
+            "page": "footer",
             "column_width": 33
           }
         }
@@ -50,8 +42,7 @@
         "footer-2",
         "footer-1",
         "linklist_aiiHFC",
-        "page_GfLLLt",
-        "linklist_dC3GJT"
+        "page_GfLLLt"
       ],
       "custom_css": [
         ".footer__block__title {font-size: 16px; font-weight: 600;}",
