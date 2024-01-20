@@ -155,7 +155,7 @@
           "test_mode": true,
           "modal_closeButton": false,
           "option_flag_style": "square",
-          "option_currency_type": "symbol_flag",
+          "option_currency_type": "iso_symbol_flag",
           "option_language": false,
           "title": "Are you in the right place?",
           "text": "Please select your shipping country.",
