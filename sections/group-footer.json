@@ -35,6 +35,13 @@
           "settings": {
             "linklist": "linen-dresses",
             "title": "",
+            "column_width": 15
+          }
+        },
+        "page_GfLLLt": {
+          "type": "page",
+          "settings": {
+            "page": "contact",
             "column_width": 33
           }
         }
@@ -43,7 +50,8 @@
         "footer-2",
         "footer-1",
         "linklist_aiiHFC",
-        "linklist_EXz3gH"
+        "linklist_EXz3gH",
+        "page_GfLLLt"
       ],
       "custom_css": [
         ".footer__block__title {font-size: 16px; font-weight: 600;}",
