@@ -182,7 +182,7 @@
         "template--20264533983577__f195f6e4-a80e-4aca-8b87-112687cb12b5-collection-1": {
           "type": "collection",
           "settings": {
-            "title": "Linen dresses",
+            "title": "Dresses",
             "featured_collection": "linen-dresses",
             "show_image": true,
             "align_with_product_images": false,
@@ -202,8 +202,8 @@
         "template--20264533983577__f195f6e4-a80e-4aca-8b87-112687cb12b5-collection-2": {
           "type": "collection",
           "settings": {
-            "title": "LINEN tops",
-            "featured_collection": "",
+            "title": "Tops & Shirts",
+            "featured_collection": "linen-tops-shirts-for-women",
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
@@ -221,8 +221,8 @@
         "95544c33-227d-42ea-bdb0-ea798e8a3c3e": {
           "type": "collection",
           "settings": {
-            "title": "Linen shirts",
-            "featured_collection": "",
+            "title": "Pants",
+            "featured_collection": "linen-pants-women",
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
@@ -240,8 +240,8 @@
         "f4c4550a-f61b-471f-98ca-34922ac2611e": {
           "type": "collection",
           "settings": {
-            "title": "LINEN pants",
-            "featured_collection": "linen-tops",
+            "title": "Jumpsuits & Rompers",
+            "featured_collection": "linen-jumpsuits-rompers",
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
@@ -259,8 +259,8 @@
         "9e8ed528-fcf2-46d1-aafa-1ea104cef490": {
           "type": "collection",
           "settings": {
-            "title": "LINEN skirts",
-            "featured_collection": "linen-tops",
+            "title": "Skirts",
+            "featured_collection": "linen-skirts",
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
@@ -447,7 +447,10 @@
           "type": "products",
           "settings": {
             "product_list": [
-
+              "bay-cropped-linen-top-naujas",
+              "doolin-high-waisted-linen-pants-naujas-1",
+              "oia-gathered-linen-skirt-naujas-2",
+              "reine-waisted-linen-dress-naujas"
             ],
             "layout_mobile": "2"
           }
@@ -484,7 +487,7 @@
         "width": "wrapper--full-padded",
         "reverse_blocks": true,
         "padding_top": 50,
-        "padding_bottom": 50
+        "padding_bottom": 32
       }
     },
     "6e4de3fd-af9e-45e9-892c-5bc41d2498b9": {
@@ -506,7 +509,7 @@
           "settings": {
             "heading": "Tops",
             "url": "",
-            "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-203.jpg",
+            "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day3-340.jpg",
             "color": "#ffffff",
             "bg_color": "#ffffff",
             "border_color": "#ffffff"
@@ -517,7 +520,7 @@
           "settings": {
             "heading": "Shirts",
             "url": "",
-            "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day3-307.jpg",
+            "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-155.jpg",
             "color": "#ffffff",
             "bg_color": "#f0f0f0",
             "border_color": ""
@@ -572,7 +575,7 @@
           "settings": {
             "heading": "Coats & Jackets",
             "url": "",
-            "image": "shopify:\/\/shop_images\/IMG_9568.jpg",
+            "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day3-331.jpg",
             "color": "#ffffff",
             "bg_color": "#f0f0f0",
             "border_color": ""
@@ -583,7 +586,7 @@
           "settings": {
             "heading": "Accessories",
             "url": "",
-            "image": "shopify:\/\/shop_images\/IMG_7327.jpg",
+            "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-from6348-140.jpg",
             "color": "#ffffff",
             "bg_color": "#f0f0f0",
             "border_color": ""
@@ -612,7 +615,7 @@
         "color": "#212121",
         "bg_color": "",
         "layout_mobile": "2",
-        "padding_top": 29,
+        "padding_top": 27,
         "padding_bottom": 39
       }
     },
@@ -743,20 +746,20 @@
         "template--19437253099865__d7107dff-6d83-4e45-af03-429b410deb8d-review-1": {
           "type": "review",
           "settings": {
-            "title": "Naomi A.",
+            "title": "Judi L.",
             "subheading": "People are talking",
-            "review_text": "\"Hands down the best place to shop for Linen. I always chose NPL for my linen fashion needs. Thank you so much.\"",
-            "featured_image": "shopify:\/\/shop_images\/DSC_3850-14.jpg",
+            "review_text": "\"The quality and colors of NPL fabrics is unmatched. Their ability to design and create wonderful clothing is extraordinary! The items fit me perfectly! Their clothing is pleasure to wear and everything lasts a long time and continues to look new. Thank you not PERFECT LINEN! You remain my favorite store on this planet.\"",
+            "featured_image": "shopify:\/\/shop_images\/2022_02_20_Not_Perfect_Linen_shot_03_4665-2_671f1a47-56d8-4091-bc72-330c56f686cb.jpg",
             "review_url": ""
           }
         },
         "template--19437253099865__d7107dff-6d83-4e45-af03-429b410deb8d-review-2": {
           "type": "review",
           "settings": {
-            "title": "Trine L.",
+            "title": "Naomi A.",
             "subheading": "People are talking",
-            "review_text": "\"I love everything I have bought from NPL. The quality and craftsmanship is excellent. I love that there's something for every body type here and that most customizations can be done to make sure it fits you perfectly. Customer service is also always great! I'll be a customer for many years!\"",
-            "featured_image": "shopify:\/\/shop_images\/2022_02_19_Not_Perfect_Linen_shot_11_1192.jpg",
+            "review_text": "\"Hands down the best place to shop for Linen. I always chose NPL for my linen fashion needs. Thank you so much.\"",
+            "featured_image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day3-185-2.jpg",
             "review_url": ""
           }
         },
@@ -781,15 +784,15 @@
       ],
       "settings": {
         "show_featured_image": true,
-        "image_aspect_ratio": 1,
+        "image_aspect_ratio": 1.5,
         "show_quotation_marks": false,
         "text_align": "text-left",
         "text_size": 3,
         "bg_color": "#ffffff",
         "color": "",
         "card_bg_color": "",
-        "padding_top": 57,
-        "padding_bottom": 31
+        "padding_top": 25,
+        "padding_bottom": 24
       }
     },
     "9a13b76a-1b13-445f-81ef-c455290734ca": {
@@ -1119,73 +1122,9 @@
 
       ],
       "settings": {
-        "code": "<div id=\"omnisend-embedded-v2-65a53a99d55be1a7047b7046\"><\/div>",
+        "code": "<div id=\"omnisend-embedded-v2-65aad73bb5a6c982ef61d9b6\"><\/div>",
         "width": "wrapper--full",
         "bg_color": "#fbfaf5",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "caed3ac4-de0b-4be7-b1f8-a32351197491": {
-      "type": "section-newsletter",
-      "blocks": {
-        "template--20264533983577__caed3ac4-de0b-4be7-b1f8-a32351197491-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ready_to_ship_1_d3af1ecb-f6bf-4d57-b539-9d7f28f2371a.jpg",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "show_overlay_text": false,
-            "title": "Join Our Newsletter",
-            "heading_size": 7,
-            "description": "",
-            "text_size": 3,
-            "flex_align": "align--middle-center",
-            "bg_color": "",
-            "color": "#ffffff",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        },
-        "newsletter_Ejxa8j": {
-          "type": "newsletter",
-          "settings": {
-            "subheading": "Newsletter",
-            "subheading_size": 3,
-            "heading": "Sign up",
-            "heading_size": 7,
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-            "text_size": 3,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "show_name": false,
-            "button_text": "Join",
-            "show_arrow": false,
-            "terms": true,
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_social_links": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20264533983577__caed3ac4-de0b-4be7-b1f8-a32351197491-image-1",
-        "newsletter_Ejxa8j"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "three-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
-        "width": "wrapper--full",
-        "bg_color": "",
         "color": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -1213,7 +1152,6 @@
     "9a1072b1-50ff-4986-81fd-8e5596ef27ca",
     "3fef8e51-bd38-4911-8d97-5f4236bb70aa",
     "16863067346fd3d834",
-    "7bf87be7-12cc-46f7-8f7b-9f843ac58d90",
-    "caed3ac4-de0b-4be7-b1f8-a32351197491"
+    "7bf87be7-12cc-46f7-8f7b-9f843ac58d90"
   ]
 }
