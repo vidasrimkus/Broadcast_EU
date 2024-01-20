@@ -6,7 +6,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "subheading_option": "collection",
+            "subheading_option": "breadcrumb",
             "text_size": 4,
             "show_rating": false,
             "enable_star_rating": false,
