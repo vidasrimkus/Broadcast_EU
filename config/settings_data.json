@@ -161,7 +161,7 @@
           "text": "This is notPERFECTLINEN  EUROPE",
           "helper_text": "<p>Buy from the country of your choice. Remember that we can only ship your order to addresses located in the chosen country.<\/p>",
           "cta_text": "Shop now",
-          "fallback_text": "<span>Shopping from {country}?<br>Please visit <strong><u><a href=\"https:\/\/www.notperfectlinen.com\">www.notperfectlinen.com<\/a><\/u><\/strong><\/span>",
+          "fallback_text": "<span style=\"text-align: center;\">Shopping from {country}?<br>Please visit <strong><u><a href=\"https:\/\/www.notperfectlinen.com\">www.notperfectlinen.com<\/a><\/u><\/strong><\/span>",
           "alignment_image": "right",
           "style_corners": "square",
           "style_dropdown": "outlined",
