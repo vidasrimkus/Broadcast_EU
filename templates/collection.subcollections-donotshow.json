@@ -61,7 +61,7 @@
       "settings": {
         "enable_sort": true,
         "enable_filters": true,
-        "filter_layout": "slide-out",
+        "filter_layout": "inline-closed",
         "collection_linklist": "",
         "grid": 3,
         "grid_mobile": "2",
