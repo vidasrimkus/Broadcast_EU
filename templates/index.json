@@ -204,7 +204,7 @@
           "settings": {
             "title": "Tops & Shirts",
             "featured_collection": "linen-tops-shirts-for-women",
-            "show_image": false,
+            "show_image": true,
             "align_with_product_images": false,
             "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-133_dad10a17-6105-440f-bf2f-063483fdcfe8.jpg",
             "overlay_opacity": 0,
