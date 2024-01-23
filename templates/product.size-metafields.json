@@ -165,6 +165,7 @@
         },
         "upsell_YjfX38": {
           "type": "upsell",
+          "disabled": true,
           "settings": {
             "upsell_product": "{{ product.metafields.theme.upsell.value }}",
             "upsell_product_list": "{{ block.settings.upsell_product.metafields.theme.upsell_list.value }}",
