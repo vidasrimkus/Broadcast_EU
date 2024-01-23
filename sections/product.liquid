@@ -430,6 +430,7 @@
                         {%- else -%}
                           {%- if upsell_product != blank -%}
                             {%- render 'upsell-product', upsell_product: upsell_product -%}
+                            {{ product.metafields.theme.upsell_list.value.title }}
                           {%- endif -%}
 
                           {%- if upsell_product_List != blank -%}
