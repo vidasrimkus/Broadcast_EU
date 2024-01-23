@@ -199,11 +199,11 @@
             "show_arrow": false
           }
         },
-        "template--20264533983577__f195f6e4-a80e-4aca-8b87-112687cb12b5-collection-2": {
+        "95544c33-227d-42ea-bdb0-ea798e8a3c3e": {
           "type": "collection",
           "settings": {
-            "title": "Tops & Shirts",
-            "featured_collection": "linen-tops-shirts-for-women",
+            "title": "Pants",
+            "featured_collection": "linen-pants-women",
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
@@ -218,13 +218,14 @@
             "show_arrow": false
           }
         },
-        "95544c33-227d-42ea-bdb0-ea798e8a3c3e": {
+        "template--20264533983577__f195f6e4-a80e-4aca-8b87-112687cb12b5-collection-2": {
           "type": "collection",
           "settings": {
-            "title": "Pants",
-            "featured_collection": "linen-pants-women",
+            "title": "Tops & Shirts",
+            "featured_collection": "linen-tops-shirts-for-women",
             "show_image": true,
             "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-133_dad10a17-6105-440f-bf2f-063483fdcfe8.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "description": "",
@@ -278,8 +279,8 @@
       },
       "block_order": [
         "template--20264533983577__f195f6e4-a80e-4aca-8b87-112687cb12b5-collection-1",
-        "template--20264533983577__f195f6e4-a80e-4aca-8b87-112687cb12b5-collection-2",
         "95544c33-227d-42ea-bdb0-ea798e8a3c3e",
+        "template--20264533983577__f195f6e4-a80e-4aca-8b87-112687cb12b5-collection-2",
         "f4c4550a-f61b-471f-98ca-34922ac2611e",
         "9e8ed528-fcf2-46d1-aafa-1ea104cef490"
       ],
