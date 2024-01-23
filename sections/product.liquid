@@ -437,7 +437,7 @@
                             {%- for upsell_product in upsell_product_List -%}
                             {{ product.title }}
                             {% comment %} {%- render 'upsell-product', upsell_product: upsell_product -%}{% endcomment %}
-                            <div>aa{{ product.metafields.theme.upsell.value.title }}</div>
+                            <div>aa{{ product.metafields.theme.upsell_list.value.title }}</div>
                             {%- endfor -%}
                           {%- endif -%}
                         {%- endif -%}
