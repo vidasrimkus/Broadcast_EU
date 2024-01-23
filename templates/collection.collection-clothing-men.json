@@ -123,6 +123,22 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "170600659290d7f1cb": {
+      "type": "apps",
+      "blocks": {
+        "kite_free_gift_app_block_Mk4LCC": {
+          "type": "shopify:\/\/apps\/kite-free-gift\/blocks\/app-block\/2c7302c4-455d-4078-a829-48563ba26089",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "kite_free_gift_app_block_Mk4LCC"
+      ],
+      "settings": {
+        "include_margins": false
+      }
     }
   },
   "order": [
@@ -130,6 +146,7 @@
     "hero",
     "subcollections",
     "635c7e08-140e-4a64-9fa1-d40ba4143a4a",
-    "main"
+    "main",
+    "170600659290d7f1cb"
   ]
 }
