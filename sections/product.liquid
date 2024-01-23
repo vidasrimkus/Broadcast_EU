@@ -434,7 +434,7 @@
 
                           {%- if upsell_product_List != blank -%}
                             {%- for upsell_product in upsell_product_List -%}
-                            {% comment %} {%- render 'upsell-product', upsell_product: upsell_product -%}{% endcomment %}
+                              {%- render 'upsell-product', upsell_product: upsell_product -%}
                             {%- endfor -%}
                           {%- endif -%}
                         {%- endif -%}
