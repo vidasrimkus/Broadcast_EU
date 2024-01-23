@@ -430,13 +430,11 @@
                         {%- else -%}
                           {%- if upsell_product != blank -%}
                             {%- render 'upsell-product', upsell_product: upsell_product -%}
-                            <div>aa{{ upsell_product.title }}</div>
                           {%- endif -%}
 
                           {%- if upsell_product_List != blank -%}
                             {%- for upsell_product in upsell_product_List -%}
                             {% comment %} {%- render 'upsell-product', upsell_product: upsell_product -%}{% endcomment %}
-                            <div>aa{{ upsell_product.title }}</div>
                             {%- endfor -%}
                           {%- endif -%}
                         {%- endif -%}
