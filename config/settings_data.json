@@ -119,12 +119,6 @@
         "settings": {
         }
       },
-      "18423266570658624584": {
-        "type": "shopify:\/\/apps\/best-currency-converter\/blocks\/doubly\/267afa86-a419-4d5b-a61b-556038e7294d",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "5858961087409699889": {
         "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-footer-selector\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
         "disabled": false,
@@ -174,6 +168,18 @@
           "style_colors_cta_text": "#ffffff",
           "style_colors_cta_button": "#000000",
           "style_colors_text": "#000000"
+        }
+      },
+      "8218531531362863771": {
+        "type": "shopify:\/\/apps\/kite-free-gift\/blocks\/app-embed\/2c7302c4-455d-4078-a829-48563ba26089",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "18423266570658624584": {
+        "type": "shopify:\/\/apps\/best-currency-converter\/blocks\/doubly\/267afa86-a419-4d5b-a61b-556038e7294d",
+        "disabled": false,
+        "settings": {
         }
       }
     }

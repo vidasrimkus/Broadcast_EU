@@ -1,1 +1,31 @@
-{"sections":{"main":{"type":"cart","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "cart",
+      "settings": {
+        "padding_top": 80,
+        "padding_bottom": 50
+      }
+    },
+    "1706006285475bd092": {
+      "type": "apps",
+      "blocks": {
+        "kite_free_gift_app_block_cart_page_TUAifn": {
+          "type": "shopify:\/\/apps\/kite-free-gift\/blocks\/app-block-cartPage\/2c7302c4-455d-4078-a829-48563ba26089",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "kite_free_gift_app_block_cart_page_TUAifn"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1706006285475bd092"
+  ]
+}
