@@ -430,15 +430,12 @@
                         {%- else -%}
                           {%- if upsell_product != blank -%}
                             {%- render 'upsell-product', upsell_product: upsell_product -%}
-                            {{ product.metafields.theme.upsell.value.title }}
                           {%- endif -%}
 
                           {%- if upsell_product_List != blank -%}
-                            SARASAS: {{ product.metafields.theme.upsell_list.value.title }}
                             {%- for upsell_product in upsell_product_List -%}
-                            {{ product.title }}
                             {% comment %} {%- render 'upsell-product', upsell_product: upsell_product -%}{% endcomment %}
-                            <div>aa{{ product.metafields.theme.upsell_list.value.title }}</div>
+                            <div>{{ product.metafields.theme.upsell_list.value.title }}</div>
                             {%- endfor -%}
                           {%- endif -%}
                         {%- endif -%}
