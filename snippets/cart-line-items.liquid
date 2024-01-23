@@ -48,7 +48,7 @@
         <div class="cart__item__content-inner">
           <h4 class="cart__item__title">
             <a href="{{ line_item.url }}">
-              {{- line_item.product.title | strip_html -}}
+              {{- line_item.product.title | strip_html -}}11
             </a>
           </h4>
 
@@ -236,8 +236,6 @@
 
   {%- assign line_items_html = line_items_html | append: cart_line_item -%}
 {%- endfor -%}
-
-<p>a</p>
 
 {%- comment -%}
   Capture upsell items based on products added to Cart
