@@ -434,7 +434,7 @@
                           {%- endif -%}
 
                           {%- if upsell_product_List != blank -%}
-                            {{ product.title }}
+                            SARASAS: {{ product.metafields.theme.upsell_list.value.title }}
                             {%- for upsell_product in upsell_product_List -%}
                             {{ product.title }}
                             {% comment %} {%- render 'upsell-product', upsell_product: upsell_product -%}{% endcomment %}
