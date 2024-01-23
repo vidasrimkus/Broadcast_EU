@@ -785,8 +785,8 @@
       ],
       "settings": {
         "show_featured_image": true,
-        "image_aspect_ratio": 1.5,
-        "show_quotation_marks": false,
+        "image_aspect_ratio": 1,
+        "show_quotation_marks": true,
         "text_align": "text-left",
         "text_size": 3,
         "bg_color": "#ffffff",
