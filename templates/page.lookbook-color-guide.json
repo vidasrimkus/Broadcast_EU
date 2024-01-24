@@ -20,17 +20,17 @@
     "16913114151447129b": {
       "type": "apps",
       "blocks": {
-        "91d121f1-55f2-4f27-be1f-8560f7d06d35": {
+        "xo_gallery_xo_gallery_9cGcLb": {
           "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery\/e61dfbaa-1a75-4e4e-bffc-324f17325251",
           "settings": {
             "type": "gallery",
-            "id": 16,
+            "id": 18,
             "mid": ""
           }
         }
       },
       "block_order": [
-        "91d121f1-55f2-4f27-be1f-8560f7d06d35"
+        "xo_gallery_xo_gallery_9cGcLb"
       ],
       "settings": {
         "include_margins": false
