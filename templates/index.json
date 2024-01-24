@@ -781,12 +781,12 @@
         "8a8d6d71-572e-4778-bc00-4c91f077ed29"
       ],
       "custom_css": [
-        "p {font-family: \"Avenir Next\", sans-serif; text-align: justify; font-size: 13px;}"
+        "p {font-family: \"Avenir Next\", sans-serif; text-align: justify; }"
       ],
       "settings": {
         "show_featured_image": true,
         "image_aspect_ratio": 1,
-        "show_quotation_marks": true,
+        "show_quotation_marks": false,
         "text_align": "text-left",
         "text_size": 3,
         "bg_color": "#ffffff",
