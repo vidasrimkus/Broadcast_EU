@@ -49,6 +49,7 @@
         },
         "256e2010-d28f-419b-8e36-d27e8124d92e": {
           "type": "size_chart",
+          "disabled": true,
           "settings": {
             "info_page": "",
             "subscriptions_enable_selectors": false,
@@ -57,6 +58,7 @@
         },
         "variants": {
           "type": "variants",
+          "disabled": true,
           "settings": {
             "info_page": "",
             "size_chart_style": "text",
@@ -66,6 +68,7 @@
         },
         "buttons": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "show_quantity": true,
             "show_payment_button": true,
