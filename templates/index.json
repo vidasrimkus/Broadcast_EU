@@ -781,7 +781,7 @@
         "8a8d6d71-572e-4778-bc00-4c91f077ed29"
       ],
       "custom_css": [
-        "p {font-family: \"Avenir Next\", sans-serif; text-align: justify; }"
+        "p {font-family: \"Avenir Next\", sans-serif; text-align: justify;}"
       ],
       "settings": {
         "show_featured_image": true,
@@ -1124,7 +1124,7 @@
 
       ],
       "settings": {
-        "code": "<div id=\"omnisend-embedded-v2-65aad73bb5a6c982ef61d9b6\"><\/div>",
+        "code": "<div id=\"omnisend-embedded-v2-65b0c886b5a6c982ef61e028\"><\/div>",
         "width": "wrapper--full",
         "bg_color": "#fbfaf5",
         "color": "",
