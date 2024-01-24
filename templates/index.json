@@ -155,7 +155,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "Celebrate with us",
-            "button_url": "",
+            "button_url": "shopify:\/\/pages\/npl-10th-anniversary",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
