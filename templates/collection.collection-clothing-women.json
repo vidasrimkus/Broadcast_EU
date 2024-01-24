@@ -77,11 +77,11 @@
             "title": "Tops"
           }
         },
-        "0893426e-f73c-4645-96ad-0257a70970c8": {
+        "collection_hGxxdU": {
           "type": "collection",
           "settings": {
-            "collection": "linen-shorts",
-            "title": "Shorts"
+            "collection": "linen-shirts-women",
+            "title": "Shirts"
           }
         },
         "9755ca5a-1c9d-49a8-aff0-0e1632e36939": {
@@ -96,6 +96,13 @@
           "settings": {
             "collection": "linen-jumpsuits-rompers",
             "title": "Jumpsuits & Rompers"
+          }
+        },
+        "0893426e-f73c-4645-96ad-0257a70970c8": {
+          "type": "collection",
+          "settings": {
+            "collection": "linen-shorts",
+            "title": "Shorts"
           }
         },
         "4b1a966d-4661-4205-bef1-9ea934dbfb29": {
@@ -118,26 +125,19 @@
             "collection": "light-weight-linen",
             "title": "Light Weight Linen"
           }
-        },
-        "collection_hGxxdU": {
-          "type": "collection",
-          "settings": {
-            "collection": "linen-shirts-women",
-            "title": "Shirts"
-          }
         }
       },
       "block_order": [
         "template--19431624048985__7f1c2271-263f-459c-9cb9-b8328ea15a54-collection-1",
         "template--19431624048985__7f1c2271-263f-459c-9cb9-b8328ea15a54-collection-3",
         "template--19431624048985__7f1c2271-263f-459c-9cb9-b8328ea15a54-collection-2",
-        "0893426e-f73c-4645-96ad-0257a70970c8",
+        "collection_hGxxdU",
         "9755ca5a-1c9d-49a8-aff0-0e1632e36939",
         "template--19431624048985__7f1c2271-263f-459c-9cb9-b8328ea15a54-collection-4",
+        "0893426e-f73c-4645-96ad-0257a70970c8",
         "4b1a966d-4661-4205-bef1-9ea934dbfb29",
         "32403c6f-9d96-498e-931a-38df8d97e96b",
-        "56870435-efeb-4128-aa17-03df34a7cc4b",
-        "collection_hGxxdU"
+        "56870435-efeb-4128-aa17-03df34a7cc4b"
       ],
       "custom_css": [
         ".collection-item__image {display: none;}",
