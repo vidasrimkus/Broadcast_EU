@@ -78,6 +78,7 @@
         },
         "tabs": {
           "type": "tab_richtext",
+          "disabled": true,
           "settings": {
             "show_read_more": true,
             "style": "accordions",
@@ -152,6 +153,7 @@
         },
         "5e1c36d7-9362-4dc0-8e04-037b60d90151": {
           "type": "upsell",
+          "disabled": true,
           "settings": {
             "upsell_product": "{{ product.metafields.theme.upsell.value }}",
             "upsell_product_list": "{{ block.settings.upsell_product.metafields.theme.upsell_list.value }}",
