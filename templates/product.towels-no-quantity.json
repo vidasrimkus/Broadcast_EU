@@ -333,11 +333,13 @@
     "section_accordion_BDEtQw": {
       "type": "section-accordion",
       "blocks": {
-        "text_YUpjqU": {
-          "type": "text",
+        "image_HXqbTn": {
+          "type": "image",
           "settings": {
             "title": "Avoiding Overproduction",
-            "text": "<p>Clothes are a necessary part of our life, but our ever-expanding wardrobes are damaging the Planet. Global fashion industry waste is huge. Up to 100 billion new garments are made each year, leaving our Planet with 92 million tons of textile waste every single year.<\/p>"
+            "text": "<p>Clothes are a necessary part of our life, but our ever-expanding wardrobes are damaging the Planet. Global fashion industry waste is huge. Up to 100 billion new garments are made each year, leaving our Planet with 92 million tons of textile waste every single year.<\/p>",
+            "image": "shopify:\/\/shop_images\/NPL_Avoiding_Overproduction.jpg",
+            "aspect_ratio": 0.6
           }
         },
         "image_EUHn3D": {
@@ -351,7 +353,7 @@
         }
       },
       "block_order": [
-        "text_YUpjqU",
+        "image_HXqbTn",
         "image_EUHn3D"
       ],
       "custom_css": [
