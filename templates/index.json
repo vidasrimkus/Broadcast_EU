@@ -781,7 +781,7 @@
         "8a8d6d71-572e-4778-bc00-4c91f077ed29"
       ],
       "custom_css": [
-        "p{font-family: avenir next;}"
+        "p {font-family: 'Avenir Next', sans-serif;}"
       ],
       "settings": {
         "show_featured_image": true,
