@@ -26,7 +26,7 @@
             "padding_bottom": 16
           }
         },
-        "icon_UbUnVF": {
+        "936f7c4f-94ce-41e2-ac1c-202ba8956b79": {
           "type": "icon",
           "settings": {
             "icon_name": "icon-award",
@@ -39,16 +39,26 @@
             "padding_bottom": 20
           }
         },
-        "divider_7F4jD3": {
+        "eacfcaf1-ef58-4255-a63d-b714ae23c688": {
           "type": "divider",
           "settings": {
-            "show_line": true,
+            "show_line": false,
             "padding_top": 15,
             "padding_bottom": 0
           }
         },
+        "256e2010-d28f-419b-8e36-d27e8124d92e": {
+          "type": "size_chart",
+          "disabled": true,
+          "settings": {
+            "info_page": "",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 16
+          }
+        },
         "variants": {
           "type": "variants",
+          "disabled": true,
           "settings": {
             "info_page": "",
             "size_chart_style": "text",
@@ -58,6 +68,7 @@
         },
         "buttons": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "show_quantity": true,
             "show_payment_button": true,
@@ -65,16 +76,9 @@
             "padding_bottom": 12
           }
         },
-        "9e4ad369-9bbf-4d53-9a15-9ed9f243b4db": {
-          "type": "text",
-          "settings": {
-            "title": "What about gifting something Sustainable this Year?",
-            "text": "<p>We are maximum believers that our waffle bath towels are the most universally appealing gift that would suit all; even people who are impossible to shop for will appreciate it.<\/p>",
-            "padding_bottom": 16
-          }
-        },
         "tabs": {
           "type": "tab_richtext",
+          "disabled": true,
           "settings": {
             "show_read_more": true,
             "style": "accordions",
@@ -91,19 +95,27 @@
             "padding_bottom": 0
           }
         },
-        "icon_RjaihF": {
+        "56c7d00d-ed0b-4efe-932b-4a11e09ec70c": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 20,
+            "padding_bottom": 20
+          }
+        },
+        "13f46c47-61f1-4483-9240-17242011c0e6": {
           "type": "icon",
           "settings": {
             "icon_name": "icon-leaf",
             "icon_size": 20,
             "icon_color": "#212121",
             "title": "OEKO-TEX® and EUROPEAN FLAX® certified linen fabric",
-            "text_size": 3,
+            "text_size": 2,
             "width": "full",
             "padding_bottom": 22
           }
         },
-        "icon_z6LByg": {
+        "58e66c4a-bfc2-4037-b3f9-e25e65f2a616": {
           "type": "icon",
           "settings": {
             "icon_name": "icon-location",
@@ -115,7 +127,7 @@
             "padding_bottom": 16
           }
         },
-        "icon_xnKNdC": {
+        "f8b6c357-1633-4f57-9e3a-d7b823e3f234": {
           "type": "icon",
           "settings": {
             "icon_name": "icon-ruler",
@@ -127,7 +139,7 @@
             "padding_bottom": 0
           }
         },
-        "icon_nj8QRL": {
+        "07553056-ccd8-4fbf-bf34-5b3d7574b848": {
           "type": "icon",
           "settings": {
             "icon_name": "icon-truck",
@@ -139,8 +151,9 @@
             "padding_bottom": 16
           }
         },
-        "upsell_BjnYNq": {
+        "5e1c36d7-9362-4dc0-8e04-037b60d90151": {
           "type": "upsell",
+          "disabled": true,
           "settings": {
             "upsell_product": "{{ product.metafields.theme.upsell.value }}",
             "upsell_product_list": "{{ block.settings.upsell_product.metafields.theme.upsell_list.value }}",
@@ -153,17 +166,18 @@
         "title",
         "c36b4faf-8263-434b-95c2-0b39a039d79d",
         "price",
-        "icon_UbUnVF",
-        "divider_7F4jD3",
+        "936f7c4f-94ce-41e2-ac1c-202ba8956b79",
+        "eacfcaf1-ef58-4255-a63d-b714ae23c688",
+        "256e2010-d28f-419b-8e36-d27e8124d92e",
         "variants",
         "buttons",
-        "9e4ad369-9bbf-4d53-9a15-9ed9f243b4db",
         "tabs",
-        "icon_RjaihF",
-        "icon_z6LByg",
-        "icon_xnKNdC",
-        "icon_nj8QRL",
-        "upsell_BjnYNq"
+        "56c7d00d-ed0b-4efe-932b-4a11e09ec70c",
+        "13f46c47-61f1-4483-9240-17242011c0e6",
+        "58e66c4a-bfc2-4037-b3f9-e25e65f2a616",
+        "f8b6c357-1633-4f57-9e3a-d7b823e3f234",
+        "07553056-ccd8-4fbf-bf34-5b3d7574b848",
+        "5e1c36d7-9362-4dc0-8e04-037b60d90151"
       ],
       "custom_css": [
         "px.select-popout__toggle {border: 1px solid var(--border);}",
@@ -187,31 +201,31 @@
         "padding_bottom": 30
       }
     },
-    "section_accordion_txUDbX": {
+    "8fa1c9d5-d61d-4d19-95f0-f3ca5de68986": {
       "type": "section-accordion",
       "blocks": {
-        "text_qK4xX4": {
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-1": {
           "type": "text",
           "settings": {
             "title": "Shipping",
             "text": "<p>We ship worldwide from our Studio in Lithuania, EU. Delivery depends on the destination country and the chosen shipping method. National post delivers: in Europe (3-10 days);  non-European countries (10-20 days). Courier express services (DHL or FedEx): \"Express\" service is usually delivered in 2-5 days worldwide. \"Economy\" service is usually delivered in 4-14 days worldwide. Read more <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">here<\/a>.<\/p>"
           }
         },
-        "text_B67HmD": {
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-2": {
           "type": "text",
           "settings": {
             "title": "Returns",
             "text": "<p>If you are not satisfied with your purchase, you can easily return your item (except customized ones) within 30 days from the date of delivery. Read more <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">here<\/a>.<\/p>"
           }
         },
-        "text_6mMPn3": {
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-3": {
           "type": "text",
           "settings": {
             "title": "Order Tracking",
             "text": "<p>Tracking number is automatically sent as soon as your order is handled to the Courier. You can track your order______. If you have difficulties tracking your order, please contact us at <strong>orders@notperfectlinen.com<\/strong>. Please note our customer service is based in Lithuania and is available Monday through Friday from 3 am to 12 pm EST.<\/p>"
           }
         },
-        "text_DjzBaD": {
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-4": {
           "type": "text",
           "settings": {
             "title": "Taxes, Duties, Custom Fees",
@@ -220,10 +234,10 @@
         }
       },
       "block_order": [
-        "text_qK4xX4",
-        "text_B67HmD",
-        "text_6mMPn3",
-        "text_DjzBaD"
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-1",
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-2",
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-3",
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-4"
       ],
       "custom_css": [
         ".faq-list__item-content {text-align: justify;}",
@@ -243,10 +257,10 @@
         "padding_bottom": 0
       }
     },
-    "section_accordion_d4DtdH": {
+    "b704f05c-cb33-442a-8f10-a07d9fe68ca7": {
       "type": "section-accordion",
       "blocks": {
-        "text_wD3qtk": {
+        "1a8c7e23-c1fd-44ff-8c8e-6ee09c058283": {
           "type": "text",
           "settings": {
             "title": "",
@@ -255,7 +269,7 @@
         }
       },
       "block_order": [
-        "text_wD3qtk"
+        "1a8c7e23-c1fd-44ff-8c8e-6ee09c058283"
       ],
       "custom_css": [
         ".faq-list__item-content {text-align: justify;}",
@@ -275,10 +289,10 @@
         "padding_bottom": 0
       }
     },
-    "section_accordion_kCJzjM": {
+    "4fbe52a8-700c-4676-99f8-855fa44c84b0": {
       "type": "section-accordion",
       "blocks": {
-        "image_PnAJLH": {
+        "8e116f67-819d-47c3-8d00-3eb440d25285": {
           "type": "image",
           "settings": {
             "title": "Unique Properties & Health Benefits",
@@ -287,7 +301,7 @@
             "aspect_ratio": 0.6
           }
         },
-        "image_dNVREe": {
+        "f46eed2f-56f3-4ccf-be32-73a8d8e1e53e": {
           "type": "image",
           "settings": {
             "title": "Free Of Harmful Substances",
@@ -296,7 +310,7 @@
             "aspect_ratio": 0.6
           }
         },
-        "image_iG38wK": {
+        "114af2b7-352f-4f35-9ceb-28dfed160afc": {
           "type": "image",
           "settings": {
             "title": "Less Thirsty Than Cotton",
@@ -305,7 +319,7 @@
             "aspect_ratio": 0.6
           }
         },
-        "image_nDMRtc": {
+        "3e9255c4-7740-412a-bec3-4ac4ae917745": {
           "type": "image",
           "settings": {
             "title": "Biodegradable & Recyclable",
@@ -316,10 +330,10 @@
         }
       },
       "block_order": [
-        "image_PnAJLH",
-        "image_dNVREe",
-        "image_iG38wK",
-        "image_nDMRtc"
+        "8e116f67-819d-47c3-8d00-3eb440d25285",
+        "f46eed2f-56f3-4ccf-be32-73a8d8e1e53e",
+        "114af2b7-352f-4f35-9ceb-28dfed160afc",
+        "3e9255c4-7740-412a-bec3-4ac4ae917745"
       ],
       "custom_css": [
         ".faq-list__item-content {text-align: justify;}",
@@ -339,10 +353,10 @@
         "padding_bottom": 0
       }
     },
-    "section_accordion_6Di6fG": {
+    "b1ce2ee8-4f72-4337-87b5-7594a72c2491": {
       "type": "section-accordion",
       "blocks": {
-        "image_DygDDm": {
+        "674b853f-b931-4523-aa69-7028021a69df": {
           "type": "image",
           "settings": {
             "title": "Avoiding Overproduction",
@@ -351,7 +365,7 @@
             "aspect_ratio": 0.6
           }
         },
-        "image_mdLhy3": {
+        "decbd863-c1a7-47a2-ad6e-e22c19848034": {
           "type": "image",
           "settings": {
             "title": "Reducing Landfill Waste",
@@ -362,8 +376,8 @@
         }
       },
       "block_order": [
-        "image_DygDDm",
-        "image_mdLhy3"
+        "674b853f-b931-4523-aa69-7028021a69df",
+        "decbd863-c1a7-47a2-ad6e-e22c19848034"
       ],
       "custom_css": [
         ".faq-list__item-content {text-align: justify;}",
@@ -383,10 +397,10 @@
         "padding_bottom": 0
       }
     },
-    "section_accordion_qDhTbX": {
+    "bd27b8a6-bb66-4a53-a6f4-fe76e0dc9bd9": {
       "type": "section-accordion",
       "blocks": {
-        "image_rzMMrj": {
+        "a609197b-5f86-40fe-a82d-0fe0eaa22082": {
           "type": "image",
           "settings": {
             "title": "Biodegradable Materials & Renewable Resources",
@@ -395,7 +409,7 @@
             "aspect_ratio": 0.6
           }
         },
-        "image_LkUJEW": {
+        "affdf157-1497-4bde-bf42-d9be28be2d3c": {
           "type": "image",
           "settings": {
             "title": "Good Practices",
@@ -404,7 +418,7 @@
             "aspect_ratio": 0.6
           }
         },
-        "image_DRDNdW": {
+        "cb40552b-5bb7-4ab5-b209-d9ed4551dab0": {
           "type": "image",
           "settings": {
             "title": "Minimizing Enviromental Footprint",
@@ -413,7 +427,7 @@
             "aspect_ratio": 0.6
           }
         },
-        "image_8Va86B": {
+        "d8215055-f83d-46e3-9d57-0b9ad90ab943": {
           "type": "image",
           "settings": {
             "title": "Ethics",
@@ -424,10 +438,10 @@
         }
       },
       "block_order": [
-        "image_rzMMrj",
-        "image_LkUJEW",
-        "image_DRDNdW",
-        "image_8Va86B"
+        "a609197b-5f86-40fe-a82d-0fe0eaa22082",
+        "affdf157-1497-4bde-bf42-d9be28be2d3c",
+        "cb40552b-5bb7-4ab5-b209-d9ed4551dab0",
+        "d8215055-f83d-46e3-9d57-0b9ad90ab943"
       ],
       "custom_css": [
         ".faq-list__item-content {text-align: justify;}",
@@ -456,6 +470,42 @@
         "width": "wrapper",
         "padding_top": 0,
         "padding_bottom": 30
+      }
+    },
+    "db6cdaf0-ba9b-45c5-a217-9d1e432ef15d": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--20264533590361__db6cdaf0-ba9b-45c5-a217-9d1e432ef15d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Over 200 000 conscious customers voiced their sustainable decision and trusted us on their journey while reducing their wardrobe footprint. Over 45 000 five-star reviews via all market platforms confirmed that we deliver what we promise.<\/p>",
+            "text_size": 4,
+            "text_style": "font-heading"
+          }
+        },
+        "template--20264533590361__db6cdaf0-ba9b-45c5-a217-9d1e432ef15d-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "READ ALL REVIEWS",
+            "button_url": "shopify:\/\/pages\/notperfectlinen-reviews",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20264533590361__db6cdaf0-ba9b-45c5-a217-9d1e432ef15d-text-1",
+        "template--20264533590361__db6cdaf0-ba9b-45c5-a217-9d1e432ef15d-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "#fbfaf5",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "1686311995513630df": {
@@ -509,12 +559,13 @@
   },
   "order": [
     "main",
-    "section_accordion_txUDbX",
-    "section_accordion_d4DtdH",
-    "section_accordion_kCJzjM",
-    "section_accordion_6Di6fG",
-    "section_accordion_qDhTbX",
+    "8fa1c9d5-d61d-4d19-95f0-f3ca5de68986",
+    "b704f05c-cb33-442a-8f10-a07d9fe68ca7",
+    "4fbe52a8-700c-4676-99f8-855fa44c84b0",
+    "b1ce2ee8-4f72-4337-87b5-7594a72c2491",
+    "bd27b8a6-bb66-4a53-a6f4-fe76e0dc9bd9",
     "reviews",
+    "db6cdaf0-ba9b-45c5-a217-9d1e432ef15d",
     "1686311995513630df",
     "related"
   ]

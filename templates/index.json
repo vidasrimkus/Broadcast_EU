@@ -6,7 +6,7 @@
         "2712ac31-6042-4c36-ba47-02af77ff61a0": {
           "type": "heading",
           "settings": {
-            "title": "A GENEROUS GIFT WHEN YOU SPEND 200 +",
+            "title": "THE MOST GENEROUS GIFT EVER WHEN YOU SPEND 200EUR OR MORE",
             "heading_size": 5
           }
         },
@@ -43,7 +43,7 @@
         "7f3b88bf-56aa-4a6e-9230-f36069ba2252": {
           "type": "text",
           "settings": {
-            "description": "We are celebrating our 10th anniversary and adding a complimentary linen tote bag and 2 bath waffle towels to each order over 200 +. The is of limited time and ends",
+            "description": "We are celebrating our 10th anniversary and adding a complimentary linen tote bag in beloved canyon clay color and 2 natural linen bath waffle towels to each order over 200 EUR. Total gift package value is 112 EUR.\nThe offer is of limited time and ends 4th February.",
             "text_size": 2,
             "text_style": "font-body"
           }
@@ -155,7 +155,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "Celebrate with us",
-            "button_url": "",
+            "button_url": "shopify:\/\/pages\/npl-10th-anniversary",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -472,7 +472,7 @@
             "bg_color": "",
             "color": "#ffffff",
             "link_text": "View products",
-            "link": "",
+            "link": "shopify:\/\/collections\/new-arrivals",
             "button_type": "btn--white",
             "button_size": "btn--large",
             "button_style": "btn--text",
@@ -498,7 +498,7 @@
           "type": "highlight",
           "settings": {
             "heading": "Dresses",
-            "url": "",
+            "url": "shopify:\/\/collections\/linen-dresses",
             "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta95-2.jpg",
             "color": "#ffffff",
             "bg_color": "#ab8c52",
@@ -509,7 +509,7 @@
           "type": "highlight",
           "settings": {
             "heading": "Tops",
-            "url": "",
+            "url": "shopify:\/\/collections\/linen-tops",
             "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day3-340.jpg",
             "color": "#ffffff",
             "bg_color": "#ffffff",
@@ -520,7 +520,7 @@
           "type": "highlight",
           "settings": {
             "heading": "Shirts",
-            "url": "",
+            "url": "shopify:\/\/collections\/linen-shirts-women",
             "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-155.jpg",
             "color": "#ffffff",
             "bg_color": "#f0f0f0",
@@ -531,7 +531,7 @@
           "type": "highlight",
           "settings": {
             "heading": "Pants",
-            "url": "",
+            "url": "shopify:\/\/collections\/linen-pants-women",
             "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day3-344.jpg",
             "color": "#ffffff",
             "bg_color": "#f0f0f0",
@@ -542,7 +542,7 @@
           "type": "highlight",
           "settings": {
             "heading": "Skirts",
-            "url": "",
+            "url": "shopify:\/\/collections\/linen-skirts",
             "image": "shopify:\/\/shop_images\/IMG_5501_af79a06e-c5f9-44de-a895-1814c74bc57a.jpg",
             "color": "#ffffff",
             "bg_color": "#f0f0f0",
@@ -553,7 +553,7 @@
           "type": "highlight",
           "settings": {
             "heading": "Jumpsuits & Rompers",
-            "url": "",
+            "url": "shopify:\/\/collections\/linen-jumpsuits-rompers",
             "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta178-2.jpg",
             "color": "#ffffff",
             "bg_color": "#f0f0f0",
@@ -564,7 +564,7 @@
           "type": "highlight",
           "settings": {
             "heading": "Shorts",
-            "url": "",
+            "url": "shopify:\/\/collections\/linen-shorts",
             "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta321-2.jpg",
             "color": "#ffffff",
             "bg_color": "#f0f0f0",
@@ -575,7 +575,7 @@
           "type": "highlight",
           "settings": {
             "heading": "Coats & Jackets",
-            "url": "",
+            "url": "shopify:\/\/collections\/linen-coats-jackets-for-women",
             "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day3-331.jpg",
             "color": "#ffffff",
             "bg_color": "#f0f0f0",
@@ -586,7 +586,7 @@
           "type": "highlight",
           "settings": {
             "heading": "Accessories",
-            "url": "",
+            "url": "shopify:\/\/collections\/clothing-accessories",
             "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-from6348-140.jpg",
             "color": "#ffffff",
             "bg_color": "#f0f0f0",
@@ -750,7 +750,7 @@
             "title": "Judi L.",
             "subheading": "People are talking",
             "review_text": "\"The quality and colors of NPL fabrics is unmatched. Their ability to design and create wonderful clothing is extraordinary! The items fit me perfectly! Their clothing is pleasure to wear and everything lasts a long time and continues to look new. Thank you not PERFECT LINEN! You remain my favorite store on this planet.\"",
-            "featured_image": "shopify:\/\/shop_images\/2022_02_20_Not_Perfect_Linen_shot_03_4665-2_671f1a47-56d8-4091-bc72-330c56f686cb.jpg",
+            "featured_image": "shopify:\/\/shop_images\/2022_02_20_Not_Perfect_Linen_shot_03_4665_d9362c9a-fbc3-45c3-aa1a-b88e1535d63f.jpg",
             "review_url": ""
           }
         },
@@ -760,7 +760,7 @@
             "title": "Naomi A.",
             "subheading": "People are talking",
             "review_text": "\"Hands down the best place to shop for Linen. I always chose NPL for my linen fashion needs. Thank you so much.\"",
-            "featured_image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day3-185-2.jpg",
+            "featured_image": "shopify:\/\/shop_images\/NPL_PaulaAmenta290_9c82cfa0-2934-4e68-bba5-8282dfa7a3dc.jpg",
             "review_url": ""
           }
         },
@@ -781,11 +781,11 @@
         "8a8d6d71-572e-4778-bc00-4c91f077ed29"
       ],
       "custom_css": [
-
+        "p {font-family: \"Avenir Next\", sans-serif; text-align: justify;}"
       ],
       "settings": {
         "show_featured_image": true,
-        "image_aspect_ratio": 1.5,
+        "image_aspect_ratio": 1,
         "show_quotation_marks": false,
         "text_align": "text-left",
         "text_size": 3,
@@ -1102,6 +1102,7 @@
           "settings": {
             "title": "",
             "title_color": "",
+            "title_size": 31,
             "alignment": "center",
             "html_area": ""
           }
@@ -1117,18 +1118,29 @@
         "include_margins": false
       }
     },
+    "section_divider_JWNqb3": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 21,
+        "padding_bottom": 50
+      }
+    },
     "7bf87be7-12cc-46f7-8f7b-9f843ac58d90": {
       "type": "section-custom-code",
       "custom_css": [
 
       ],
       "settings": {
-        "code": "<div id=\"omnisend-embedded-v2-65aad73bb5a6c982ef61d9b6\"><\/div>",
+        "code": "<div id=\"omnisend-embedded-v2-65b0c886b5a6c982ef61e028\"><\/div>",
         "width": "wrapper--full",
-        "bg_color": "#fbfaf5",
+        "bg_color": "#6495ed",
         "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 21,
+        "padding_bottom": 24
       }
     }
   },
@@ -1153,6 +1165,7 @@
     "9a1072b1-50ff-4986-81fd-8e5596ef27ca",
     "3fef8e51-bd38-4911-8d97-5f4236bb70aa",
     "16863067346fd3d834",
+    "section_divider_JWNqb3",
     "7bf87be7-12cc-46f7-8f7b-9f843ac58d90"
   ]
 }

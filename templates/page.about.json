@@ -52,14 +52,55 @@
     },
     "1702029546470dd286": {
       "type": "apps",
+      "blocks": {
+        "xo_gallery_xo_gallery_rTWKmL": {
+          "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery\/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+          "settings": {
+            "type": "gallery",
+            "id": 14,
+            "mid": ""
+          }
+        }
+      },
+      "block_order": [
+        "xo_gallery_xo_gallery_rTWKmL"
+      ],
       "settings": {
         "include_margins": false
+      }
+    },
+    "section_video_3kgrqR": {
+      "type": "section-video",
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/NOTPERFECTLINEN_10SEK_MED-LOW.mp4",
+        "show_video_popup": true,
+        "video_popup_social": "https:\/\/youtu.be\/s51LNGOKpLw",
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "width": "wrapper--full-padded",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "title": "This Is Us",
+        "heading_size": 8,
+        "description": "View with sound here:",
+        "text_size": 1,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#FFFFFF",
+        "link_text": "",
+        "link": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": true
       }
     }
   },
   "order": [
     "main",
     "2512fffa-7190-4183-ac1f-6cd23067ae02",
-    "1702029546470dd286"
+    "1702029546470dd286",
+    "section_video_3kgrqR"
   ]
 }
