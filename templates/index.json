@@ -1118,6 +1118,17 @@
         "include_margins": false
       }
     },
+    "section_divider_JWNqb3": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "7bf87be7-12cc-46f7-8f7b-9f843ac58d90": {
       "type": "section-custom-code",
       "custom_css": [
@@ -1128,8 +1139,8 @@
         "width": "wrapper--full",
         "bg_color": "#6495ed",
         "color": "",
-        "padding_top": 28,
-        "padding_bottom": 32
+        "padding_top": 21,
+        "padding_bottom": 24
       }
     }
   },
@@ -1154,6 +1165,7 @@
     "9a1072b1-50ff-4986-81fd-8e5596ef27ca",
     "3fef8e51-bd38-4911-8d97-5f4236bb70aa",
     "16863067346fd3d834",
+    "section_divider_JWNqb3",
     "7bf87be7-12cc-46f7-8f7b-9f843ac58d90"
   ]
 }
