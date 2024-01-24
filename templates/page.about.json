@@ -57,7 +57,7 @@
           "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery\/e61dfbaa-1a75-4e4e-bffc-324f17325251",
           "settings": {
             "type": "gallery",
-            "id": 14,
+            "id": 20,
             "mid": ""
           }
         }
@@ -79,7 +79,7 @@
         "mobile_height": "screen-height-three-quarters--mobile",
         "width": "wrapper--full-padded",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "title": "This Is Us",
         "heading_size": 8,
@@ -87,7 +87,7 @@
         "text_size": 1,
         "flex_align": "align--middle-center",
         "bg_color": "",
-        "color": "#FFFFFF",
+        "color": "#ffffff",
         "link_text": "",
         "link": "",
         "button_type": "btn--primary",
