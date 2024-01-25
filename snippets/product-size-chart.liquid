@@ -43,12 +43,10 @@
       <div style="display: flex; flex-wrap: wrap; gap: 15px;">
     
         <!-- NEW SIZE GUIDE -->
-        {% if product.tags contains 'BBB' %}
-          <p>BBB</p>
-        {% endif %}
+        {% unless product.tags contains 'no-size-guide' %}
+          {%- render 'size-chart-modal1' -%}
+        {% endunless %}
 
-        {%- render 'size-chart-modal1' -%}<p>BBB</p>
-        
         <!-- NEW COLOR GUIDE -->
         {% if color_guide != blank %}
           
