@@ -41,12 +41,12 @@
         "text_fnqVyX"
       ],
       "settings": {
-        "width": "wrapper",
+        "width": "wrapper--narrow",
         "align_text": "text-center",
         "bg_color": "#fbfaf5",
         "color": "",
-        "padding_top": 50,
-        "padding_bottom": 56
+        "padding_top": 30,
+        "padding_bottom": 36
       }
     },
     "16913114151447129b": {
