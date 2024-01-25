@@ -159,7 +159,7 @@
           "option_language": false,
           "title": "It looks like you are in {country}",
           "text": "",
-          "helper_text": "<p>Please confirm your country delivery.<\/p>",
+          "helper_text": "<p>Please confirm your country for delivery.<\/p>",
           "cta_text": "Confirm",
           "fallback_text": "<span style=\"text-align: center;\">Shopping from {country}?<\/span> <span><br>Please visit our international site:<br><strong><u><a href=\"https:\/\/www.notperfectlinen.com\">www.notperfectlinen.com<\/a><\/u><\/strong><\/span>",
           "alignment_image": "right",
