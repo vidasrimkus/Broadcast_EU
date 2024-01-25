@@ -142,9 +142,15 @@
           "block_alignement": "center"
         }
       },
+      "18423266570658624584": {
+        "type": "shopify:\/\/apps\/best-currency-converter\/blocks\/doubly\/267afa86-a419-4d5b-a61b-556038e7294d",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "15912215999290715800": {
         "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-modal\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "test_mode": true,
           "modal_closeButton": false,
@@ -168,12 +174,6 @@
           "style_colors_cta_text": "#ffffff",
           "style_colors_cta_button": "#000000",
           "style_colors_text": "#000000"
-        }
-      },
-      "18423266570658624584": {
-        "type": "shopify:\/\/apps\/best-currency-converter\/blocks\/doubly\/267afa86-a419-4d5b-a61b-556038e7294d",
-        "disabled": false,
-        "settings": {
         }
       }
     }
