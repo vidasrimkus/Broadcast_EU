@@ -49,8 +49,9 @@
         {% endif %}
 
         <!-- NEW COLOR GUIDE -->
-        {% if color_guide != blank %}
-          
+        
+        {% if product.tags contains 'no-color-guide' %}
+        {% else %}
           <a href="/pages/color-guide" data-popup-open data-product-popup="color-guide-alt" style="display: flex; align-items: center" class="radio__legend__link{% if product.has_only_default_variant %} size-popup-link{% endif %}">
             <img src="{{'color-guide.svg' | asset_url}}" width="24">
             <span class="radio__legend__link__label">
