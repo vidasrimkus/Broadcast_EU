@@ -40,6 +40,9 @@
         "heading_re7czJ",
         "text_fnqVyX"
       ],
+      "custom_css": [
+        "h2{text-align: center;}"
+      ],
       "settings": {
         "width": "wrapper--narrow",
         "align_text": "text-center",
