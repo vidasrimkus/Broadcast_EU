@@ -20,50 +20,30 @@
     "section_rich_text_7Mh9XQ": {
       "type": "section-rich-text",
       "blocks": {
-        "subheading_yQ3TXV": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Introducing",
-            "text_size": 3
-          }
-        },
         "heading_re7czJ": {
           "type": "heading",
           "settings": {
-            "title": "Rich text",
+            "title": "Beautiful 10 Years",
             "text_size": 8
           }
         },
         "text_fnqVyX": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text": "",
             "text_size": 4,
             "text_style": "font-body"
-          }
-        },
-        "buttons_UtBN7H": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
           }
         }
       },
       "block_order": [
-        "subheading_yQ3TXV",
         "heading_re7czJ",
-        "text_fnqVyX",
-        "buttons_UtBN7H"
+        "text_fnqVyX"
       ],
       "settings": {
         "width": "wrapper",
-        "align_text": "text-left",
-        "bg_color": "",
+        "align_text": "text-center",
+        "bg_color": "#fbfaf5",
         "color": "",
         "padding_top": 100,
         "padding_bottom": 100
