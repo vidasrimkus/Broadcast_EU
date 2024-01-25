@@ -41,7 +41,8 @@
         "text_fnqVyX"
       ],
       "custom_css": [
-        "h2{text-align: center;}"
+        "h2 {text-align: center;}",
+        "p {text-align: justify;}"
       ],
       "settings": {
         "width": "wrapper--narrow",
