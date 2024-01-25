@@ -43,7 +43,11 @@
       <div style="display: flex; flex-wrap: wrap; gap: 15px;">
     
         <!-- NEW SIZE GUIDE -->
-        {%- render 'size-chart-modal1' -%}
+        {% if product.tags contains 'BBB' %}
+          <p>BBB</p>
+        {% endif %}
+
+        {%- render 'size-chart-modal1' -%}<p>BBB</p>
         
         <!-- NEW COLOR GUIDE -->
         {% if color_guide != blank %}
