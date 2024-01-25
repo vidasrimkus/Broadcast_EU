@@ -44,17 +44,8 @@
     
         <!-- NEW SIZE GUIDE -->
         {% if product.tags contains 'no-size-guide' %}
-          AAA111
         {% else %}
-          BBB222
           {%- render 'size-chart-modal1' -%}
-        {% endif %}
-
-        {% if product.tags contains 'BBB' %}
-          BBB
-          {% else %}
-          AAA
-            {%- render 'size-chart-modal1' -%}
         {% endif %}
 
         <!-- NEW COLOR GUIDE -->
