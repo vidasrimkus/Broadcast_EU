@@ -16,6 +16,7 @@
         },
         "c36b4faf-8263-434b-95c2-0b39a039d79d": {
           "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
           "settings": {
             "product": "{{product}}"
           }
@@ -29,11 +30,10 @@
         "936f7c4f-94ce-41e2-ac1c-202ba8956b79": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-award",
-            "image": "shopify:\/\/shop_images\/ready_to_ship_19.png",
+            "icon_name": "icon-gift",
             "icon_size": 20,
             "icon_color": "#545454",
-            "title": "Item is {{ product.metafields.metaobjects.production_term.value.type_name.value }} and ships in {{ product.metafields.metaobjects.production_term.value.production_term.value }}",
+            "title": "Linen tote bag in canyon clay and 2 bath waffle towels in natural.  Total gift package value - 110 Eur.",
             "text_size": 2,
             "width": "half",
             "padding_bottom": 20
@@ -139,18 +139,6 @@
             "padding_bottom": 0
           }
         },
-        "07553056-ccd8-4fbf-bf34-5b3d7574b848": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-truck",
-            "icon_size": 20,
-            "icon_color": "#212121",
-            "title": "Free Express Worldwide Shipping on orders over 200 EUR",
-            "text_size": 2,
-            "width": "full",
-            "padding_bottom": 16
-          }
-        },
         "5e1c36d7-9362-4dc0-8e04-037b60d90151": {
           "type": "upsell",
           "disabled": true,
@@ -176,7 +164,6 @@
         "13f46c47-61f1-4483-9240-17242011c0e6",
         "58e66c4a-bfc2-4037-b3f9-e25e65f2a616",
         "f8b6c357-1633-4f57-9e3a-d7b823e3f234",
-        "07553056-ccd8-4fbf-bf34-5b3d7574b848",
         "5e1c36d7-9362-4dc0-8e04-037b60d90151"
       ],
       "custom_css": [
