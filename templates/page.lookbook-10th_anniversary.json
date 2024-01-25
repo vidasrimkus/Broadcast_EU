@@ -20,53 +20,37 @@
     "section_rich_text_7Mh9XQ": {
       "type": "section-rich-text",
       "blocks": {
-        "subheading_yQ3TXV": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Introducing",
-            "text_size": 3
-          }
-        },
         "heading_re7czJ": {
           "type": "heading",
           "settings": {
-            "title": "Rich text",
+            "title": "Beautiful 10 Years",
             "text_size": 8
           }
         },
         "text_fnqVyX": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text": "<p>This month is our 10th Anniversary and as we reflect on our journey, we understand that  the true driving force behind our success is you, our customers.<\/p><p>We are not only celebrating our achievements, we are celebrating YOU!<\/p><p>To celebrate this we are adding a complimentary linen tote bag in canyon clay color and 2 linen waffle bath towels to each order of 200 EUR and more (total gift package value is 129 EUR).<\/p><p><\/p>",
             "text_size": 4,
             "text_style": "font-body"
-          }
-        },
-        "buttons_UtBN7H": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
           }
         }
       },
       "block_order": [
-        "subheading_yQ3TXV",
         "heading_re7czJ",
-        "text_fnqVyX",
-        "buttons_UtBN7H"
+        "text_fnqVyX"
+      ],
+      "custom_css": [
+        "h2 {text-align: center;}",
+        "p {text-align: justify;}"
       ],
       "settings": {
-        "width": "wrapper",
-        "align_text": "text-left",
-        "bg_color": "",
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "#fbfaf5",
         "color": "",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 30,
+        "padding_bottom": 36
       }
     },
     "16913114151447129b": {
