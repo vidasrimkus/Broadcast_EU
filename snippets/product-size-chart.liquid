@@ -43,9 +43,10 @@
       <div style="display: flex; flex-wrap: wrap; gap: 15px;">
     
         <!-- NEW SIZE GUIDE -->
-        {% unless product.tags contains 'no-size-guide' %}
+        {% if product.tags contains 'no-size-guide' %}
+        {% else %}
           {%- render 'size-chart-modal1' -%}
-        {% endunless %}
+        {% endif %}
 
         <!-- NEW COLOR GUIDE -->
         {% if color_guide != blank %}
