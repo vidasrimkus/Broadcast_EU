@@ -48,6 +48,12 @@
           {%- render 'size-chart-modal1' -%}
         {% endif %}
 
+        {% if product.tags contains 'BBB' %}
+          BBB
+          {% else %}
+            {%- render 'size-chart-modal1' -%}
+        {% endif %}
+
         <!-- NEW COLOR GUIDE -->
         {% if color_guide != blank %}
           
