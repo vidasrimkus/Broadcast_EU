@@ -544,7 +544,7 @@
         "related": {
           "type": "related",
           "settings": {
-            "product_recommendations_heading": "PERFECT MATCH",
+            "product_recommendations_heading": "YOU MAY ALSO LIKE",
             "limit": 4
           }
         },
