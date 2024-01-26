@@ -175,6 +175,14 @@
           "style_colors_cta_button": "#000000",
           "style_colors_text": "#000000"
         }
+      },
+      "8613281880779018622": {
+        "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-hreflang\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
+        "disabled": false,
+        "settings": {
+          "enable_all_markets": false,
+          "custom_xdefault": ""
+        }
       }
     }
   },
