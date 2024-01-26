@@ -148,6 +148,14 @@
         "settings": {
         }
       },
+      "8613281880779018622": {
+        "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-hreflang\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
+        "disabled": false,
+        "settings": {
+          "enable_all_markets": false,
+          "custom_xdefault": ""
+        }
+      },
       "15912215999290715800": {
         "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-modal\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
         "disabled": false,
@@ -159,7 +167,7 @@
           "option_language": false,
           "title": "It looks like you are in {country}",
           "text": "",
-          "helper_text": "<p>Or choose other delivery country:<\/p>",
+          "helper_text": "<p>Please confirm it as country of delivery.<\/p>",
           "cta_text": "Confirm",
           "fallback_text": "<span style=\"text-align: center;\">It looks like you are in {country}?<\/span> <span><br>Please visit our International site for shipping to non-EU countries:<br><strong><u><a href=\"https:\/\/www.notperfectlinen.com\">www.notperfectlinen.com<\/a><\/u><\/strong><\/span>",
           "alignment_image": "right",
@@ -174,14 +182,6 @@
           "style_colors_cta_text": "#ffffff",
           "style_colors_cta_button": "#000000",
           "style_colors_text": "#000000"
-        }
-      },
-      "8613281880779018622": {
-        "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-hreflang\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
-        "disabled": false,
-        "settings": {
-          "enable_all_markets": false,
-          "custom_xdefault": ""
         }
       }
     }
