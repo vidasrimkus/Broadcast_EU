@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "title": "THE MOST GENEROUS GIFT EVER WHEN YOU SPEND 200 EUR OR MORE",
-            "heading_size": 5
+            "heading_size": 4
           }
         },
         "cfca5483-e97c-4f46-b2a9-dd26e6c2a886": {
@@ -69,7 +69,7 @@
         "mobile_image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-from6348-154_9ca6200e-5f40-4840-b631-582ecdf761c0.jpg",
         "flex_align_desktop": "align--bottom-center-desktop",
         "flex_align_mobile": "align--bottom-center-mobile",
-        "overlay_opacity": 20,
+        "overlay_opacity": 0,
         "overlay_color": "#212121",
         "show_overlay_text": true,
         "bg_color": "",
