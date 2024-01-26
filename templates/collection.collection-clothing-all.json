@@ -56,11 +56,11 @@
     "7f1c2271-263f-459c-9cb9-b8328ea15a54": {
       "type": "section-collections-list",
       "blocks": {
-        "4954f9ce-3fe8-4725-810d-08f6bac7712f": {
+        "collection_im8wN9": {
           "type": "collection",
           "settings": {
             "collection": "linen-clothing-women",
-            "title": "kitoks pavadinimas"
+            "title": ""
           }
         },
         "cfb96ea1-a0b6-4e85-b448-e45141b91862": {
@@ -97,23 +97,15 @@
             "collection": "light-weight-linen",
             "title": "Light Weight Linen"
           }
-        },
-        "collection_im8wN9": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
         }
       },
       "block_order": [
-        "4954f9ce-3fe8-4725-810d-08f6bac7712f",
+        "collection_im8wN9",
         "cfb96ea1-a0b6-4e85-b448-e45141b91862",
         "0c383b90-ef0c-4bc2-8773-f355c6eae626",
         "3403cc6a-578d-4f36-8da2-dfa686b98f78",
         "1e19b0ac-d2b8-467c-8c46-f27cd60498aa",
-        "56870435-efeb-4128-aa17-03df34a7cc4b",
-        "collection_im8wN9"
+        "56870435-efeb-4128-aa17-03df34a7cc4b"
       ],
       "custom_css": [
         ".collection-item__image {display: none;}",
