@@ -1,0 +1,14 @@
+<div style="font-size: 11px">
+    <div class="cart-attribute" style="display: flex; align-items:center; gap: 5px;">
+        <input type="hidden" id="hidden-dont-include-label" name="attributes[PAPER LABEL]" value="INCLUDE">
+        <input type="checkbox" id="checkbox-dont-include-label" name="attributes[PAPER LABEL]" value="DO NOT INCLUDE">
+        <label for="checkbox-dont-include-label"><em>Don’t include paper label</em></label>
+    </div>
+    <div class="cart-attribute" style="display: flex; align-items:center; gap: 5px">
+        <input type="hidden" id="hidden-dont-include-samples" name="attributes[FABRIC SAMPLES]" value="INCLUDE">
+        <input type="checkbox" id="checkbox-dont-include-samples" name="attributes[FABRIC SAMPLES]" value="DO NOT INCLUDE">
+        <label for="checkbox-dont-include-samples"><em>Don’t include fabric samples</em></label>
+    </div>
+</div>
+<script src="{{ 'reduce-waste.js' | asset_url }}" defer="defer"></script>
+
