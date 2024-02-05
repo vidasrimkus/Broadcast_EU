@@ -9,7 +9,7 @@
           "type": "message",
           "settings": {
             "show_wheel": true,
-            "message": "You are ||amount|| away from free Worldwide Express Shipping + GIFT",
+            "message": "You are ||amount|| away from free Worldwide Express Shipping",
             "target_url_enabled": false,
             "target_url": "",
             "target_referrer_enabled": false,
