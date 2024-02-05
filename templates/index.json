@@ -40,22 +40,13 @@
             "button_style": "btn--solid",
             "show_arrow": false
           }
-        },
-        "7f3b88bf-56aa-4a6e-9230-f36069ba2252": {
-          "type": "text",
-          "settings": {
-            "description": "We are celebrating our 10th anniversary and adding a complimentary linen tote bag in beloved canyon clay color and 2 linen bath waffle towels in any color selected by us to each order over 200 EUR. Total gift package value is 123 EUR.\nThe offer is of limited time and ends 4th February.",
-            "text_size": 2,
-            "text_style": "font-body"
-          }
         }
       },
       "block_order": [
         "2712ac31-6042-4c36-ba47-02af77ff61a0",
         "cfca5483-e97c-4f46-b2a9-dd26e6c2a886",
         "template--19071507890521__c88acef0-c939-403b-91ee-e277de262241-1686308700d0d0a9e4-2",
-        "6cfe9f9f-eb62-433d-b691-1d7ec4741ff1",
-        "7f3b88bf-56aa-4a6e-9230-f36069ba2252"
+        "6cfe9f9f-eb62-433d-b691-1d7ec4741ff1"
       ],
       "custom_css": [
         ".btn {margin-right: 25px;}"
@@ -151,30 +142,18 @@
             "text_size": 4,
             "text_style": "font-heading"
           }
-        },
-        "template--20264533983577__46c98e39-a23d-460f-840c-81596bb20460-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "Celebrate with us",
-            "button_url": "shopify:\/\/pages\/npl-10th-anniversary",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--text",
-            "show_arrow": false
-          }
         }
       },
       "block_order": [
-        "template--20264533983577__46c98e39-a23d-460f-840c-81596bb20460-text-1",
-        "template--20264533983577__46c98e39-a23d-460f-840c-81596bb20460-buttons-1"
+        "template--20264533983577__46c98e39-a23d-460f-840c-81596bb20460-text-1"
       ],
       "settings": {
         "width": "wrapper--narrow",
         "align_text": "text-center",
         "bg_color": "#fbfaf5",
         "color": "",
-        "padding_top": 74,
-        "padding_bottom": 26
+        "padding_top": 64,
+        "padding_bottom": 22
       }
     },
     "f195f6e4-a80e-4aca-8b87-112687cb12b5": {
