@@ -15,7 +15,7 @@
           "type": "text",
           "settings": {
             "description": "Rewriting Clothing Experience",
-            "text_size": 7,
+            "text_size": 6,
             "text_style": "font-heading"
           }
         },
