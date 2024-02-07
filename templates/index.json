@@ -14,9 +14,9 @@
         "cfca5483-e97c-4f46-b2a9-dd26e6c2a886": {
           "type": "text",
           "settings": {
-            "description": "",
-            "text_size": 1,
-            "text_style": "font-body"
+            "description": "Rewriting Clothing Experience",
+            "text_size": 7,
+            "text_style": "font-heading"
           }
         },
         "template--19071507890521__c88acef0-c939-403b-91ee-e277de262241-1686308700d0d0a9e4-2": {
@@ -59,8 +59,8 @@
         "link": "",
         "mobile_height": "screen-height-three-quarters--mobile",
         "mobile_image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-from6348-154_9ca6200e-5f40-4840-b631-582ecdf761c0.jpg",
-        "flex_align_desktop": "align--bottom-center-desktop",
-        "flex_align_mobile": "align--bottom-center-mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
         "overlay_color": "#212121",
         "show_overlay_text": true,
