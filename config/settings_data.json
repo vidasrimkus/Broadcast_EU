@@ -183,6 +183,12 @@
           "enable_all_markets": true,
           "custom_xdefault": "https:\/\/notperfectlinen.com"
         }
+      },
+      "4792298987250413341": {
+        "type": "shopify:\/\/apps\/chatpoint-shoppable-video\/blocks\/main\/26ed47f4-0e33-4114-8255-07b39d8f76f2",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
