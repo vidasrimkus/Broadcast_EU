@@ -31,7 +31,7 @@
         "width": "wrapper--narrow",
         "align_text": "text-center",
         "bg_color": "#fbfaf5",
-        "color": "#ffffff",
+        "color": "rgba(0,0,0,0)",
         "padding_top": 20,
         "padding_bottom": 20
       }
