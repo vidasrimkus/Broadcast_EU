@@ -6,14 +6,14 @@
         "template--19437252739417__4c2a397b-f839-4cde-b1f5-5d226848efb0-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "",
-            "text_size": 6
+            "title": "Sale Items are ready to ship in 3-5 days",
+            "text_size": 3
           }
         },
         "template--19437252739417__4c2a397b-f839-4cde-b1f5-5d226848efb0-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ships in 3-5 days<\/p>",
+            "text": "<p>Please note that Sale items are not eligible for returns or exchanges<\/p>",
             "text_size": 3,
             "text_style": "font-body"
           }
