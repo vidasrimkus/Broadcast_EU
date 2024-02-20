@@ -77,20 +77,6 @@
             "title": "Clothing Accessories"
           }
         },
-        "3403cc6a-578d-4f36-8da2-dfa686b98f78": {
-          "type": "collection",
-          "settings": {
-            "collection": "gingham-linen-collection",
-            "title": ""
-          }
-        },
-        "1e19b0ac-d2b8-467c-8c46-f27cd60498aa": {
-          "type": "collection",
-          "settings": {
-            "collection": "heavy-weight-linen",
-            "title": "Heavy Weight Linen"
-          }
-        },
         "56870435-efeb-4128-aa17-03df34a7cc4b": {
           "type": "collection",
           "settings": {
@@ -103,8 +89,6 @@
         "collection_im8wN9",
         "cfb96ea1-a0b6-4e85-b448-e45141b91862",
         "0c383b90-ef0c-4bc2-8773-f355c6eae626",
-        "3403cc6a-578d-4f36-8da2-dfa686b98f78",
-        "1e19b0ac-d2b8-467c-8c46-f27cd60498aa",
         "56870435-efeb-4128-aa17-03df34a7cc4b"
       ],
       "custom_css": [
