@@ -1122,6 +1122,23 @@
         "padding_top": 21,
         "padding_bottom": 24
       }
+    },
+    "17084337204694d878": {
+      "type": "apps",
+      "blocks": {
+        "chatpoint_shoppable_video_counter_Q8zpTJ": {
+          "type": "shopify:\/\/apps\/chatpoint-shoppable-video\/blocks\/counter\/26ed47f4-0e33-4114-8255-07b39d8f76f2",
+          "settings": {
+            "widget_id": "1ccc1196-0b2e-462f-96a2-5596e6da9f8e"
+          }
+        }
+      },
+      "block_order": [
+        "chatpoint_shoppable_video_counter_Q8zpTJ"
+      ],
+      "settings": {
+        "include_margins": false
+      }
     }
   },
   "order": [
@@ -1146,6 +1163,7 @@
     "3fef8e51-bd38-4911-8d97-5f4236bb70aa",
     "16863067346fd3d834",
     "section_divider_JWNqb3",
-    "7bf87be7-12cc-46f7-8f7b-9f843ac58d90"
+    "7bf87be7-12cc-46f7-8f7b-9f843ac58d90",
+    "17084337204694d878"
   ]
 }
