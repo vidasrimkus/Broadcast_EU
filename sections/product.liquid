@@ -159,7 +159,7 @@
                         data-media-id="{{ section.id }}-{{ media.id }}"
                         data-thumb-link>
                         {%- liquid
-                        {%- comment -%}render 'image' image: media.preview_image, width: 150, height: 150, sizes: '75px', widths: '75, 100, 150, 225, 300', aspect_ratio: 1{%- endcomment -%}
+                        render 'image' image: media.preview_image, width: 150, height: 150, sizes: '75px', widths: '75, 100, 150, 225, 300', aspect_ratio: 1
 
                           if media.media_type == 'video' or media.media_type == 'external_video'
                             render 'icon-media-video'
