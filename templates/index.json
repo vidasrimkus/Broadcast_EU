@@ -1059,7 +1059,7 @@
         "title": "Journal",
         "heading_size": 5,
         "width": "wrapper--full-padded",
-        "grid": 2,
+        "grid": 3,
         "rows": 1,
         "aspect_ratio": 1,
         "title_size": 4,
