@@ -39,7 +39,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "Shop The Collection",
-            "button_url": "shopify:\/\/collections\/linen-jumpsuits-rompers",
+            "button_url": "shopify:\/\/collections\/linen-jumpsuits",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
@@ -67,19 +67,6 @@
     },
     "16913114151447129b": {
       "type": "apps",
-      "blocks": {
-        "91d121f1-55f2-4f27-be1f-8560f7d06d35": {
-          "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery\/e61dfbaa-1a75-4e4e-bffc-324f17325251",
-          "settings": {
-            "type": "gallery",
-            "id": 9,
-            "mid": ""
-          }
-        }
-      },
-      "block_order": [
-        "91d121f1-55f2-4f27-be1f-8560f7d06d35"
-      ],
       "settings": {
         "include_margins": false
       }
