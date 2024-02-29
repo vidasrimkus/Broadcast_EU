@@ -14,7 +14,7 @@
         "cfca5483-e97c-4f46-b2a9-dd26e6c2a886": {
           "type": "text",
           "settings": {
-            "description": "REWRITING CLOTHING EXPERIENCE",
+            "description": "Spring Shopping Made Refreshingly Easy",
             "text_size": 6,
             "text_style": "font-heading"
           }
@@ -55,11 +55,11 @@
       "settings": {
         "height": "seven-fifty-height-hero",
         "width": "wrapper--full",
-        "image_1": "shopify:\/\/shop_images\/NPL_PaulaAmenta45-2.jpg",
+        "image_1": "shopify:\/\/shop_images\/IMG_7383_949b5557-41ba-43f4-96c8-7c0d37844afb.jpg",
         "image_2": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day3-344.jpg",
         "link": "",
         "mobile_height": "screen-height-three-quarters--mobile",
-        "mobile_image": "shopify:\/\/shop_images\/NPL_PaulaAmenta45-2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/IMG_7383_949b5557-41ba-43f4-96c8-7c0d37844afb.jpg",
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
