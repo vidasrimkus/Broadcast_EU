@@ -1,0 +1,585 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "breadcrumb",
+            "text_size": 4,
+            "show_rating": false,
+            "enable_star_rating": false,
+            "show_rating_count": false,
+            "padding_bottom": 8
+          }
+        },
+        "c36b4faf-8263-434b-95c2-0b39a039d79d": {
+          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "padding_bottom": 16
+          }
+        },
+        "936f7c4f-94ce-41e2-ac1c-202ba8956b79": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "image": "shopify:\/\/shop_images\/ready_to_ship_19.png",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Item is {{ product.metafields.metaobjects.production_term.value.type_name.value }} and ships in {{ product.metafields.metaobjects.production_term.value.production_term.value }}",
+            "text_size": 2,
+            "width": "half",
+            "padding_bottom": 20
+          }
+        },
+        "eacfcaf1-ef58-4255-a63d-b714ae23c688": {
+          "type": "divider",
+          "settings": {
+            "show_line": false,
+            "padding_top": 15,
+            "padding_bottom": 0
+          }
+        },
+        "256e2010-d28f-419b-8e36-d27e8124d92e": {
+          "type": "size_chart",
+          "settings": {
+            "info_page": "",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 16
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "size_chart_style": "text",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": true,
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "padding_bottom": 12
+          }
+        },
+        "tabs": {
+          "type": "tab_richtext",
+          "settings": {
+            "show_read_more": true,
+            "style": "accordions",
+            "title_1": "Details & Fit",
+            "raw_content_1": "{{ product.metafields.product.tab_details | metafield_tag }}",
+            "title_2": "",
+            "raw_content_2": "<p>{{ product.metafields.product.tab_materials.value }}<\/p>",
+            "title_3": "Customizations",
+            "raw_content_3": "<p>We do accept<strong> three (3) customizations per order in total<\/strong>, and we do them free of charge:<\/p><ul><li>Customize your item to your own measurements.<\/li><li>Take off or add extra inches (up to 7.9 in\/ 20 cm) to the garment length (torso, waistline etc.).<\/li><li>Take off or add extra inches to the sleeve length (except Sydney, Perth, Malta or Monaco dress).<\/li><li>Take off, add or change buttons\/snaps.<\/li><li>Make changes to the neckline\/collar.<\/li><li>Add or remove pockets.<\/li><li>Adjust armholes.<\/li><li>Adjust hem allowance.<\/li><li>Add belts or ties to the garment.<\/li><\/ul><p>If you want your item to be customized, please leave a note at the <strong>\"Check out\"<\/strong>.<\/p><p>If you couldn’t find the exact adjustments or need more than three, please contact us prior to ordering.<\/p><p><strong>Please note once again that customized items cannot be returned, refunded or exchanged.<\/strong><\/p>",
+            "title_4": "",
+            "raw_content_4": "<p>All our products are 'Made-To-Order', except those listed under:<\/p><ul><li>'Ready to ship'<\/li><li>'Sale'<\/li><li>'Scarves'<\/li><li>'Waffle towels'<\/li><\/ul><p>It means that products are only handcrafted once a customer places an order. This sustainable manufacturing model has a substantial environmental impact as it contributes to minimizing overproduction and textile waste.<\/p><p><a href=\"\/blogs\/journal\/what-does-made-to-order-mean-a-glimpse-into-our-manufacturing-process\" target=\"_blank\" title=\"What does 'Made to Order' mean? | A glimpse into our manufacturing process\">Read more here<\/a><\/p>",
+            "title_5": "",
+            "raw_content_5": "<p>Your linen garment is already prewashed, so it should not shrink if you will take proper care of it.<\/p><p><a href=\"\/pages\/care-guide\" title=\"Care guide\">Linen needs extra care so please find more information here.<\/a><\/p>",
+            "padding_bottom": 0
+          }
+        },
+        "56c7d00d-ed0b-4efe-932b-4a11e09ec70c": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_top": 20,
+            "padding_bottom": 20
+          }
+        },
+        "13f46c47-61f1-4483-9240-17242011c0e6": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_size": 20,
+            "icon_color": "#212121",
+            "title": "OEKO-TEX® and EUROPEAN FLAX® certified linen fabric",
+            "text_size": 2,
+            "width": "full",
+            "padding_bottom": 22
+          }
+        },
+        "58e66c4a-bfc2-4037-b3f9-e25e65f2a616": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-location",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Family-Owned",
+            "text_size": 2,
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
+        "f8b6c357-1633-4f57-9e3a-d7b823e3f234": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-ruler",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Handcrafting Since 2014",
+            "text_size": 2,
+            "width": "full",
+            "padding_bottom": 0
+          }
+        },
+        "07553056-ccd8-4fbf-bf34-5b3d7574b848": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_size": 20,
+            "icon_color": "#212121",
+            "title": "Free Express Worldwide Shipping on orders over 200 EUR",
+            "text_size": 2,
+            "width": "full",
+            "padding_bottom": 16
+          }
+        },
+        "5e1c36d7-9362-4dc0-8e04-037b60d90151": {
+          "type": "upsell",
+          "settings": {
+            "upsell_product": "{{ product.metafields.theme.upsell.value }}",
+            "upsell_product_list": "{{ block.settings.upsell_product.metafields.theme.upsell_list.value }}",
+            "bg_color": "#ffffff",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "c36b4faf-8263-434b-95c2-0b39a039d79d",
+        "price",
+        "936f7c4f-94ce-41e2-ac1c-202ba8956b79",
+        "eacfcaf1-ef58-4255-a63d-b714ae23c688",
+        "256e2010-d28f-419b-8e36-d27e8124d92e",
+        "variants",
+        "buttons",
+        "tabs",
+        "56c7d00d-ed0b-4efe-932b-4a11e09ec70c",
+        "13f46c47-61f1-4483-9240-17242011c0e6",
+        "58e66c4a-bfc2-4037-b3f9-e25e65f2a616",
+        "f8b6c357-1633-4f57-9e3a-d7b823e3f234",
+        "07553056-ccd8-4fbf-bf34-5b3d7574b848",
+        "5e1c36d7-9362-4dc0-8e04-037b60d90151"
+      ],
+      "custom_css": [
+        "px.select-popout__toggle {border: 1px solid var(--border);}",
+        "div.accordion__content {text-align: justify;}",
+        "div.accordion-content__actions {padding-top: 5px;}",
+        ".caps--link {font-weight: bold;}",
+        ".product__price {font-weight: 500;}",
+        ".accordion__title {font-weight: 500;}",
+        ".product-upsell__holder__title {font-weight: 500;}",
+        ".product__icon__container {background-color: #fbfaf5;}"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "grid-1",
+        "image_size": "normal",
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_style": "thumbs",
+        "padding_top": 90,
+        "padding_bottom": 30
+      }
+    },
+    "8fa1c9d5-d61d-4d19-95f0-f3ca5de68986": {
+      "type": "section-accordion",
+      "blocks": {
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Shipping",
+            "text": "<p>We ship worldwide from our Studio in Lithuania, EU. Delivery depends on the destination country and the chosen shipping method. National post delivers: in Europe (3-10 days);  non-European countries (10-20 days). Courier express services (DHL or FedEx): \"Express\" service is usually delivered in 2-5 days worldwide. \"Economy\" service is usually delivered in 4-14 days worldwide. Read more <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">here<\/a>.<\/p>"
+          }
+        },
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "Returns",
+            "text": "<p>If you are not satisfied with your purchase, you can easily return your item (except customized ones) within 30 days from the date of delivery. Read more <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">here<\/a>.<\/p>"
+          }
+        },
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "Order Tracking",
+            "text": "<p>Tracking number is automatically sent as soon as your order is handled to the Courier. You can track your order______. If you have difficulties tracking your order, please contact us at <strong>orders@notperfectlinen.com<\/strong>. Please note our customer service is based in Lithuania and is available Monday through Friday from 3 am to 12 pm EST.<\/p>"
+          }
+        },
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-4": {
+          "type": "text",
+          "settings": {
+            "title": "Taxes, Duties, Custom Fees",
+            "text": "<p>Though we collect\/charge Sales Tax for some countries, additional duties\/import taxes may still be applied for some shipments made outside the European Union (EU). Read more <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">here<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-1",
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-2",
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-3",
+        "template--20264533590361__8fa1c9d5-d61d-4d19-95f0-f3ca5de68986-text-4"
+      ],
+      "custom_css": [
+        ".faq-list__item-content {text-align: justify;}",
+        ".accordion__title {font-size: 16px; font-weight: 500;}"
+      ],
+      "settings": {
+        "title": "Shipping & Returns",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "icon_color": "#545454",
+        "bg_color": "#ffffff",
+        "color": "",
+        "border_color": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b704f05c-cb33-442a-8f10-a07d9fe68ca7": {
+      "type": "section-accordion",
+      "blocks": {
+        "1a8c7e23-c1fd-44ff-8c8e-6ee09c058283": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>Your linen garment is already prewashed, so it should not shrink if you will take proper care of it.<\/p><p>Linen needs extra care so please find more information <a href=\"\/pages\/linen-care-guide\" title=\"Care guide\">here<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1a8c7e23-c1fd-44ff-8c8e-6ee09c058283"
+      ],
+      "custom_css": [
+        ".faq-list__item-content {text-align: justify;}",
+        ".accordion__title {font-size: 16px; font-weight: 500;}"
+      ],
+      "settings": {
+        "title": "Taking Care",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "icon_color": "#545454",
+        "bg_color": "#ffffff",
+        "color": "",
+        "border_color": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "4fbe52a8-700c-4676-99f8-855fa44c84b0": {
+      "type": "section-accordion",
+      "blocks": {
+        "8e116f67-819d-47c3-8d00-3eb440d25285": {
+          "type": "image",
+          "settings": {
+            "title": "Unique Properties & Health Benefits",
+            "text": "<p>Linen is long lasting natural fiber derived from flax plants. It is breathable, highly moisture absorbent, and has unique temperature-regulating properties. It is also antibacterial and resistant to allergens making it the top choice for sensitive people.<\/p>",
+            "image": "shopify:\/\/shop_images\/iStock-454932171.jpg",
+            "aspect_ratio": 0.6
+          }
+        },
+        "f46eed2f-56f3-4ccf-be32-73a8d8e1e53e": {
+          "type": "image",
+          "settings": {
+            "title": "Free Of Harmful Substances",
+            "text": "<p>Linen, unlikely other fabrics, which are produced under intense chemical treatment, is a plant which grows without the need for many fertilizers or pesticides. This means that not only the fabric we put on our skin is free from extreme harmful substances, but also it does not damage our soil.<\/p>",
+            "image": "shopify:\/\/shop_images\/iStock-149427829.jpg",
+            "aspect_ratio": 0.6
+          }
+        },
+        "114af2b7-352f-4f35-9ceb-28dfed160afc": {
+          "type": "image",
+          "settings": {
+            "title": "Less Thirsty Than Cotton",
+            "text": "<p>Unlike cotton which requires huge amount of water to be produced, linen requires least water to be grown. Natural rainfalls are usually enough to irrigate flax plantations and thus growing linen doesn’t contribute to withdrawal of ground or surface water resources.<\/p>",
+            "image": "shopify:\/\/shop_images\/stream-water-passing-through-cliffs.jpg",
+            "aspect_ratio": 0.6
+          }
+        },
+        "3e9255c4-7740-412a-bec3-4ac4ae917745": {
+          "type": "image",
+          "settings": {
+            "title": "Biodegradable & Recyclable",
+            "text": "<p>Linen is a recyclable and biodegradable fabric being completely decomposed by biological process within first two weeks when properly buried in the soil, while degradation of polyester fabric takes near 200 years.<\/p>",
+            "image": "shopify:\/\/shop_images\/iStock-1394774878.jpg",
+            "aspect_ratio": 0.6
+          }
+        }
+      },
+      "block_order": [
+        "8e116f67-819d-47c3-8d00-3eb440d25285",
+        "f46eed2f-56f3-4ccf-be32-73a8d8e1e53e",
+        "114af2b7-352f-4f35-9ceb-28dfed160afc",
+        "3e9255c4-7740-412a-bec3-4ac4ae917745"
+      ],
+      "custom_css": [
+        ".faq-list__item-content {text-align: justify;}",
+        ".accordion__title {font-size: 16px; font-weight: 500;}"
+      ],
+      "settings": {
+        "title": "Why Linen?",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "icon_color": "#545454",
+        "bg_color": "#ffffff",
+        "color": "",
+        "border_color": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b1ce2ee8-4f72-4337-87b5-7594a72c2491": {
+      "type": "section-accordion",
+      "blocks": {
+        "674b853f-b931-4523-aa69-7028021a69df": {
+          "type": "image",
+          "settings": {
+            "title": "Avoiding Overproduction",
+            "text": "<p>Clothes are a necessary part of our life, but our ever-expanding wardrobes are damaging the Planet. Global fashion industry waste is huge. Up to 100 billion new garments are made each year, leaving our Planet with 92 million tons of textile waste every single year.<\/p>",
+            "image": "shopify:\/\/shop_images\/NPL_Avoiding_Overproduction.jpg",
+            "aspect_ratio": 0.6
+          }
+        },
+        "decbd863-c1a7-47a2-ad6e-e22c19848034": {
+          "type": "image",
+          "settings": {
+            "title": "Reducing Landfill Waste",
+            "text": "<p>Our brand chooses to work on Made-To-Order model as it is a huge manufacturing tool to reduce textile waste and avoid overproduction. We allow our customer to lead manufacturing process by showing a demand and produce only what is needed.<\/p>",
+            "image": "shopify:\/\/shop_images\/aerial-shot-of-sparse-forest-with-red-soil.jpg",
+            "aspect_ratio": 0.6
+          }
+        }
+      },
+      "block_order": [
+        "674b853f-b931-4523-aa69-7028021a69df",
+        "decbd863-c1a7-47a2-ad6e-e22c19848034"
+      ],
+      "custom_css": [
+        ".faq-list__item-content {text-align: justify;}",
+        ".accordion__title {font-size: 16px; font-weight: 500;}"
+      ],
+      "settings": {
+        "title": "Why Made-To-Order?",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "icon_color": "#545454",
+        "bg_color": "#ffffff",
+        "color": "",
+        "border_color": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "bd27b8a6-bb66-4a53-a6f4-fe76e0dc9bd9": {
+      "type": "section-accordion",
+      "blocks": {
+        "a609197b-5f86-40fe-a82d-0fe0eaa22082": {
+          "type": "image",
+          "settings": {
+            "title": "Biodegradable Materials & Renewable Resources",
+            "text": "<p>We source the best European linen available. The material we use is OEKO–TEX® Standard 100 certified, and it is produced entirely in Europe from the fields to the fabric. It also means that linen fabric has been tested for harmful substances and was grown using fewer resources and energy. Our linen fabric manufacturer uses only green energy, that means all the power provided to the weaving, softening, dyeing process is only from renewable resources.<\/p>",
+            "image": "shopify:\/\/shop_images\/cooling-the-countryside.jpg",
+            "aspect_ratio": 0.6
+          }
+        },
+        "affdf157-1497-4bde-bf42-d9be28be2d3c": {
+          "type": "image",
+          "settings": {
+            "title": "Good Practices",
+            "text": "<p>We use as much recyclable package as the transition let us do, and we leave no fabric waste by incorporating small remnants in upcoming designs or donating fabric swatches to the crafters. We are proud <a href=\"https:\/\/www.instagram.com\/nplcares\/\" title=\"https:\/\/www.instagram.com\/nplcares\/\">@nplcares<\/a> owners where we give possibility for less privileged people to engage with sustainable fashion.<\/p>",
+            "image": "shopify:\/\/shop_images\/404040.jpg",
+            "aspect_ratio": 0.6
+          }
+        },
+        "cb40552b-5bb7-4ab5-b209-d9ed4551dab0": {
+          "type": "image",
+          "settings": {
+            "title": "Minimizing Enviromental Footprint",
+            "text": "<p>We keep our supply chain local to minimize our environmental footprint. Our linen fabric manufacturer is based within 80 km from our studio, as long as the entire operation of designing, cutting, sewing, labelling, packing and shipping is done in exclusively in our studio. It cuts out middlemen, significantly reduces transportation air miles and help us to monitor the entirely process closely.<\/p>",
+            "image": "shopify:\/\/shop_images\/ready_to_ship_49.jpg",
+            "aspect_ratio": 0.6
+          }
+        },
+        "d8215055-f83d-46e3-9d57-0b9ad90ab943": {
+          "type": "image",
+          "settings": {
+            "title": "Ethics",
+            "text": "<p>We are aware of the environmental, social, cruelty to animal's issues worldwide, and we assure that we manufacture with a conscience. We are focused on ensuring quality, promoting transparency, using sustainable practices and doing all this as ethically as possible. We act with fairness and integrity while observing high standards of personal and business ethics, and we expect all our suppliers to conduct their business in the same manner. To consider this, we select only such sourcing suppliers who meet our social and environmental criteria or have adopted sustainable practices.<\/p>",
+            "image": "shopify:\/\/shop_images\/ready_to_ship_50.jpg",
+            "aspect_ratio": 0.6
+          }
+        }
+      },
+      "block_order": [
+        "a609197b-5f86-40fe-a82d-0fe0eaa22082",
+        "affdf157-1497-4bde-bf42-d9be28be2d3c",
+        "cb40552b-5bb7-4ab5-b209-d9ed4551dab0",
+        "d8215055-f83d-46e3-9d57-0b9ad90ab943"
+      ],
+      "custom_css": [
+        ".faq-list__item-content {text-align: justify;}",
+        ".accordion__title {font-size: 16px; font-weight: 500;}"
+      ],
+      "settings": {
+        "title": "Sustainability & Ethics",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "icon_color": "#545454",
+        "bg_color": "#ffffff",
+        "color": "",
+        "border_color": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
+      "settings": {
+        "enable_product_reviews": false,
+        "enable_accordion": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "1707474084ff947b47": {
+      "type": "apps",
+      "blocks": {
+        "chatpoint_shoppable_video_counter_Me3g8c": {
+          "type": "shopify:\/\/apps\/chatpoint-shoppable-video\/blocks\/counter\/26ed47f4-0e33-4114-8255-07b39d8f76f2",
+          "settings": {
+            "widget_id": "946d5e20-ce4d-4521-b707-2612b44b2825"
+          }
+        }
+      },
+      "block_order": [
+        "chatpoint_shoppable_video_counter_Me3g8c"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "db6cdaf0-ba9b-45c5-a217-9d1e432ef15d": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--20264533590361__db6cdaf0-ba9b-45c5-a217-9d1e432ef15d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Over 200 000 conscious customers voiced their sustainable decision and trusted us on their journey while reducing their wardrobe footprint. Over 45 000 five-star reviews via all market platforms confirmed that we deliver what we promise.<\/p>",
+            "text_size": 4,
+            "text_style": "font-heading"
+          }
+        },
+        "template--20264533590361__db6cdaf0-ba9b-45c5-a217-9d1e432ef15d-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "READ ALL REVIEWS",
+            "button_url": "shopify:\/\/pages\/notperfectlinen-reviews",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20264533590361__db6cdaf0-ba9b-45c5-a217-9d1e432ef15d-text-1",
+        "template--20264533590361__db6cdaf0-ba9b-45c5-a217-9d1e432ef15d-buttons-1"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "#fbfaf5",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1686311995513630df": {
+      "type": "apps",
+      "blocks": {
+        "1d88ea6d-c803-496c-af50-381b07d8e201": {
+          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "1d88ea6d-c803-496c-af50-381b07d8e201"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "PERFECT MATCH",
+            "limit": 4
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Recently viewed",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8fa1c9d5-d61d-4d19-95f0-f3ca5de68986",
+    "b704f05c-cb33-442a-8f10-a07d9fe68ca7",
+    "4fbe52a8-700c-4676-99f8-855fa44c84b0",
+    "b1ce2ee8-4f72-4337-87b5-7594a72c2491",
+    "bd27b8a6-bb66-4a53-a6f4-fe76e0dc9bd9",
+    "reviews",
+    "1707474084ff947b47",
+    "db6cdaf0-ba9b-45c5-a217-9d1e432ef15d",
+    "1686311995513630df",
+    "related"
+  ]
+}
