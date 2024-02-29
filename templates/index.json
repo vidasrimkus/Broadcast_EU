@@ -22,8 +22,8 @@
         "template--19071507890521__c88acef0-c939-403b-91ee-e277de262241-1686308700d0d0a9e4-2": {
           "type": "button",
           "settings": {
-            "link_text": "WOMEN LINEN",
-            "link": "shopify:\/\/collections\/linen-clothing-women",
+            "link_text": "SHOP SPRING BUNDLES",
+            "link": "shopify:\/\/collections\/spring-bundles",
             "button_type": "btn--black",
             "button_size": "",
             "button_style": "btn--solid",
@@ -32,6 +32,7 @@
         },
         "6cfe9f9f-eb62-433d-b691-1d7ec4741ff1": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "link_text": "MEN LINEN",
             "link": "shopify:\/\/collections\/linen-clothing-men",
