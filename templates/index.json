@@ -54,11 +54,11 @@
       "settings": {
         "height": "seven-fifty-height-hero",
         "width": "wrapper--full",
-        "image_1": "shopify:\/\/shop_images\/IMG_7347-7.jpg",
+        "image_1": "shopify:\/\/shop_images\/IMG_7347-3_032ff5b0-09f8-43c8-b403-8847936fe622.jpg",
         "image_2": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day3-344.jpg",
         "link": "",
         "mobile_height": "screen-height-three-quarters--mobile",
-        "mobile_image": "shopify:\/\/shop_images\/IMG_7347-6.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/IMG_7347-3_032ff5b0-09f8-43c8-b403-8847936fe622.jpg",
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
@@ -138,7 +138,7 @@
         "template--20264533983577__46c98e39-a23d-460f-840c-81596bb20460-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>10 years of delivering highest quality sustainable linen clothing and reducing the negative impact of fast fashion on our Planet. <\/p><p><\/p><p><strong> <\/strong><\/p>",
+            "text": "<p>10 years of delivering highest quality sustainable custom made linen clothing and reducing the negative impact of fast fashion on our Planet. <\/p><p><\/p><p><strong> <\/strong><\/p>",
             "text_size": 4,
             "text_style": "font-heading"
           }
@@ -166,7 +166,7 @@
             "featured_collection": "linen-dresses",
             "show_image": true,
             "align_with_product_images": false,
-            "image": "shopify:\/\/shop_images\/IMG_6671-3.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_6671-2_4b76f070-aebf-4dcd-8398-b0f931b016ac.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "description": "",
@@ -440,7 +440,7 @@
         "template--20264533983577__8e1e8667-4db3-4b49-afb3-60d75b1da122-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-from6348-154_f3033f4a-60ab-4e49-89b3-356afb26148e.jpg",
+            "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-from6348-154-3_f7d6b6a9-3a1e-43e7-a5e4-f5a9c3ade4a4.jpg",
             "mobile_height": "four-fifty-height-hero--mobile",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
