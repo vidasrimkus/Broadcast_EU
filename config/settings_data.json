@@ -177,14 +177,6 @@
           "style_colors_text": "#000000"
         }
       },
-      "8613281880779018622": {
-        "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-hreflang\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
-        "disabled": false,
-        "settings": {
-          "enable_all_markets": true,
-          "custom_xdefault": "https:\/\/notperfectlinen.com"
-        }
-      },
       "4792298987250413341": {
         "type": "shopify:\/\/apps\/chatpoint-shoppable-video\/blocks\/main\/26ed47f4-0e33-4114-8255-07b39d8f76f2",
         "disabled": false,
@@ -195,6 +187,14 @@
         "type": "shopify:\/\/apps\/hreflang-manager\/blocks\/gwa-hreflang\/35dc0b05-d599-4c8e-8584-8cd17768854a",
         "disabled": false,
         "settings": {
+        }
+      },
+      "8613281880779018622": {
+        "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-hreflang\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
+        "disabled": true,
+        "settings": {
+          "enable_all_markets": true,
+          "custom_xdefault": "https:\/\/notperfectlinen.com"
         }
       }
     }
