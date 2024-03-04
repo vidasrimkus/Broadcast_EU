@@ -191,7 +191,7 @@
       },
       "8613281880779018622": {
         "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-hreflang\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "enable_all_markets": true,
           "custom_xdefault": "https:\/\/notperfectlinen.com"
