@@ -472,6 +472,90 @@
         "padding_bottom": 32
       }
     },
+    "ab1cb08b-3e37-4eef-b02c-ae7cc148f998": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "template--19071507890521__ab1cb08b-3e37-4eef-b02c-ae7cc148f998-icon-1": {
+          "type": "icon",
+          "settings": {
+            "column_width": 23,
+            "icon_name": "icon-leaf",
+            "icon_size": 35,
+            "icon_alignment": "icon--top",
+            "icon_color": "#212121",
+            "title": "Sustainable Materials",
+            "heading_size": 4,
+            "text": "<p>We source the highest quality <strong>OEKO – TEX® Standard 100 <\/strong>and <strong>EUROPEAN FLAX® Standard<\/strong> certified linen fabric, produced entirely in Europe from the fields to the fabric. This ensures that our premium linen fabric has been tested for harmful substances, cultivated without artificial irrigation and is GMO free.<\/p>",
+            "text_size": 3
+          }
+        },
+        "template--19071507890521__ab1cb08b-3e37-4eef-b02c-ae7cc148f998-icon-2": {
+          "type": "icon",
+          "settings": {
+            "column_width": 26,
+            "icon_name": "icon-ruler",
+            "icon_size": 30,
+            "icon_alignment": "icon--top",
+            "icon_color": "#212121",
+            "title": "Skilled Artisans & Exceptional Quality",
+            "heading_size": 4,
+            "text": "<p>All linen pieces are ethically crafted by the most talented local women artisans who have been honoring handcrafting in our Studio since 2014. We promise these will be the highest quality investment pieces in your closet you will use repeatedly to offset your environmental impact.<\/p>",
+            "text_size": 3
+          }
+        },
+        "template--19071507890521__ab1cb08b-3e37-4eef-b02c-ae7cc148f998-icon-3": {
+          "type": "icon",
+          "settings": {
+            "column_width": 26,
+            "icon_name": "icon-flare",
+            "icon_size": 30,
+            "icon_alignment": "icon--top",
+            "icon_color": "#212121",
+            "title": "Cuztomizations & Color Choices",
+            "heading_size": 4,
+            "text": "<p>Our brand's everyday life moves towards conscious, more customer-friendly and sustainable offer. All items are Made-To-Order to avoid overproduction and textile waste. You are welcome to explore our Collections, choose any color for your garment, and add customizations if needed to convey your personal style and comfort.<\/p>",
+            "text_size": 3
+          }
+        },
+        "c84b8fc3-3d44-4ffb-8448-e119b2fac99d": {
+          "type": "icon",
+          "settings": {
+            "column_width": 23,
+            "icon_name": "icon-tree",
+            "icon_size": 30,
+            "icon_alignment": "icon--top",
+            "icon_color": "#212121",
+            "title": "Slowing Things Down",
+            "heading_size": 4,
+            "text": "<p>We want to drive change in our Industry by encouraging our customers to focus on quality, ethics, and sustainability rather than on quick and impulsive buying. Find the joy of slow buying and appreciate the time while waiting for the order to be handmade and delivered to the doorstep. <\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--19071507890521__ab1cb08b-3e37-4eef-b02c-ae7cc148f998-icon-1",
+        "template--19071507890521__ab1cb08b-3e37-4eef-b02c-ae7cc148f998-icon-2",
+        "template--19071507890521__ab1cb08b-3e37-4eef-b02c-ae7cc148f998-icon-3",
+        "c84b8fc3-3d44-4ffb-8448-e119b2fac99d"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "#fbfaf5",
+        "color": "#212121",
+        "padding_top": 15,
+        "padding_bottom": 38,
+        "layout_mobile": "1"
+      }
+    },
     "6e4de3fd-af9e-45e9-892c-5bc41d2498b9": {
       "type": "section-highlights",
       "blocks": {
@@ -636,90 +720,6 @@
         "color": "#545454",
         "padding_top": 134,
         "padding_bottom": 140
-      }
-    },
-    "ab1cb08b-3e37-4eef-b02c-ae7cc148f998": {
-      "type": "section-multicolumn",
-      "blocks": {
-        "template--19071507890521__ab1cb08b-3e37-4eef-b02c-ae7cc148f998-icon-1": {
-          "type": "icon",
-          "settings": {
-            "column_width": 23,
-            "icon_name": "icon-leaf",
-            "icon_size": 35,
-            "icon_alignment": "icon--top",
-            "icon_color": "#212121",
-            "title": "Sustainable Materials",
-            "heading_size": 4,
-            "text": "<p>We source the highest quality <strong>OEKO – TEX® Standard 100 <\/strong>and <strong>EUROPEAN FLAX® Standard<\/strong> certified linen fabric, produced entirely in Europe from the fields to the fabric. This ensures that our premium linen fabric has been tested for harmful substances, cultivated without artificial irrigation and is GMO free.<\/p>",
-            "text_size": 3
-          }
-        },
-        "template--19071507890521__ab1cb08b-3e37-4eef-b02c-ae7cc148f998-icon-2": {
-          "type": "icon",
-          "settings": {
-            "column_width": 26,
-            "icon_name": "icon-ruler",
-            "icon_size": 30,
-            "icon_alignment": "icon--top",
-            "icon_color": "#212121",
-            "title": "Skilled Artisans & Exceptional Quality",
-            "heading_size": 4,
-            "text": "<p>All linen pieces are ethically crafted by the most talented local women artisans who have been honoring handcrafting in our Studio since 2014. We promise these will be the highest quality investment pieces in your closet you will use repeatedly to offset your environmental impact.<\/p>",
-            "text_size": 3
-          }
-        },
-        "template--19071507890521__ab1cb08b-3e37-4eef-b02c-ae7cc148f998-icon-3": {
-          "type": "icon",
-          "settings": {
-            "column_width": 26,
-            "icon_name": "icon-flare",
-            "icon_size": 30,
-            "icon_alignment": "icon--top",
-            "icon_color": "#212121",
-            "title": "Cuztomizations & Color Choices",
-            "heading_size": 4,
-            "text": "<p>Our brand's everyday life moves towards conscious, more customer-friendly and sustainable offer. All items are Made-To-Order to avoid overproduction and textile waste. You are welcome to explore our Collections, choose any color for your garment, and add customizations if needed to convey your personal style and comfort.<\/p>",
-            "text_size": 3
-          }
-        },
-        "c84b8fc3-3d44-4ffb-8448-e119b2fac99d": {
-          "type": "icon",
-          "settings": {
-            "column_width": 23,
-            "icon_name": "icon-tree",
-            "icon_size": 30,
-            "icon_alignment": "icon--top",
-            "icon_color": "#212121",
-            "title": "Slowing Things Down",
-            "heading_size": 4,
-            "text": "<p>We want to drive change in our Industry by encouraging our customers to focus on quality, ethics, and sustainability rather than on quick and impulsive buying. Find the joy of slow buying and appreciate the time while waiting for the order to be handmade and delivered to the doorstep. <\/p>",
-            "text_size": 3
-          }
-        }
-      },
-      "block_order": [
-        "template--19071507890521__ab1cb08b-3e37-4eef-b02c-ae7cc148f998-icon-1",
-        "template--19071507890521__ab1cb08b-3e37-4eef-b02c-ae7cc148f998-icon-2",
-        "template--19071507890521__ab1cb08b-3e37-4eef-b02c-ae7cc148f998-icon-3",
-        "c84b8fc3-3d44-4ffb-8448-e119b2fac99d"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": 5,
-        "description": "",
-        "align_heading": "text-left",
-        "align_text": "text-left",
-        "align_columns": "flex-align-top",
-        "width": "wrapper--full-padded",
-        "bg_color": "#fbfaf5",
-        "color": "#212121",
-        "padding_top": 15,
-        "padding_bottom": 38,
-        "layout_mobile": "1"
       }
     },
     "d7107dff-6d83-4e45-af03-429b410deb8d": {
@@ -1135,9 +1135,9 @@
     "01dff205-6fcf-4aa8-a711-b4899ddadc23",
     "6a3d4adc-3ce7-4edf-8707-e2c926981368",
     "8e1e8667-4db3-4b49-afb3-60d75b1da122",
+    "ab1cb08b-3e37-4eef-b02c-ae7cc148f998",
     "6e4de3fd-af9e-45e9-892c-5bc41d2498b9",
     "03f03c14-f4ac-4b45-ad0e-354db9259a26",
-    "ab1cb08b-3e37-4eef-b02c-ae7cc148f998",
     "d7107dff-6d83-4e45-af03-429b410deb8d",
     "9a13b76a-1b13-445f-81ef-c455290734ca",
     "rich-text",
