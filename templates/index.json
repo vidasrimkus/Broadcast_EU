@@ -40,13 +40,22 @@
             "button_style": "btn--solid",
             "show_arrow": false
           }
+        },
+        "text_bkjkf3": {
+          "type": "text",
+          "settings": {
+            "description": "Offer is valid till 12 March. Every purchase supports our Women Maker.",
+            "text_size": 2,
+            "text_style": "font-body"
+          }
         }
       },
       "block_order": [
         "2712ac31-6042-4c36-ba47-02af77ff61a0",
         "cfca5483-e97c-4f46-b2a9-dd26e6c2a886",
         "template--19071507890521__c88acef0-c939-403b-91ee-e277de262241-1686308700d0d0a9e4-2",
-        "6cfe9f9f-eb62-433d-b691-1d7ec4741ff1"
+        "6cfe9f9f-eb62-433d-b691-1d7ec4741ff1",
+        "text_bkjkf3"
       ],
       "custom_css": [
         ".btn {margin-right: 25px;}"
@@ -60,7 +69,7 @@
         "mobile_height": "screen-height-three-quarters--mobile",
         "mobile_image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-286_a64e8903-6e56-4eca-9cda-4f10e6e808fa.jpg",
         "flex_align_desktop": "align--middle-center-desktop",
-        "flex_align_mobile": "align--middle-center-mobile",
+        "flex_align_mobile": "align--bottom-center-mobile",
         "overlay_opacity": 0,
         "overlay_color": "#212121",
         "show_overlay_text": true,
