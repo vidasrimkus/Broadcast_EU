@@ -44,7 +44,7 @@
         "text_bkjkf3": {
           "type": "text",
           "settings": {
-            "description": "Offer is valid till 12 March. Every purchase supports our Women Makers.",
+            "description": "Offer is valid till 12 March.\n<br>Cart value should be over €200 including discounted item in discounted price. <br>\n50% OFF applies to the lowest-priced item in cart.\n<br>Every purchase supports our Women Maker.",
             "text_size": 2,
             "text_style": "font-body"
           }
