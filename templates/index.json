@@ -24,7 +24,7 @@
           "settings": {
             "link_text": "WOMEN LINEN",
             "link": "shopify:\/\/collections\/linen-clothing-women",
-            "button_type": "btn--black",
+            "button_type": "btn--white",
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false
@@ -35,7 +35,7 @@
           "settings": {
             "link_text": "MEN LINEN",
             "link": "shopify:\/\/collections\/linen-clothing-men",
-            "button_type": "btn--primary",
+            "button_type": "btn--white",
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false
@@ -54,11 +54,11 @@
       "settings": {
         "height": "seven-fifty-height-hero",
         "width": "wrapper--full",
-        "image_1": "shopify:\/\/shop_images\/NPL_PaulaAmenta45_a2853427-3ffd-4e2f-9598-163274a95b68.jpg",
+        "image_1": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-286_a64e8903-6e56-4eca-9cda-4f10e6e808fa.jpg",
         "image_2": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day3-344.jpg",
         "link": "",
         "mobile_height": "screen-height-three-quarters--mobile",
-        "mobile_image": "shopify:\/\/shop_images\/NPL_PaulaAmenta45_62385730-7122-447b-b278-190c1b68d4fe.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-286_a64e8903-6e56-4eca-9cda-4f10e6e808fa.jpg",
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 0,
