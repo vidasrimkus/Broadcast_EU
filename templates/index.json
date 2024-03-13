@@ -24,7 +24,7 @@
           "settings": {
             "link_text": "WOMEN LINEN",
             "link": "shopify:\/\/collections\/linen-clothing-women",
-            "button_type": "btn--white",
+            "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false
@@ -35,18 +35,10 @@
           "settings": {
             "link_text": "MEN LINEN",
             "link": "shopify:\/\/collections\/linen-clothing-men",
-            "button_type": "btn--white",
+            "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false
-          }
-        },
-        "text_bkjkf3": {
-          "type": "text",
-          "settings": {
-            "description": "Offer is valid till 12 March.\n<br>Cart value should be over €200 including discounted item in discounted price. <br>\n50% OFF applies to the lowest-priced item in cart.\n<br>Every purchase supports our Women Maker.",
-            "text_size": 2,
-            "text_style": "font-body"
           }
         }
       },
@@ -54,8 +46,7 @@
         "2712ac31-6042-4c36-ba47-02af77ff61a0",
         "cfca5483-e97c-4f46-b2a9-dd26e6c2a886",
         "template--19071507890521__c88acef0-c939-403b-91ee-e277de262241-1686308700d0d0a9e4-2",
-        "6cfe9f9f-eb62-433d-b691-1d7ec4741ff1",
-        "text_bkjkf3"
+        "6cfe9f9f-eb62-433d-b691-1d7ec4741ff1"
       ],
       "custom_css": [
         ".btn {margin-right: 25px;}"
