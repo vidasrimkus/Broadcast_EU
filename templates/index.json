@@ -430,9 +430,9 @@
           "settings": {
             "product_list": [
               "perce-cropped-linen-top",
-              "napa-long-linen-dress-1",
               "gordes-boxy-linen-top",
-              "oia-gathered-linen-skirt-2"
+              "oia-gathered-linen-skirt-2",
+              "napa-long-linen-dress-4"
             ],
             "layout_mobile": "2"
           }
@@ -440,7 +440,7 @@
         "template--20264533983577__8e1e8667-4db3-4b49-afb3-60d75b1da122-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_6671-2_300978f6-babc-4d36-abd4-d0c98dbf05c4.jpg",
+            "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta323_564b3890-a151-4ba7-8dfa-6ff723aa1f17.jpg",
             "mobile_height": "four-fifty-height-hero--mobile",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
