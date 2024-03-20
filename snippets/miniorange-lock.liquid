@@ -25,6 +25,7 @@
 <!-- miniOrange purchase-form Locks START -->
 
 
+
 <!-- miniOrange LOCK START _2987 -->
 {% unless exemptPages or bypassLocks or template == 'customers/register' %}
 {% assign lock = false %}
@@ -32,9 +33,11 @@
 {% if template contains "collection" or template contains "product" %}{% if collection %}{% if handle == 'lock-test'  %}{% assign lock = true %}{% endif %}{% endif %}{% endif %}
 
 {% if lock %}
+{% unless customer %}
 {% capture content_for_layout %}
 {{ _2987 }}
 {% endcapture %}
+      {% endunless %}
 {% endif %}
 {% endunless %}
 <!-- miniOrange LOCK END _2987 --><!-- miniOrange purchase-form Locks END -->
