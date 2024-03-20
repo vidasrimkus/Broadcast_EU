@@ -21,8 +21,8 @@
 {% endif %}
 {% assign timeMillis = 'now' | date:'%s' | times: 1 %}{% assign weekDay = timeMillis | date:'%u' %}{% assign monthDay = timeMillis | date:'%d' %}{% assign time = timeMillis | date:'%H%M' | times: 1 %}
 {% if customer %}{% assign lastOrderPlaced = customer.orders.first.created_at | date:'%s' %}{% assign lastOrderPlacedTimeDiff = timeMillis | minus: lastOrderPlaced %}{% endif %}
-<!-- miniOrange Unpriority Locks START -->
 
+<!-- miniOrange purchase-form Locks START -->
 
 <!-- miniOrange LOCK START _2987 -->
 {% unless exemptPages or bypassLocks or template == 'customers/register' %}
@@ -44,17 +44,16 @@
 	{% endunless %}
 {% endif %}
 {% endunless %}
-<!-- miniOrange LOCK END _2987 -->
-<!-- miniOrange Unpriority Locks END -->
-
-<!-- miniOrange Priority-Whole-Website Locks START -->
-<!-- miniOrange Priority-Whole-Website Locks END -->
-
-<!-- miniOrange Priority Locks START -->
-<!-- miniOrange Priority Locks END -->
+<!-- miniOrange LOCK END _2987 --><!-- miniOrange purchase-form Locks END -->
 
 <!-- miniOrange hide-prices Locks START -->
 <!-- miniOrange hide-prices Locks END -->
 
-<!-- miniOrange purchase-form Locks START -->
-<!-- miniOrange purchase-form Locks END -->
+<!-- miniOrange Priority Locks START -->
+<!-- miniOrange Priority Locks END -->
+
+<!-- miniOrange Unpriority Locks START -->
+<!-- miniOrange Unpriority Locks END -->
+
+<!-- miniOrange Priority-Whole-Website Locks START -->
+<!-- miniOrange Priority-Whole-Website Locks END -->
