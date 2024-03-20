@@ -220,7 +220,8 @@
 
   <!-- Shopify app scripts =========================================================== -->
 
-  {{ content_for_header }}
+  <!-- miniOrange ContentRestriction SCRIPT START -->{%- include 'miniorange-lock-message' -%}{%- include 'miniorange-lock' -%}<!-- miniOrange ContentRestriction SCRIPT END --> 
+{{ content_for_header }}
 
   <script src="https://d18eg7dreypte5.cloudfront.net/browse-abandonment/v2/generic.js" async></script>
 
