@@ -46,7 +46,7 @@
     "linkedin_link": "https:\/\/www.linkedin.com\/company\/notperfectlinen",
     "overlay_text": false,
     "image_hover_enable": false,
-    "product_grid_aspect_ratio": 1,
+    "product_grid_aspect_ratio": 1.2,
     "sale_tags_enable": false,
     "sale_bg_color": "#c53120",
     "sale_text_color": "#ffffff",
