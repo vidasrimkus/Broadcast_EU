@@ -164,7 +164,7 @@
         "enable_filters": true,
         "filter_layout": "inline-open",
         "collection_linklist": "",
-        "grid": 5,
+        "grid": 3,
         "grid_mobile": "2",
         "product_limit": 50,
         "border_color": "",
