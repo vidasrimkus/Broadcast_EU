@@ -114,7 +114,7 @@
       "settings": {
         "product_sticky_enable": true,
         "image_layout": "grid-1",
-        "image_size": "normal",
+        "image_size": "small",
         "show_cart_bar": false,
         "enable_zoom": true,
         "enable_video_looping": false,
