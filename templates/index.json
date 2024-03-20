@@ -1112,13 +1112,14 @@
     },
     "7bf87be7-12cc-46f7-8f7b-9f843ac58d90": {
       "type": "section-custom-code",
+      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
-        "code": "<div id=\"omnisend-embedded-v2-65b0c886b5a6c982ef61e028\"><\/div>",
+        "code": "<div class=\"klaviyo-form-U4u7ri\"><\/div>",
         "width": "wrapper--full",
-        "bg_color": "#6495ed",
+        "bg_color": "#a99843",
         "color": "",
         "padding_top": 21,
         "padding_bottom": 24
