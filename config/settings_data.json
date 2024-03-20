@@ -45,6 +45,7 @@
     "youtube_link": "https:\/\/www.youtube.com\/@notPERFECTLINEN-zw7dw",
     "linkedin_link": "https:\/\/www.linkedin.com\/company\/notperfectlinen",
     "overlay_text": false,
+    "image_hover_enable": false,
     "product_grid_aspect_ratio": 1,
     "sale_tags_enable": false,
     "sale_bg_color": "#c53120",
@@ -175,12 +176,6 @@
           "style_colors_cta_text": "#ffffff",
           "style_colors_cta_button": "#000000",
           "style_colors_text": "#000000"
-        }
-      },
-      "4792298987250413341": {
-        "type": "shopify:\/\/apps\/chatpoint-shoppable-video\/blocks\/main\/26ed47f4-0e33-4114-8255-07b39d8f76f2",
-        "disabled": false,
-        "settings": {
         }
       },
       "12543949710164844351": {
