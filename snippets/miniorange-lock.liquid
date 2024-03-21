@@ -38,19 +38,7 @@
 
 
 
-<!-- miniOrange LOCK START _2996 -->
-{% unless exemptPages or bypassLocks or template == 'customers/register' %}
-{% assign lock = false %}
-{% if template contains "collection" or template contains "product" %}{% if product.collections %}{% for collection in product.collections %}{% if  collection.id == 472395546905  %}{% assign lock = true %}{% break %}{% endif %}{% endfor %}{% endif %}{% endif %}
-{% if template contains "collection" or template contains "product" %}{% if collection %}{% if handle == 'sale'  %}{% assign lock = true %}{% endif %}{% endif %}{% endif %}
-
-{% if lock %}
-{% capture content_for_layout %}
-{{ _2996 }}
-{% endcapture %}
-{% endif %}
-{% endunless %}
-<!-- miniOrange LOCK END _2996 -->
+<!-- miniOrange LOCK START _2996 --><!-- miniOrange LOCK END _2996 -->
 
 
 <!-- miniOrange Unpriority Locks END -->
