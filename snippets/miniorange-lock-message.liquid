@@ -67,26 +67,20 @@ function eraseCookie(name) {
 </script>
 
 {% capture test %}
-  
-  
-  
 <div class="container" id="passcode">
   <div id="passcodeform" style="margin:auto; text-align:center">
   <div></div>
-  <div id="innerForm" style="margin:auto; width:30%; border: 3px solid black; text-align:center; background-color:#A99843; margin-bottom: 20px;">
+  <div id="innerForm" style="margin:auto; width:30%; border: 3px solid black; text-align:center">
     	<h3>Enter Passcode</h3>
         <div class="form-group">
             <label for="pwd">Passcode:</label>
-            <input type="text" class="form-control" id="pwd" style="display:inline-block; background-color:white">
+            <input type="text" class="form-control" id="pwd" style="display:inline-block">
             <span style="color:red; display:none" id="invalidPasscode">Invalid Password<br></span>
         </div>
-		<button type="submit" style="width:20%; padding:5px 10px 5px 10px; border-radius:3px; color:white; background:black; margin: 13px 0px 13px 0px" onclick="_2997passcodeLock()">Submit</button>
+		<button type="submit" style="width:15%; padding:5px 10px 5px 10px; border-radius:3px; color:white; background:black; margin: 13px 0px 0px 0px" onclick="_2996passcodeLock()">Submit</button>
   	</div>
   </div>
-</div>
-
-
-{% endcapture %}
+</div>{% endcapture %}
 
 <script>
   if(typeof getCookie("2996") !== 'undefined'){
