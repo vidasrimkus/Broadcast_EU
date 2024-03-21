@@ -43,6 +43,7 @@ function eraseCookie(name) {
 
 
 
+
 <!-- miniOrange LOCK START _2996 -->
 {% capture _2996 %}
 {{ content_for_layout }}
@@ -72,60 +73,20 @@ function eraseCookie(name) {
 </script>
 
 {% capture test %}
-  <style>
-/* Base styles */
-.container {
-  text-align: center;
-}
-
-#innerForm {
-  margin: auto;
-  width: 30%;
-  border: 3px solid black;
-  text-align: center;
-  background-color: #A99843;
-  margin-bottom: 20px;
-}
-.form-control {
-  display: inline-block;
-  background-color: white;
-}
-button[type="submit"] {
-  width: 20%;
-  padding: 5px 10px;
-  border-radius: 3px;
-  color: white;
-  background-color: black;
-  margin: 13px 0;
-}
-
-/* Responsive styles for devices with width less than 768px */
-@media (max-width: 768px) {
-  #innerForm {
-    width: 80%; /* Makes the form wider on smaller screens */
-  }
-  button[type="submit"] {
-    width: 50%; /* Adjusts button width for better usability */
-  }
-}
-</style>
-
-  <div class="container" id="passcode">
-    <div id="passcodeform">
-      <div></div>
-      <div id="innerForm">
-        <h3 style="color: white;">Enter Passcode</h3>
+<div class="container" id="passcode">
+  <div id="passcodeform" style="margin:auto; text-align:center">
+  <div></div>
+  <div id="innerForm" style="margin:auto; width:30%; border: 3px solid black; text-align:center">
+    	<h3>Enter Passcode</h3>
         <div class="form-group">
-          <label for="pwd">Passcode:</label>
-          <input type="text" class="form-control" id="pwd">
-          <span style="color:red; display:none" id="invalidPasscode">Invalid Password<br></span>
+            <label for="pwd">Passcode:</label>
+            <input type="text" class="form-control" id="pwd" style="display:inline-block">
+            <span style="color:red; display:none" id="invalidPasscode">Invalid Password<br></span>
         </div>
-        <button type="submit" onclick="_2997passcodeLock()">Submit</button>
-      </div>
-    </div>
+		<button type="submit" style="width:15%; padding:5px 10px 5px 10px; border-radius:3px; color:white; background:black; margin: 13px 0px 0px 0px" onclick="_2996passcodeLock()">Submit</button>
+  	</div>
   </div>
-
-{% endcapture %}
+</div>{% endcapture %}
 
 <script>
   if(typeof getCookie("2996") !== 'undefined'){
