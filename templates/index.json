@@ -894,7 +894,7 @@
       "settings": {
         "video": "shopify:\/\/files\/videos\/c3b8654d1155466f9f3058e88e4d47d2.mp4",
         "show_video_popup": true,
-        "video_popup_social": "https:\/\/youtu.be\/s51LNGOKpLw",
+        "video_popup_social": "",
         "desktop_height": "screen-height-three-quarters",
         "mobile_height": "screen-height-three-quarters--mobile",
         "width": "wrapper--full-padded",
@@ -909,7 +909,7 @@
         "bg_color": "rgba(0,0,0,0)",
         "color": "#fbfaf5",
         "link_text": "",
-        "link": "https:\/\/youtu.be\/s51LNGOKpLw",
+        "link": "",
         "button_type": "btn--primary",
         "button_size": "",
         "button_style": "btn--solid",
