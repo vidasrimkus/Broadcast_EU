@@ -84,14 +84,14 @@
           "type": "heading",
           "settings": {
             "title": "{{ collection.metafields.custom.collection_below_heading.value }}",
-            "text_size": 4
+            "text_size": 3
           }
         },
         "template--19080802435417__2f4de808-40c9-4885-b5a2-c7c00d228da6-16863964163e55e74a-2": {
           "type": "text",
           "settings": {
             "text": "<p>{{ collection.metafields.custom.collection_below_text | metafield_tag }}<\/p>",
-            "text_size": 3,
+            "text_size": 2,
             "text_style": "font-body"
           }
         }
