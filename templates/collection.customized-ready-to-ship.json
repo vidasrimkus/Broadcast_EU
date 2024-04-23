@@ -8,13 +8,13 @@
       "settings": {
         "subheading": "{{ collection.title }}",
         "subheading_size": 7,
-        "heading": "",
-        "heading_size": 6,
+        "heading": "Ships In 3-5 Business Days.<br>\nPlease note that Sale items are not eligible for returns or exchanges",
+        "heading_size": 2,
         "mobile_heading_size": 5,
         "desktop_text_align": "left",
         "mobile_text_align": "left",
         "width": "wrapper",
-        "bg_color": "#417fd6",
+        "bg_color": "#a99843",
         "color": "#ffffff",
         "padding_top": 5,
         "padding_bottom": 5
