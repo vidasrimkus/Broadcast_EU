@@ -33,6 +33,21 @@
 <!-- miniOrange Priority Locks END -->
 
 <!-- miniOrange Unpriority Locks START -->
+
+
+<!-- miniOrange LOCK START _3228 -->
+{% unless exemptPages or bypassLocks or template == 'customers/register' %}
+{% assign lock = false %}
+{% if template contains "collection" or template contains "product" %}{% if product.collections %}{% for collection in product.collections %}{% if  collection.id == 477623583001  %}{% assign lock = true %}{% break %}{% endif %}{% endfor %}{% endif %}{% endif %}
+{% if template contains "collection" or template contains "product" %}{% if collection %}{% if handle == 'customized-ready-to-ship-items'  %}{% assign lock = true %}{% endif %}{% endif %}{% endif %}
+
+{% if lock %}
+{% capture content_for_layout %}
+{{ _3228 }}
+{% endcapture %}
+{% endif %}
+{% endunless %}
+<!-- miniOrange LOCK END _3228 -->
 <!-- miniOrange Unpriority Locks END -->
 
 <!-- miniOrange Priority-Whole-Website Locks START -->
