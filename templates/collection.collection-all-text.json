@@ -6,7 +6,7 @@
         "h1 {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center; font-weight: 400; font-size: 2rem;}"
       ],
       "settings": {
-        "code": "",
+        "code": "<H1> {{ collection.title }} <\/H1>",
         "width": "wrapper",
         "bg_color": "#fbfaf5",
         "color": "",
