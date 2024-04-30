@@ -1,5 +1,19 @@
 {
   "sections": {
+    "section_custom_code_NcQwWJ": {
+      "type": "section-custom-code",
+      "custom_css": [
+        "h1 {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center; font-size: 2rem; color: #ffffff;}"
+      ],
+      "settings": {
+        "code": "<H1> Discontinued Colors Sale <\/H1>",
+        "width": "wrapper",
+        "bg_color": "#d65a31",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "4c2a397b-f839-4cde-b1f5-5d226848efb0": {
       "type": "section-rich-text",
       "blocks": {
@@ -84,6 +98,7 @@
     }
   },
   "order": [
+    "section_custom_code_NcQwWJ",
     "4c2a397b-f839-4cde-b1f5-5d226848efb0",
     "hero",
     "subcollections",
