@@ -1,7 +1,22 @@
 {
   "sections": {
+    "section_custom_code_6tK9BQ": {
+      "type": "section-custom-code",
+      "custom_css": [
+        "h1 {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center; font-size: 2rem;}"
+      ],
+      "settings": {
+        "code": "<H1> {{ collection.title}} <\/H1>",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "ce31d471-1b7e-417d-b50b-47cd0af447ef": {
       "type": "section-text-with-products",
+      "disabled": true,
       "custom_css": [
         ".subheading {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center;}"
       ],
@@ -174,6 +189,7 @@
     }
   },
   "order": [
+    "section_custom_code_6tK9BQ",
     "ce31d471-1b7e-417d-b50b-47cd0af447ef",
     "hero",
     "subcollections",
