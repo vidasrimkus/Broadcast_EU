@@ -3,13 +3,13 @@
     "section_custom_code_NcQwWJ": {
       "type": "section-custom-code",
       "custom_css": [
-        "h1 {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center; font-size: 2rem; color: #ffffff;}"
+        "h1 {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center; font-size: 2rem;}"
       ],
       "settings": {
         "code": "<H1> Discontinued Colors Sale <\/H1>",
-        "width": "wrapper",
+        "width": "wrapper--full",
         "bg_color": "#d65a31",
-        "color": "",
+        "color": "#ffffff",
         "padding_top": 0,
         "padding_bottom": 0
       }
