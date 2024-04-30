@@ -1,5 +1,19 @@
 {
   "sections": {
+    "section_custom_code_jwLD6h": {
+      "type": "section-custom-code",
+      "custom_css": [
+        "h1 {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center; font-weight: 400; font-size: 2rem;}"
+      ],
+      "settings": {
+        "code": "",
+        "width": "wrapper",
+        "bg_color": "#fbfaf5",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "ad620b8a-931d-44a9-ace0-c2fccb03abd9": {
       "type": "section-rich-text",
       "blocks": {
@@ -14,6 +28,7 @@
       "block_order": [
         "template--19437252575577__ad620b8a-931d-44a9-ace0-c2fccb03abd9-heading-1"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center; font-weight: 400; font-size: 2rem;}"
       ],
@@ -111,6 +126,7 @@
     }
   },
   "order": [
+    "section_custom_code_jwLD6h",
     "ad620b8a-931d-44a9-ace0-c2fccb03abd9",
     "hero",
     "subcollections",
