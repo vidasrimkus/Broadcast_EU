@@ -1,7 +1,22 @@
 {
   "sections": {
+    "section_custom_code_yiPAtg": {
+      "type": "section-custom-code",
+      "custom_css": [
+        "h1 {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center; font-size: 2rem;}"
+      ],
+      "settings": {
+        "code": "<H1> {{ collection.title}} <\/H1>",
+        "width": "wrapper",
+        "bg_color": "#f0f0f0",
+        "color": "",
+        "padding_top": 5,
+        "padding_bottom": 5
+      }
+    },
     "ce31d471-1b7e-417d-b50b-47cd0af447ef": {
       "type": "section-text-with-products",
+      "disabled": true,
       "custom_css": [
         ".subheading {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center;}"
       ],
@@ -126,22 +141,13 @@
     },
     "170600659290d7f1cb": {
       "type": "apps",
-      "blocks": {
-        "kite_free_gift_app_block_Mk4LCC": {
-          "type": "shopify:\/\/apps\/kite-free-gift\/blocks\/app-block\/2c7302c4-455d-4078-a829-48563ba26089",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "kite_free_gift_app_block_Mk4LCC"
-      ],
       "settings": {
         "include_margins": false
       }
     }
   },
   "order": [
+    "section_custom_code_yiPAtg",
     "ce31d471-1b7e-417d-b50b-47cd0af447ef",
     "hero",
     "subcollections",
