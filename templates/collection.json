@@ -1,5 +1,19 @@
 {
   "sections": {
+    "section_custom_code_MhhRNy": {
+      "type": "section-custom-code",
+      "custom_css": [
+        "h1 {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center; font-size: 2rem;}"
+      ],
+      "settings": {
+        "code": "<H1> {{ collection.title}} <\/H1>",
+        "width": "wrapper",
+        "bg_color": "#fbfaf5",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "5586d8b4-5766-4b77-add3-cb4fd98e2d12": {
       "type": "section-text-with-products",
       "custom_css": [
@@ -106,6 +120,7 @@
     }
   },
   "order": [
+    "section_custom_code_MhhRNy",
     "5586d8b4-5766-4b77-add3-cb4fd98e2d12",
     "4c2a397b-f839-4cde-b1f5-5d226848efb0",
     "hero",
