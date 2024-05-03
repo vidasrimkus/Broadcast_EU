@@ -4860,7 +4860,6 @@ button {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  text-transform: var(--BTN-UPPERCASE);
   transition: 0.25s ease-out;
   transition-property: color, background, border;
   -webkit-backface-visibility: hidden;
