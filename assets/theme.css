@@ -5067,7 +5067,7 @@ button {
   width: 100%;
   max-width: 260px;
   --btn-top: 16px;
-  --btn-left: 22px;
+  --btn-left: 5px;
 }
 @media only screen and (max-width: 749px) {
   .btn--large {
