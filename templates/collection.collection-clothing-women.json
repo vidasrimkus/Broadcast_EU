@@ -133,10 +133,10 @@
         "highlight_Abq4VQ": {
           "type": "highlight",
           "settings": {
-            "heading": "Highlight",
-            "url": "",
+            "heading": "Clothing Accessories",
+            "url": "shopify:\/\/collections\/clothing-accessories",
             "color": "",
-            "bg_color": "#F0F0F0",
+            "bg_color": "#fbfaf5",
             "border_color": ""
           }
         }
