@@ -83,10 +83,10 @@
         "highlight_UBWURR": {
           "type": "highlight",
           "settings": {
-            "heading": "Socks",
-            "url": "",
+            "heading": "Jumpsuits & Rompers",
+            "url": "shopify:\/\/collections\/linen-jumpsuits",
             "color": "",
-            "bg_color": "#F0F0F0",
+            "bg_color": "#fbfaf5",
             "border_color": ""
           }
         },
