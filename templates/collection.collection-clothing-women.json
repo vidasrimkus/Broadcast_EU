@@ -142,9 +142,21 @@
         },
         "highlight_NxBTBK": {
           "type": "highlight",
+          "disabled": true,
           "settings": {
             "heading": "Gingham Linen Collection",
             "url": "shopify:\/\/collections\/gingham-linen-collection",
+            "color": "",
+            "bg_color": "#fbfaf5",
+            "border_color": ""
+          }
+        },
+        "highlight_VPyyV6": {
+          "type": "highlight",
+          "disabled": true,
+          "settings": {
+            "heading": "Heavy Weight Linen",
+            "url": "shopify:\/\/collections\/heavy-weight-linen",
             "color": "",
             "bg_color": "#fbfaf5",
             "border_color": ""
@@ -161,7 +173,8 @@
         "highlight_CgMYXp",
         "highlight_EfNe7y",
         "highlight_Abq4VQ",
-        "highlight_NxBTBK"
+        "highlight_NxBTBK",
+        "highlight_VPyyV6"
       ],
       "settings": {
         "style": "button",
