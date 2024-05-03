@@ -109,6 +109,36 @@
             "bg_color": "#fbfaf5",
             "border_color": ""
           }
+        },
+        "highlight_CgMYXp": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Coats & Jackets",
+            "url": "shopify:\/\/collections\/linen-coats-jackets-for-women",
+            "color": "",
+            "bg_color": "#fbfaf5",
+            "border_color": ""
+          }
+        },
+        "highlight_EfNe7y": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Highlight",
+            "url": "",
+            "color": "",
+            "bg_color": "#F0F0F0",
+            "border_color": ""
+          }
+        },
+        "highlight_Abq4VQ": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Highlight",
+            "url": "",
+            "color": "",
+            "bg_color": "#F0F0F0",
+            "border_color": ""
+          }
         }
       },
       "block_order": [
@@ -117,7 +147,10 @@
         "highlight_8BzV3U",
         "highlight_UBWURR",
         "highlight_kkLbDj",
-        "highlight_jRBi9J"
+        "highlight_jRBi9J",
+        "highlight_CgMYXp",
+        "highlight_EfNe7y",
+        "highlight_Abq4VQ"
       ],
       "settings": {
         "style": "button",
