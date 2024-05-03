@@ -73,10 +73,10 @@
         "highlight_8BzV3U": {
           "type": "highlight",
           "settings": {
-            "heading": "Dresses",
-            "url": "",
+            "heading": "Pants",
+            "url": "shopify:\/\/collections\/linen-pants-women",
             "color": "",
-            "bg_color": "#F0F0F0",
+            "bg_color": "#fbfaf5",
             "border_color": ""
           }
         },
