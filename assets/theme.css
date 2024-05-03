@@ -4839,6 +4839,34 @@ button {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
+
+.btn-customized {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: var(--btn-top) var(--btn-left);
+  border: 1px solid var(--btn-border);
+  border-radius: var(--btn-radius);
+  background-color: var(--btn-bg);
+  font-size: var(--BTN-FONT-SIZE);
+  line-height: var(--line-height-normal);
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: var(--BTN-UPPERCASE);
+  transition: 0.25s ease-out;
+  transition-property: color, background, border;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
 .btn span, .shopify-payment-button .shopify-payment-button__button--unbranded span, #shopify-product-reviews .spr-button-primary span, #challenge .shopify-challenge__button span {
   position: relative;
   vertical-align: middle;
