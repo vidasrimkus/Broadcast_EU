@@ -93,10 +93,10 @@
         "highlight_kkLbDj": {
           "type": "highlight",
           "settings": {
-            "heading": "Sales",
-            "url": "",
+            "heading": "Skirts",
+            "url": "shopify:\/\/collections\/linen-skirts",
             "color": "",
-            "bg_color": "#F0F0F0",
+            "bg_color": "#fbfaf5",
             "border_color": ""
           }
         },
