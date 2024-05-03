@@ -14,27 +14,6 @@
         "padding_bottom": 5
       }
     },
-    "ce31d471-1b7e-417d-b50b-47cd0af447ef": {
-      "type": "section-text-with-products",
-      "disabled": true,
-      "custom_css": [
-        ".subheading {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center;}"
-      ],
-      "settings": {
-        "subheading": "{{ collection.title }}",
-        "subheading_size": 7,
-        "heading": "",
-        "heading_size": 6,
-        "mobile_heading_size": 5,
-        "desktop_text_align": "left",
-        "mobile_text_align": "left",
-        "width": "wrapper",
-        "bg_color": "#fbfaf5",
-        "color": "",
-        "padding_top": 5,
-        "padding_bottom": 5
-      }
-    },
     "hero": {
       "type": "collection-image-with-title",
       "disabled": true,
@@ -68,60 +47,91 @@
         "padding_bottom": 20
       }
     },
-    "635c7e08-140e-4a64-9fa1-d40ba4143a4a": {
-      "type": "section-collections-list",
+    "section_highlights_XKgbrx": {
+      "type": "section-highlights",
       "blocks": {
-        "template--19815694762329__635c7e08-140e-4a64-9fa1-d40ba4143a4a-collection-1": {
-          "type": "collection",
+        "highlight_Rz3mUa": {
+          "type": "highlight",
           "settings": {
-            "collection": "linen-shirts-men",
-            "title": "Linen Shirts for Men"
+            "heading": "Linen Shirts for Men",
+            "url": "shopify:\/\/collections\/linen-shirts-men",
+            "color": "",
+            "bg_color": "#fbfaf5",
+            "border_color": ""
           }
         },
-        "template--19815694762329__635c7e08-140e-4a64-9fa1-d40ba4143a4a-collection-2": {
-          "type": "collection",
+        "highlight_AMrqty": {
+          "type": "highlight",
           "settings": {
-            "collection": "linen-pants-men",
-            "title": "Linen Pants for Men"
+            "heading": "Bottoms",
+            "url": "",
+            "color": "",
+            "bg_color": "#F0F0F0",
+            "border_color": ""
           }
         },
-        "template--19815694762329__635c7e08-140e-4a64-9fa1-d40ba4143a4a-collection-3": {
-          "type": "collection",
+        "highlight_kmjUw6": {
+          "type": "highlight",
           "settings": {
-            "collection": "linen-shorts-men",
-            "title": "Linen Shorts for Men"
+            "heading": "Dresses",
+            "url": "",
+            "color": "",
+            "bg_color": "#F0F0F0",
+            "border_color": ""
           }
         },
-        "template--19815694762329__635c7e08-140e-4a64-9fa1-d40ba4143a4a-collection-4": {
-          "type": "collection",
+        "highlight_eeizwp": {
+          "type": "highlight",
           "settings": {
-            "collection": "linen-jacket-men",
-            "title": "Linen Jackets for Men"
+            "heading": "Socks",
+            "url": "",
+            "color": "",
+            "bg_color": "#F0F0F0",
+            "border_color": ""
+          }
+        },
+        "highlight_t8CFFx": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Sales",
+            "url": "",
+            "color": "",
+            "bg_color": "#F0F0F0",
+            "border_color": ""
+          }
+        },
+        "highlight_WLW39B": {
+          "type": "highlight",
+          "settings": {
+            "heading": "New Arrivals",
+            "url": "",
+            "color": "",
+            "bg_color": "#F0F0F0",
+            "border_color": ""
           }
         }
       },
       "block_order": [
-        "template--19815694762329__635c7e08-140e-4a64-9fa1-d40ba4143a4a-collection-1",
-        "template--19815694762329__635c7e08-140e-4a64-9fa1-d40ba4143a4a-collection-2",
-        "template--19815694762329__635c7e08-140e-4a64-9fa1-d40ba4143a4a-collection-3",
-        "template--19815694762329__635c7e08-140e-4a64-9fa1-d40ba4143a4a-collection-4"
-      ],
-      "custom_css": [
-        ".collection-item__image {display: none;}",
-        ".grid-item {background-color: #fbfaf5;}",
-        "@media (max-width: 767px) {.grid-item {width: 30%; background-color: #fbfaf5; font-family: Cardo; font-weight: 500; }}"
+        "highlight_Rz3mUa",
+        "highlight_AMrqty",
+        "highlight_kmjUw6",
+        "highlight_eeizwp",
+        "highlight_t8CFFx",
+        "highlight_WLW39B"
       ],
       "settings": {
-        "title": "",
-        "description": "",
-        "layout": "grid",
-        "aspect_ratio": 1,
+        "style": "rectangle",
         "grid": 6,
-        "layout_mobile": "slider",
-        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "heading": "Highlights",
+        "heading_position": "text-center",
+        "heading_size": 8,
+        "text_size": 3,
         "color": "",
-        "padding_top": 32,
-        "padding_bottom": 32
+        "bg_color": "",
+        "layout_mobile": "2",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "main": {
@@ -148,10 +158,9 @@
   },
   "order": [
     "section_custom_code_yiPAtg",
-    "ce31d471-1b7e-417d-b50b-47cd0af447ef",
     "hero",
     "subcollections",
-    "635c7e08-140e-4a64-9fa1-d40ba4143a4a",
+    "section_highlights_XKgbrx",
     "main",
     "170600659290d7f1cb"
   ]
