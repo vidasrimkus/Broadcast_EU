@@ -103,10 +103,10 @@
         "highlight_jRBi9J": {
           "type": "highlight",
           "settings": {
-            "heading": "New Arrivals",
-            "url": "",
+            "heading": "Shorts",
+            "url": "shopify:\/\/collections\/linen-shorts",
             "color": "",
-            "bg_color": "#F0F0F0",
+            "bg_color": "#fbfaf5",
             "border_color": ""
           }
         }
