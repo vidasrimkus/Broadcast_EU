@@ -161,6 +161,26 @@
             "bg_color": "#fbfaf5",
             "border_color": ""
           }
+        },
+        "highlight_fnWcUG": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Highlight",
+            "url": "",
+            "color": "",
+            "bg_color": "#F0F0F0",
+            "border_color": ""
+          }
+        },
+        "highlight_iXfKeA": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Light Weight Linen",
+            "url": "shopify:\/\/collections\/light-weight-linen",
+            "color": "",
+            "bg_color": "#fbfaf5",
+            "border_color": ""
+          }
         }
       },
       "block_order": [
@@ -174,7 +194,9 @@
         "highlight_EfNe7y",
         "highlight_Abq4VQ",
         "highlight_NxBTBK",
-        "highlight_VPyyV6"
+        "highlight_VPyyV6",
+        "highlight_fnWcUG",
+        "highlight_iXfKeA"
       ],
       "settings": {
         "style": "button",
