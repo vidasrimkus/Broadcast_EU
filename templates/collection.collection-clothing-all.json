@@ -93,11 +93,12 @@
         },
         "highlight_BFfVQ4": {
           "type": "highlight",
+          "disabled": true,
           "settings": {
-            "heading": "Sales",
-            "url": "",
+            "heading": "Heavy Weight Linen",
+            "url": "shopify:\/\/collections\/heavy-weight-linen",
             "color": "",
-            "bg_color": "#F0F0F0",
+            "bg_color": "#fbfaf5",
             "border_color": ""
           }
         },
