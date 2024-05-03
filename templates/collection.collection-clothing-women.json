@@ -14,27 +14,6 @@
         "padding_bottom": 0
       }
     },
-    "ce31d471-1b7e-417d-b50b-47cd0af447ef": {
-      "type": "section-text-with-products",
-      "disabled": true,
-      "custom_css": [
-        ".subheading {letter-spacing: 0; text-transform: capitalize; font-family: Cardo, serif; text-align: center;}"
-      ],
-      "settings": {
-        "subheading": "{{ collection.title }}",
-        "subheading_size": 7,
-        "heading": "",
-        "heading_size": 6,
-        "mobile_heading_size": 5,
-        "desktop_text_align": "left",
-        "mobile_text_align": "left",
-        "width": "wrapper",
-        "bg_color": "#ffffff",
-        "color": "",
-        "padding_top": 5,
-        "padding_bottom": 5
-      }
-    },
     "hero": {
       "type": "collection-image-with-title",
       "disabled": true,
@@ -68,108 +47,91 @@
         "padding_bottom": 20
       }
     },
-    "7f1c2271-263f-459c-9cb9-b8328ea15a54": {
-      "type": "section-collections-list",
+    "section_highlights_MNyHM8": {
+      "type": "section-highlights",
       "blocks": {
-        "template--19431624048985__7f1c2271-263f-459c-9cb9-b8328ea15a54-collection-1": {
-          "type": "collection",
+        "highlight_mYhaAA": {
+          "type": "highlight",
           "settings": {
-            "collection": "linen-dresses",
-            "title": "Dresses"
+            "heading": "Tops",
+            "url": "",
+            "color": "",
+            "bg_color": "#F0F0F0",
+            "border_color": ""
           }
         },
-        "template--19431624048985__7f1c2271-263f-459c-9cb9-b8328ea15a54-collection-3": {
-          "type": "collection",
+        "highlight_gqgzKJ": {
+          "type": "highlight",
           "settings": {
-            "collection": "linen-pants-women",
-            "title": "Pants"
+            "heading": "Bottoms",
+            "url": "",
+            "color": "",
+            "bg_color": "#F0F0F0",
+            "border_color": ""
           }
         },
-        "template--19431624048985__7f1c2271-263f-459c-9cb9-b8328ea15a54-collection-2": {
-          "type": "collection",
+        "highlight_8BzV3U": {
+          "type": "highlight",
           "settings": {
-            "collection": "linen-tops",
-            "title": "Tops"
+            "heading": "Dresses",
+            "url": "",
+            "color": "",
+            "bg_color": "#F0F0F0",
+            "border_color": ""
           }
         },
-        "collection_hGxxdU": {
-          "type": "collection",
+        "highlight_UBWURR": {
+          "type": "highlight",
           "settings": {
-            "collection": "linen-shirts-women",
-            "title": "Shirts"
+            "heading": "Socks",
+            "url": "",
+            "color": "",
+            "bg_color": "#F0F0F0",
+            "border_color": ""
           }
         },
-        "9755ca5a-1c9d-49a8-aff0-0e1632e36939": {
-          "type": "collection",
+        "highlight_kkLbDj": {
+          "type": "highlight",
           "settings": {
-            "collection": "linen-skirts",
-            "title": "Skirts"
+            "heading": "Sales",
+            "url": "",
+            "color": "",
+            "bg_color": "#F0F0F0",
+            "border_color": ""
           }
         },
-        "template--19431624048985__7f1c2271-263f-459c-9cb9-b8328ea15a54-collection-4": {
-          "type": "collection",
+        "highlight_jRBi9J": {
+          "type": "highlight",
           "settings": {
-            "collection": "linen-jumpsuits",
-            "title": "Jumpsuits & Rompers"
-          }
-        },
-        "0893426e-f73c-4645-96ad-0257a70970c8": {
-          "type": "collection",
-          "settings": {
-            "collection": "linen-shorts",
-            "title": "Shorts"
-          }
-        },
-        "4b1a966d-4661-4205-bef1-9ea934dbfb29": {
-          "type": "collection",
-          "settings": {
-            "collection": "linen-tunics",
-            "title": "Tunics"
-          }
-        },
-        "32403c6f-9d96-498e-931a-38df8d97e96b": {
-          "type": "collection",
-          "settings": {
-            "collection": "linen-coats-jackets-for-women",
-            "title": "Coats & Jackets"
-          }
-        },
-        "56870435-efeb-4128-aa17-03df34a7cc4b": {
-          "type": "collection",
-          "settings": {
-            "collection": "light-weight-linen",
-            "title": "Light Weight Linen Clothing"
+            "heading": "New Arrivals",
+            "url": "",
+            "color": "",
+            "bg_color": "#F0F0F0",
+            "border_color": ""
           }
         }
       },
       "block_order": [
-        "template--19431624048985__7f1c2271-263f-459c-9cb9-b8328ea15a54-collection-1",
-        "template--19431624048985__7f1c2271-263f-459c-9cb9-b8328ea15a54-collection-3",
-        "template--19431624048985__7f1c2271-263f-459c-9cb9-b8328ea15a54-collection-2",
-        "collection_hGxxdU",
-        "9755ca5a-1c9d-49a8-aff0-0e1632e36939",
-        "template--19431624048985__7f1c2271-263f-459c-9cb9-b8328ea15a54-collection-4",
-        "0893426e-f73c-4645-96ad-0257a70970c8",
-        "4b1a966d-4661-4205-bef1-9ea934dbfb29",
-        "32403c6f-9d96-498e-931a-38df8d97e96b",
-        "56870435-efeb-4128-aa17-03df34a7cc4b"
-      ],
-      "custom_css": [
-        ".collection-item__image {display: none;}",
-        ".grid-item {background-color: #fbfaf5;}",
-        "@media (max-width: 767px) {.grid-item {width: 30%; background-color: #fbfaf5; font-family: Cardo; font-weight: 500; }}"
+        "highlight_mYhaAA",
+        "highlight_gqgzKJ",
+        "highlight_8BzV3U",
+        "highlight_UBWURR",
+        "highlight_kkLbDj",
+        "highlight_jRBi9J"
       ],
       "settings": {
-        "title": "",
-        "description": "",
-        "layout": "grid",
-        "aspect_ratio": 1,
+        "style": "button",
         "grid": 6,
-        "layout_mobile": "slider",
-        "bg_color": "#ffffff",
+        "width": "wrapper--full-padded",
+        "heading": "",
+        "heading_position": "text-center",
+        "heading_size": 8,
+        "text_size": 3,
         "color": "",
-        "padding_top": 4,
-        "padding_bottom": 4
+        "bg_color": "",
+        "layout_mobile": "slider",
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "main": {
@@ -190,10 +152,9 @@
   },
   "order": [
     "section_custom_code_6tK9BQ",
-    "ce31d471-1b7e-417d-b50b-47cd0af447ef",
     "hero",
     "subcollections",
-    "7f1c2271-263f-459c-9cb9-b8328ea15a54",
+    "section_highlights_MNyHM8",
     "main"
   ]
 }
