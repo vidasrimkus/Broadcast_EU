@@ -83,30 +83,10 @@
         "highlight_eeizwp": {
           "type": "highlight",
           "settings": {
-            "heading": "Socks",
-            "url": "",
+            "heading": "Linen Jackets for Men",
+            "url": "shopify:\/\/collections\/linen-jacket-men",
             "color": "",
-            "bg_color": "#F0F0F0",
-            "border_color": ""
-          }
-        },
-        "highlight_t8CFFx": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Sales",
-            "url": "",
-            "color": "",
-            "bg_color": "#F0F0F0",
-            "border_color": ""
-          }
-        },
-        "highlight_WLW39B": {
-          "type": "highlight",
-          "settings": {
-            "heading": "New Arrivals",
-            "url": "",
-            "color": "",
-            "bg_color": "#F0F0F0",
+            "bg_color": "#fbfaf5",
             "border_color": ""
           }
         }
@@ -115,9 +95,7 @@
         "highlight_Rz3mUa",
         "highlight_AMrqty",
         "highlight_kmjUw6",
-        "highlight_eeizwp",
-        "highlight_t8CFFx",
-        "highlight_WLW39B"
+        "highlight_eeizwp"
       ],
       "settings": {
         "style": "rectangle",
