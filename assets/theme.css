@@ -23075,7 +23075,7 @@ dialog.is-loading .loader {
 @media only screen and (max-width: 749px) {
   .highlights__items--mobile-slider .highlights__item {
     flex: 0 0 auto;
-    width: calc(100% - 50px);
+    width: calc(50% - 50px);
     padding: 0;
     margin: 0 var(--gap) 0 0;
     scroll-snap-align: start;
