@@ -139,6 +139,16 @@
             "bg_color": "#fbfaf5",
             "border_color": ""
           }
+        },
+        "highlight_NxBTBK": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Gingham Linen Collection",
+            "url": "shopify:\/\/collections\/gingham-linen-collection",
+            "color": "",
+            "bg_color": "#fbfaf5",
+            "border_color": ""
+          }
         }
       },
       "block_order": [
@@ -150,7 +160,8 @@
         "highlight_jRBi9J",
         "highlight_CgMYXp",
         "highlight_EfNe7y",
-        "highlight_Abq4VQ"
+        "highlight_Abq4VQ",
+        "highlight_NxBTBK"
       ],
       "settings": {
         "style": "button",
