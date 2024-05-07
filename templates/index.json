@@ -60,7 +60,7 @@
         "mobile_height": "screen-height-three-quarters--mobile",
         "mobile_image": "shopify:\/\/shop_images\/NPL_PaulaAmenta-Day2-110-3.jpg",
         "flex_align_desktop": "align--middle-center-desktop",
-        "flex_align_mobile": "align--middle-center-mobile",
+        "flex_align_mobile": "align--bottom-center-mobile",
         "overlay_opacity": 0,
         "overlay_color": "#212121",
         "show_overlay_text": true,
