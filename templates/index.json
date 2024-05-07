@@ -1111,20 +1111,6 @@
         "padding_bottom": 50
       }
     },
-    "7bf87be7-12cc-46f7-8f7b-9f843ac58d90": {
-      "type": "section-custom-code",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "code": "<div class=\"klaviyo-form-U4u7ri\"><\/div>",
-        "width": "wrapper--full",
-        "bg_color": "#a99843",
-        "color": "",
-        "padding_top": 21,
-        "padding_bottom": 24
-      }
-    },
     "section_rich_text_7FzqLL": {
       "type": "section-rich-text",
       "blocks": {
@@ -1148,8 +1134,22 @@
         "align_text": "text-left",
         "bg_color": "#a99843",
         "color": "",
-        "padding_top": 100,
+        "padding_top": 22,
         "padding_bottom": 100
+      }
+    },
+    "7bf87be7-12cc-46f7-8f7b-9f843ac58d90": {
+      "type": "section-custom-code",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "code": "<div class=\"klaviyo-form-U4u7ri\"><\/div>",
+        "width": "wrapper--full",
+        "bg_color": "#a99843",
+        "color": "",
+        "padding_top": 21,
+        "padding_bottom": 24
       }
     }
   },
@@ -1175,7 +1175,7 @@
     "3fef8e51-bd38-4911-8d97-5f4236bb70aa",
     "16863067346fd3d834",
     "section_divider_JWNqb3",
-    "7bf87be7-12cc-46f7-8f7b-9f843ac58d90",
-    "section_rich_text_7FzqLL"
+    "section_rich_text_7FzqLL",
+    "7bf87be7-12cc-46f7-8f7b-9f843ac58d90"
   ]
 }
