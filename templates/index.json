@@ -1140,6 +1140,9 @@
       "block_order": [
         "text_JdQYw8"
       ],
+      "custom_css": [
+        "p {font-family: tahoma; font-size: 30px;}"
+      ],
       "settings": {
         "width": "wrapper",
         "align_text": "text-left",
