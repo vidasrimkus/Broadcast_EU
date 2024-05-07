@@ -1124,6 +1124,30 @@
         "padding_top": 21,
         "padding_bottom": 24
       }
+    },
+    "section_rich_text_7FzqLL": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_JdQYw8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Newsletter Sign Up<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "text_JdQYw8"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "#a99843",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
@@ -1148,6 +1172,7 @@
     "3fef8e51-bd38-4911-8d97-5f4236bb70aa",
     "16863067346fd3d834",
     "section_divider_JWNqb3",
-    "7bf87be7-12cc-46f7-8f7b-9f843ac58d90"
+    "7bf87be7-12cc-46f7-8f7b-9f843ac58d90",
+    "section_rich_text_7FzqLL"
   ]
 }
