@@ -1141,7 +1141,7 @@
         "text_JdQYw8"
       ],
       "custom_css": [
-        "p {font-family: tahoma; font-size: 30px;}"
+        "p {font-family: tahoma; font-size: 30px; color: white; text-align: center;}"
       ],
       "settings": {
         "width": "wrapper",
