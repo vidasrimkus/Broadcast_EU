@@ -1127,7 +1127,7 @@
         "text_JdQYw8"
       ],
       "custom_css": [
-        ".hero__content {justify-content: center;}",
+        ".hero__content__wrapper {justify-content: center;}",
         "p {font-family: tahoma; font-size: 30px; color: white; text-align: center;}"
       ],
       "settings": {
