@@ -27,18 +27,6 @@
             "padding_bottom": 16
           }
         },
-        "936f7c4f-94ce-41e2-ac1c-202ba8956b79": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-gift",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Linen tote bag in canyon clay and 2 bath waffle towels in one of the colors we carry. Total gift package value - 110 Eur.",
-            "text_size": 2,
-            "width": "half",
-            "padding_bottom": 20
-          }
-        },
         "eacfcaf1-ef58-4255-a63d-b714ae23c688": {
           "type": "divider",
           "settings": {
@@ -154,7 +142,6 @@
         "title",
         "c36b4faf-8263-434b-95c2-0b39a039d79d",
         "price",
-        "936f7c4f-94ce-41e2-ac1c-202ba8956b79",
         "eacfcaf1-ef58-4255-a63d-b714ae23c688",
         "256e2010-d28f-419b-8e36-d27e8124d92e",
         "variants",
