@@ -222,7 +222,7 @@
           "type": "collection",
           "settings": {
             "title": "Jumpsuits & Rompers",
-            "featured_collection": "linen-jumpsuits",
+            "featured_collection": "linen-jumpsuits-rompers",
             "show_image": true,
             "align_with_product_images": false,
             "overlay_opacity": 0,
@@ -618,7 +618,7 @@
           "type": "highlight",
           "settings": {
             "heading": "Jumpsuits & Rompers",
-            "url": "shopify:\/\/collections\/linen-jumpsuits",
+            "url": "shopify:\/\/collections\/linen-jumpsuits-rompers",
             "image": "shopify:\/\/shop_images\/NPL_PaulaAmenta178-2.jpg",
             "color": "#ffffff",
             "bg_color": "#f0f0f0",
