@@ -39,7 +39,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "Shop The Collection",
-            "button_url": "shopify:\/\/collections\/linen-jumpsuits-rompers",
+            "button_url": "shopify:\/\/collections\/linen-jumpsuits",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
